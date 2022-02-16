@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="122" viewBox="0 0 122 122">
+  <defs>
+    <filter id="PROFIL_buyer" x="-148.5" y="-138.5" width="419" height="419" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#PROFIL_buyer)">
+        <circle id="PROFIL_buyer-2" data-name="PROFIL_buyer" cx="61" cy="61" r="61" transform="translate(192 -2004.73)" fill="none" stroke="#f899c0" stroke-width="2"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-192 2004.733)" clip-path="url(#clip-path)">
+    <g id="icons" transform="translate(192 -2004.903)">
+      <g id="user" transform="translate(0 0)">
+        <ellipse id="Ellipse_50" data-name="Ellipse 50" cx="30.518" cy="36.622" rx="30.518" ry="36.622" transform="translate(30.615)" fill="#dddada"/>
+        <path id="Path_1200" data-name="Path 1200" d="M136.8,144.384c-5.493-10.987-15.87-20.142-29.3-25.635-3.662-1.221-7.935-1.221-10.987.61a37.47,37.47,0,0,1-39.063,0c-3.052-1.221-7.324-1.831-10.987,0-13.428,5.493-23.8,14.649-29.3,25.635-4.273,7.935,2.441,17.09,11.6,17.09H125.2C134.356,162.085,141.07,152.929,136.8,144.384Z" transform="translate(-15.848 -40.012)" fill="#dddada"/>
+      </g>
+    </g>
+  </g>
+</svg>

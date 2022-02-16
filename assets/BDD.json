@@ -1,0 +1,6005 @@
+{
+"products" : [
+    {
+        "Code": ",T060900100",
+        "Designation": "\"BLOC NOTES A4 QUADRILLE 5X5 TASSILI CESAR 69100\"",
+        "Price": "100",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "?T0209000000",
+        "Designation": "\"STYLO A BILLE 1.00 MM BLEU UNIMAX JOY MATE\"",
+        "Price": "20",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "?T0209200000",
+        "Designation": "\"STYLO A BILLE 1.00 MM ROUGE UNIMAX JOY MATE\"",
+        "Price": "20",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "?T0209300000",
+        "Designation": "\"STYLO A BILLE 1.00 MM VERT UNIMAX JOY MATE\"",
+        "Price": "20",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "0",
+        "Designation": "\"MOUTON GM \"",
+        "Price": "1350",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "9",
+        "Designation": "\"CARNET SPIRAL ETTEL LETEL\"",
+        "Price": "20",
+        "Famile": "\"SCOLAIRE\""
+    },
+    {
+        "Code": "43",
+        "Designation": "\"REGLE 50 CM STILINA / TOUMI 15052\"",
+        "Price": "50",
+        "Famile": "\"TRACAGE\""
+    },
+    {
+        "Code": "54",
+        "Designation": "\"SAC A DOS NOIR SPORT\"",
+        "Price": "300",
+        "Famile": "\"SAC A DOS & MALETTE\""
+    },
+    {
+        "Code": "62",
+        "Designation": "\"REGLE TABLEAU BLANC TOUMI\"",
+        "Price": "250",
+        "Famile": "\"TRACAGE\""
+    },
+    {
+        "Code": "64",
+        "Designation": "\"EQUERRE TABLEAU BLANC TOUMI\"",
+        "Price": "250",
+        "Famile": "\"TRACAGE\""
+    },
+    {
+        "Code": "65",
+        "Designation": "\"RAPPORTEUR TABLEAU BLANC TOUMI\"",
+        "Price": "200",
+        "Famile": "\"TRACAGE\""
+    },
+    {
+        "Code": "68",
+        "Designation": "\"CHEMISE DOSSIER CARTONNEE 180G 47x32cm\"",
+        "Price": "15",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "70",
+        "Designation": "\"CHEMISE SUSPENDU ARMOIRE CV\"",
+        "Price": "60",
+        "Famile": "\"ARCHIVE & CLASSEMENT\""
+    },
+    {
+        "Code": "85",
+        "Designation": "\"LIVRE SCOLAIRE PM ATLAS 2017\"",
+        "Price": "30",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "141",
+        "Designation": "\"ANNEAUX N° 06\"",
+        "Price": "6",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "142",
+        "Designation": "\"ANNEAUX N° 08\"",
+        "Price": "8",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "143",
+        "Designation": "\"ANNEAUX N° 12\"",
+        "Price": "15",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "144",
+        "Designation": "\"ANNEAUX N° 16\"",
+        "Price": "20",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "145",
+        "Designation": "\"ANNEAUX N° 20\"",
+        "Price": "20",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "146",
+        "Designation": "\"ANNEAUX N° 25\"",
+        "Price": "25",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "147",
+        "Designation": "\"ANNEAUX N° 28\"",
+        "Price": "30",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "148",
+        "Designation": "\"ANNEAUX N° 32\"",
+        "Price": "35",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "185",
+        "Designation": "\"CAHIER DE NOTE AR/FR TOP COLORS\"",
+        "Price": "80",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "191",
+        "Designation": "\"TABLEAU BLANC AVEC PIEDS ET CADRE\"",
+        "Price": "1200",
+        "Famile": "\"TABLEAUX & ACCESSOIRES\""
+    },
+    {
+        "Code": "2030",
+        "Designation": "\"MONTRE MULTICOULEUR DIGITAL\"",
+        "Price": "600",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "216",
+        "Designation": "\"CAHIER DE CORRESPONDANCE IMP-KA-S MORASSALA\"",
+        "Price": "35",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "239",
+        "Designation": "\"POCHETTE CARTE GRISE TRANSPARENT\"",
+        "Price": "10",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "240",
+        "Designation": "\"POCHETTE PERMET DE CONDUIRE TRANSPARENT\"",
+        "Price": "10",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "241",
+        "Designation": "\"PORTE CACHET DE 10 PLACES 8210 HANLIN\"",
+        "Price": "350",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "242",
+        "Designation": "\"PORTE CACHET DE 16 PLACES 8216 HANLIN\"",
+        "Price": "450",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "243",
+        "Designation": "\"ETIQUETTE DE PRIX\"",
+        "Price": "20",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "256",
+        "Designation": "\"CAHIER DE NOTE PM ELAMEL\"",
+        "Price": "35",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "260",
+        "Designation": "\"TABLIER 058 38-42 BLANCHE SANS MANCHE FILLE\"",
+        "Price": "550",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "264",
+        "Designation": "\"PINCE POUR BADGE\"",
+        "Price": "10",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "266",
+        "Designation": "\"TABLIER 060 36-42 BLANCHE AVEC MANCHE SANS COL H/F\"",
+        "Price": "2000",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "276",
+        "Designation": "\"MON CARTABLE L0215 L0115 L0315 DAR ATIAF\"",
+        "Price": "370",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "281",
+        "Designation": "\"ANNEAUX N° 10\"",
+        "Price": "15",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "297",
+        "Designation": "\"SCOTCH MINI FANTAISIE IKRAA 2017 OK-1236 /BK-9026 BIKAA\"",
+        "Price": "10",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "300",
+        "Designation": "\"TABLIER 062 14-16 BLEU NUIT AVEC MANCHE\"",
+        "Price": "450",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "305",
+        "Designation": "\"TABLIER 067 14-16 BLEU NUIT AVEC MANCHE\"",
+        "Price": "400",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "307",
+        "Designation": "\"PERFORATEUR A4 REGLABLE DL.4404\"",
+        "Price": "950",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "316",
+        "Designation": "\"ROULEAU ETIQUETTE DES PRIX BLANC\"",
+        "Price": "30",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "320",
+        "Designation": "\"STICKER DF/BP/HC- BL-516A /684A/1042A/188A/1008/816/ AG- FF-101A BLF-1078A/1100A/1242 ZAP YK\"",
+        "Price": "30",
+        "Famile": "\"DECORATION & DESIGN\""
+    },
+    {
+        "Code": "333",
+        "Designation": "\"MOTOUN ILMIA\"",
+        "Price": "85",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "357",
+        "Designation": "\"DESSIN /LES MOTIFS ORNEMENTAUX\"",
+        "Price": "200",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "362",
+        "Designation": "\"SCENES D'EXPRESSION ORALE 1AP PM MACHAHID\"",
+        "Price": "900",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "363",
+        "Designation": "\"SCENES D'EXPRESSION ORALE 2AP PM MACHAHID\"",
+        "Price": "900",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "364",
+        "Designation": "\"SCENES D'EXPRESSION ORALE 3AP PM MACHAHID\"",
+        "Price": "950",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "365",
+        "Designation": "\"SCENES D'EXPRESSION ORALE 4AP PM MACHAHID\"",
+        "Price": "950",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "366",
+        "Designation": "\"SCENES D'EXPRESSION ORALE 4AP FR MACHAHID\"",
+        "Price": "950",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "367",
+        "Designation": "\"SCENES D'EXPRESSION ORALE FR 3AP MACHAHID\"",
+        "Price": "950",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "372",
+        "Designation": "\"MOMTAZE SCIENCE NATUREL BAC 3AS\"",
+        "Price": "560",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "373",
+        "Designation": "\"MOMTAZE PHYSIQUE 1AS\"",
+        "Price": "400",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "377",
+        "Designation": "\"TOUT SUR LE FRANCAIS 4AM\"",
+        "Price": "450",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "387",
+        "Designation": "\"TAWZI3 CHAHRAI TADJ PAP\"",
+        "Price": "20",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "388",
+        "Designation": "\"CELOPHANE IMPRIME\"",
+        "Price": "20",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "411",
+        "Designation": "\"CORAN MASHAF 24/17 CHAMO\"",
+        "Price": "650",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "435",
+        "Designation": "\"CARNET SANITAIRE DU PELERIN VACCINATION OMRA\"",
+        "Price": "40",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "438",
+        "Designation": "\"CARTE INVITATION 401 /401307/302 TBZ\"",
+        "Price": "600",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "474",
+        "Designation": "\"DALIL AL HADJ /HISN ALMOSLIM +CD\"",
+        "Price": "150",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "476",
+        "Designation": "\"PORTE CARTES A1 100X68 JX-801 VERSAL\"",
+        "Price": "10",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "487",
+        "Designation": "\"NZEM AGROUMIYA\"",
+        "Price": "35",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "488",
+        "Designation": "\"HDIYAT EL 3AROUSIN\"",
+        "Price": "35",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "490",
+        "Designation": "\"TAFSIR EL AHLAM\"",
+        "Price": "35",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "501",
+        "Designation": "\"CD MOSAYIR EL HADJ\"",
+        "Price": "160",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "508",
+        "Designation": "\"STYLO FIN D ANNEE A/BOITE BTICO 2018\"",
+        "Price": "390",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "509",
+        "Designation": "\"STYLO FIN D ANNEE A/BOITE BTICO 102-1\"",
+        "Price": "350",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "511",
+        "Designation": "\"STYLO FIN D ANNEE BOITE METAL 2 STYLO\"",
+        "Price": "300",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "528",
+        "Designation": "\"CADRE DIPLOME A3\"",
+        "Price": "500",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "583",
+        "Designation": "\"FROZEN POUPE 815\"",
+        "Price": "1600",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "613",
+        "Designation": "\"JEUX D'ECHEC MAGNETSPEL 2029 CHESS\"",
+        "Price": "550",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "614",
+        "Designation": "\"JEUX D'ECHEC MAGNETSPEL 1818 3 IN 1 CHESS\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "629",
+        "Designation": "\"SIGNAL KONKARI GM HY-588A\"",
+        "Price": "70",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "634",
+        "Designation": "\"POCHETTE CD 2 PIECES\"",
+        "Price": "5",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "708",
+        "Designation": "\"POCHETTE BAGUETTE 0070 KRAFTE\"",
+        "Price": "35",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "760",
+        "Designation": "\"SAC A DOS 16047 ABG 103\"",
+        "Price": "600",
+        "Famile": "\"SAC A DOS & MALETTE\""
+    },
+    {
+        "Code": "771",
+        "Designation": "\"BINDER CLIPS TRAMBO 88031 25MM\"",
+        "Price": "20",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "782",
+        "Designation": "\"TABLIER FILLE 4/5 ANS CRECH F1 NAKHLA\"",
+        "Price": "400",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "788",
+        "Designation": "\"TABLE ENFANT AVEC CHAISE 001\"",
+        "Price": "3950",
+        "Famile": "\"MOBILIER\""
+    },
+    {
+        "Code": "795",
+        "Designation": "\"RECHARGE STYLO MAGIC KIOSE BLEU \"",
+        "Price": "60",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "800",
+        "Designation": "\"TABLIER FEMME 40/44 BLANCHE MY40\"",
+        "Price": "800",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "801",
+        "Designation": "\"TABLIER BLANC 12/14/16\"",
+        "Price": "650",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "806",
+        "Designation": "\"TABLIER XL BLANC\"",
+        "Price": "600",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "810",
+        "Designation": "\"TABLIER GM 16/18 SANS MANCHE\"",
+        "Price": "650",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "825",
+        "Designation": "\"PRESENTOIR CARTE A5 REF 3106 REAP THOMPSON 210*148MM\"",
+        "Price": "600",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "827",
+        "Designation": "\"PORTE CLE CUIR CARRE 6931-6/DEMI ROND 6931-7\"",
+        "Price": "90",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "852",
+        "Designation": "\"PRESENTOIR CARTE ALUM PM 4407-6\"",
+        "Price": "140",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "870",
+        "Designation": "\"CHAINETTE YOUYOU PLAST BLANC/BLEU/NOIR/ROUGE/VERT/MOVE 1455-3\"",
+        "Price": "40",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "943",
+        "Designation": "\"WARDA LUMINEU\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "945",
+        "Designation": "\"SPINNING TOP\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "994",
+        "Designation": "\"POCHETTE MANETTE PS2\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1000",
+        "Designation": "\"SOUS CHEMISE\"",
+        "Price": "5",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "1008",
+        "Designation": "\"HARMONICA PM\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1011",
+        "Designation": "\"NEBOULA SMILY N15\"",
+        "Price": "15",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1013",
+        "Designation": "\"BALLON MOUSSE MM\"",
+        "Price": "120",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1014",
+        "Designation": "\"BALLON MOUSSE PM\"",
+        "Price": "80",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1016",
+        "Designation": "\"MASQUE LUMIERE\"",
+        "Price": "490",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1018",
+        "Designation": "\"VACHE GONFLABLE /CHEVAL\"",
+        "Price": "1400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1020",
+        "Designation": "\"PORTE CLE SMILE\"",
+        "Price": "100",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "1021",
+        "Designation": "\"PORTE CLE CUBE\"",
+        "Price": "70",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "1071",
+        "Designation": "\"MEMOIRE GOLF\"",
+        "Price": "4200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1073",
+        "Designation": "\"BALLON A GONFLER MICKEY MOUSE/FRAZE\"",
+        "Price": "70",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1074",
+        "Designation": "\"PORTE STYLO ROND COULEUR PVC BTICO PEN STAND\"",
+        "Price": "200",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "1104",
+        "Designation": "\"CARTE INVITATION 161019 ISO9001\"",
+        "Price": "45",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1109",
+        "Designation": "\"DICTIONNAIRE SCOLAIRE FR-EN PLUS DE 12000 MOTS EL-MANAR\"",
+        "Price": "180",
+        "Famile": "\"DICTIONNAIRE\""
+    },
+    {
+        "Code": "1110",
+        "Designation": "\"DICTIONNAIRE SCOLAIRE FR-FR PLUS DE 15000 MOTS EL-MANAR\"",
+        "Price": "180",
+        "Famile": "\"DICTIONNAIRE\""
+    },
+    {
+        "Code": "1113",
+        "Designation": "\"EL MANAR FI TARIKH 3AS\"",
+        "Price": "350",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "1115",
+        "Designation": "\"EL MANAR ENGLISH 4AM\"",
+        "Price": "225",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "1118",
+        "Designation": "\"TASHIL KAAEDAT BAGHDAD\"",
+        "Price": "245",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "1119",
+        "Designation": "\"PORTE BADGE PVC B3 HS-903 126*95MM /ARTTER ID CARD\"",
+        "Price": "20",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "1121",
+        "Designation": "\"PORTE BADGE PLAS DUR BLEU A2 REF 1067-8 ID CARD ISHI X-841\"",
+        "Price": "25",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "1125",
+        "Designation": "\"CHAINETTE YOUYOU METAL BLANC/BLEU/NOIR/ROUGE/VERT REF445-\"",
+        "Price": "80",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "1133",
+        "Designation": "\"BALLON BASKET BALL 7-9 LBS\"",
+        "Price": "950",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1135",
+        "Designation": "\"PHOTO MAGIC CAMERA 3213\"",
+        "Price": "100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1231",
+        "Designation": "\"COFFRET BAKUGAN 2PCS 988-2 \"",
+        "Price": "650",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1232",
+        "Designation": "\"COFFRET BAKUGAN 1PCS 988-1 \"",
+        "Price": "370",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1235",
+        "Designation": "\"ZARBOT TOUPIE CLUB BOIS\"",
+        "Price": "100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1236",
+        "Designation": "\"ZARBOT TOUPIE JAMOUS LOCAL PVC\"",
+        "Price": "120",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1260",
+        "Designation": "\"EDUCATION ISLAMIQUE NIVEAUX 3 5/6 AN\"",
+        "Price": "150",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "1308",
+        "Designation": "\"SAC MINI LACOSTE /ADIDAS SAC TOILETTE\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1334",
+        "Designation": "\"LIVRE D.OR\"",
+        "Price": "3500",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "1435",
+        "Designation": "\"KIT M.L BLUETOOTH\"",
+        "Price": "900",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "1449",
+        "Designation": "\"PAPILLON ROULANT\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1464",
+        "Designation": "\"PATE A MODELER SLIME KINETIC PUTTY MAGNETIC H238\"",
+        "Price": "450",
+        "Famile": "\"PATE A MODELER\""
+    },
+    {
+        "Code": "1515",
+        "Designation": "\"MASQUE SCREAM/HALOWEN\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1668",
+        "Designation": "\"PISTOLET ELECTRIC FLASH SPACE FLASH GUN 5522-1\"",
+        "Price": "700",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1912",
+        "Designation": "\"STICKER MINI REF D009 D 009\"",
+        "Price": "50",
+        "Famile": "\"DECORATION & DESIGN\""
+    },
+    {
+        "Code": "199",
+        "Designation": "\"POSTER GM NATURE GEO CUISINE\"",
+        "Price": "300",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "200",
+        "Designation": "\"POSTER MM NATURE CUISINE GEO\"",
+        "Price": "210",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2001",
+        "Designation": "\"MONTRE NIKE ADIDAS PUMA\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2002",
+        "Designation": "\"MONTRE BLANC ET MULTICOULEURS\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2024",
+        "Designation": "\"RAQUETTE SPORT TOYS 3688\"",
+        "Price": "600",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2029",
+        "Designation": "\"MONTRE S-SHOCK\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2119",
+        "Designation": "\"PARACHUTE TAIRA WARAKIA NASSER\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2264",
+        "Designation": "\"FIBER OPTIC LAMP LED ETOILE\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2268",
+        "Designation": "\"NEBOULA ZAMAR 50 PCS\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2409",
+        "Designation": "\"PAPILLON LUMINEUX 3*LR44\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2415",
+        "Designation": "\"MINI TRAMPOLINE A ENCLOSURE INSTRUCTION MANUAL 1.40 EN71 S-11866\"",
+        "Price": "21000",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2417",
+        "Designation": "\"TRAIN MANAGE\"",
+        "Price": "80000",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2418",
+        "Designation": "\"MAGIC FLYING STACKED CUP Q8\"",
+        "Price": "950",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2425",
+        "Designation": "\"POSTER CARTON A2 DINIA MO3ALKAT\"",
+        "Price": "90",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2431",
+        "Designation": "\"TELEPHONE PAPILLION LC01/MICKEY 6808/HELLO/PRINCESS/FROZEN\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2440",
+        "Designation": "\"LASER A LED LIGHT GOLDEN CUDGEL 3IN1 GM\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2446",
+        "Designation": "\"LASER +SIFFLET\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2449",
+        "Designation": "\"DOMINO DOUBLE SIX LUX CA-124\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2454",
+        "Designation": "\"POISSON PLASTIQUE MM\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2457",
+        "Designation": "\"BOITE CD/DVD PVC NOIR 2 PCS\"",
+        "Price": "60",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "2482",
+        "Designation": "\"CISEAUX ECOLIER 408\"",
+        "Price": "45",
+        "Famile": "\"CISEAU\""
+    },
+    {
+        "Code": "2492",
+        "Designation": "\"STICKER SMILE PM EMOJI 1162-1 FBS\"",
+        "Price": "20",
+        "Famile": "\"DECORATION & DESIGN\""
+    },
+    {
+        "Code": "2493",
+        "Designation": "\"STICKER SMILE MM EMOJI 1162-2 FBS\"",
+        "Price": "30",
+        "Famile": "\"DECORATION & DESIGN\""
+    },
+    {
+        "Code": "2494",
+        "Designation": "\"STICKER SMILE MM EMOJI 1162-3 FBS\"",
+        "Price": "50",
+        "Famile": "\"DECORATION & DESIGN\""
+    },
+    {
+        "Code": "2500",
+        "Designation": "\"CORBEILLE A COURRIER EN PS OPAQUE TOUMI\"",
+        "Price": "200",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2503",
+        "Designation": "\"SAC A DOS 421 ABG\"",
+        "Price": "950",
+        "Famile": "\"SAC A DOS & MALETTE\""
+    },
+    {
+        "Code": "2507",
+        "Designation": "\"SAC A DOS ABG-343\"",
+        "Price": "750",
+        "Famile": "\"SAC A DOS & MALETTE\""
+    },
+    {
+        "Code": "2515",
+        "Designation": "\"CAHIER MUSIQUE PM MOUJTAHID\"",
+        "Price": "20",
+        "Famile": "\"CAHIER & REGISTRE DIVERS\""
+    },
+    {
+        "Code": "2523",
+        "Designation": "\"PAPIER BRISTOL A3 UNI EMB\"",
+        "Price": "600",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2526",
+        "Designation": "\"DIPLOME VIERGE A3 TAKRIM/TAKDIR STH\"",
+        "Price": "50",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "2527",
+        "Designation": "\"ETIQUETTE POUR MACHINE D'ATTENTE\"",
+        "Price": "950",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2528",
+        "Designation": "\"BOBINE THERMIQUE 57*60 IMDB\"",
+        "Price": "100",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2529",
+        "Designation": "\"STYLO A BILLE FANTAISIE WINNE POOH L.T.D.CO/7004/7002 11028 YK\"",
+        "Price": "25",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "2544",
+        "Designation": "\"DVD XBOX 360 COPIE ORIGINALE\"",
+        "Price": "350",
+        "Famile": "\"JEUX XBOX\""
+    },
+    {
+        "Code": "2546",
+        "Designation": "\"PORTE CLE COURE KALBE\"",
+        "Price": "50",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2558",
+        "Designation": "\"ETIQUETTES DES CODE BARRE 40*20MM 2000 ETIQUETTES\"",
+        "Price": "400",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2573",
+        "Designation": "\"CAHIER JOURNAL PRIMAIRE AR G2 MOKARBA B KFAAT\"",
+        "Price": "200",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2574",
+        "Designation": "\"CAHIER JOURNAL FR COLLEGE/LYCEE G2\"",
+        "Price": "200",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2575",
+        "Designation": "\"EMPLOI ANNUAIRE TWZIA SNAWI D OR\"",
+        "Price": "50",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2576",
+        "Designation": "\"EMPLOI DE TEMP TADJ-PAP\"",
+        "Price": "15",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2580",
+        "Designation": "\"CAHIER JOURNAL PRIMAIRE FR G2\"",
+        "Price": "200",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2581",
+        "Designation": "\"CAHIER JOURNAL AR COLLEGE/LYCEE\"",
+        "Price": "200",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2582",
+        "Designation": "\"CAHIER JOURNAL EN COLLEGE/LYCEE\"",
+        "Price": "200",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2583",
+        "Designation": "\"CAHIER JOURNAL AR PRIMAIRE G2\"",
+        "Price": "200",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2584",
+        "Designation": "\"CAHIER DE NOTE AR PRIMAIRE WAFI\"",
+        "Price": "80",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2585",
+        "Designation": "\"CAHIER DE NOTE FR WAFI\"",
+        "Price": "80",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2593",
+        "Designation": "\"SAC A DOS 1276-1 ABG\"",
+        "Price": "600",
+        "Famile": "\"SAC A DOS & MALETTE\""
+    },
+    {
+        "Code": "2596",
+        "Designation": "\"STYLO A BILLE PERFORE AIBO BLEU/NOIR/ROUGE SIEGE\"",
+        "Price": "20",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "2597",
+        "Designation": "\"REGLE T 30 CM\"",
+        "Price": "50",
+        "Famile": "\"TRACAGE\""
+    },
+    {
+        "Code": "2603",
+        "Designation": "\"JETONS SCOLAIRES SIMPLE SENCE CRATIF/SNIPER\"",
+        "Price": "20",
+        "Famile": "\"SCOLAIRE DIVERS\""
+    },
+    {
+        "Code": "2604",
+        "Designation": "\"BUCHETTES SCOLAIRES SIMPLE SENCE CRATIF/SNIPER\"",
+        "Price": "20",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "2606",
+        "Designation": "\"TABLE PRESCOLAIRE 1 CHAISE\"",
+        "Price": "4500",
+        "Famile": "\"MOBILIER\""
+    },
+    {
+        "Code": "2620",
+        "Designation": "\"BON POINT /CARTE ISTHSSAN BAHI 2019 BTE DE 100\"",
+        "Price": "300",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "2622",
+        "Designation": "\"TABLEAU PLANNING DE 400\"",
+        "Price": "3950",
+        "Famile": "\"TABLEAUX & ACCESSOIRES\""
+    },
+    {
+        "Code": "2650",
+        "Designation": "\"RAQUETTE EN PVC\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2658",
+        "Designation": "\"SAC DE MATERNITE MULTIFONCTION 4PCS JINBEI BABY 3015\"",
+        "Price": "3000",
+        "Famile": "\"ARTICLES BEBE\""
+    },
+    {
+        "Code": "2661",
+        "Designation": "\"BATTLE TOP 6D BOLBOL 2013-54/2013-2\"",
+        "Price": "1150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2666",
+        "Designation": "\"SAHIH ADKAR MM\"",
+        "Price": "160",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2671",
+        "Designation": "\"VELO BABYGATE/BLACK EAGLE TB1299 N° 12 \"",
+        "Price": "11000",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "4015",
+        "Designation": "\"ETIQUETTES ADHESIVES VR431\"",
+        "Price": "30",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "4456",
+        "Designation": "\"SNIWA MAAN AVEC CAFETIERE\"",
+        "Price": "600",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "4487",
+        "Designation": "\"FARFARA DECORE PM\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "4495",
+        "Designation": "\"JEUX EXPLOSIFS LUMINEUX TRANSPARENT TARTIGA\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "4501",
+        "Designation": "\"RANFLANT 097-1\"",
+        "Price": "100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "4520",
+        "Designation": "\"MOFAKIRA BAC MAT\"",
+        "Price": "150",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "4590",
+        "Designation": "\"REGLE TRACE LETTRE DE 2 PCS\"",
+        "Price": "100",
+        "Famile": "\"TRACAGE\""
+    },
+    {
+        "Code": "4885",
+        "Designation": "\"POISSON LUMINEUX\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "4890",
+        "Designation": "\"BALLON EPONGE SUPER TOYS\"",
+        "Price": "90",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "5011",
+        "Designation": "\"CARNET STICKERS AB FBS AD- A5\"",
+        "Price": "80",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "5097",
+        "Designation": "\"PUZZLE PYRAMIDE\"",
+        "Price": "600",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "777",
+        "Designation": "\"COUPE ANGLE PM 615/N-0812\"",
+        "Price": "50",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "8007",
+        "Designation": "\"BOLBOL LUMINEUX 2 MODEL\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "8011",
+        "Designation": "\"MONTRE PRINCESSE HELLO KITTY SPIDERMAN MICKEY PM\"",
+        "Price": "400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "8015",
+        "Designation": "\"CHEMISE SUSPENDU ARMOIRE PVC ROUGE\"",
+        "Price": "90",
+        "Famile": "\"ARCHIVE & CLASSEMENT\""
+    },
+    {
+        "Code": "2060",
+        "Designation": "\"SUPPORT CARTE MEMOIRE PSP\"",
+        "Price": "100",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "6000",
+        "Designation": "\"MON ARDOISE MAGIQUE DE MULTIPLICATION\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "801",
+        "Designation": "\"BOUGIE HAPPY BIRTHDAY+OHIBOK\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "65",
+        "Designation": "\"CHARGEUR TELEPHONE LG ORIGINAL 5V /1.8A\"",
+        "Price": "1700",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "100",
+        "Designation": "\"RUBAN IMPRIMANTE CODE BARRE CIRE 45MM*300M\"",
+        "Price": "1200",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "93",
+        "Designation": "\"CABLE DATA IBF MICRO USB FAST\"",
+        "Price": "250",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "126",
+        "Designation": "\"ETIQUETTE DE CLAVIER\"",
+        "Price": "50",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "21910270001",
+        "Designation": "\"PAPIER CADEAU HELOU 100F\"",
+        "Price": "500",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2221",
+        "Designation": "\"KIT MAIN LIBRE TELEPHONE AVEC MICROPHONE\"",
+        "Price": "700",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2255",
+        "Designation": "\"KIT MAINE LIBRE TELEPHONE T4\"",
+        "Price": "400",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "3366",
+        "Designation": "\"CHARGEUR TELEPHONE SAMSUNG TYPE-C 1 CHOIX FAST 5V 2A\"",
+        "Price": "900",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "41808200020",
+        "Designation": "\"SAC A DOS 613-3\"",
+        "Price": "2000",
+        "Famile": "\"SAC A DOS & MALETTE\""
+    },
+    {
+        "Code": "41909110005",
+        "Designation": "\"SAC A DOS FILLE 8069\"",
+        "Price": "2400",
+        "Famile": "\"SAC A DOS & MALETTE\""
+    },
+    {
+        "Code": "81911048005",
+        "Designation": "\"AGENDA DE BUREAU 2020 A CEINTURE 24 25\"",
+        "Price": "500",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "8562000797",
+        "Designation": "\"PILE SONY 1.5V SUM3 R6 4PCS AA\"",
+        "Price": "170",
+        "Famile": "\"PILE & BATTERIE\""
+    },
+    {
+        "Code": "1102",
+        "Designation": "\"CABLE LOUNA CONDOR ORIGINAL \"",
+        "Price": "350",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "123456789012",
+        "Designation": "\"DVD XBOX ARMY OF TWO THE DEUITS CARTEL\"",
+        "Price": "350",
+        "Famile": "\"JEUX XBOX\""
+    },
+    {
+        "Code": "1241912020006",
+        "Designation": "\"POISSON PLASTIQUE PM\"",
+        "Price": "80",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "13465271403",
+        "Designation": "\"PERFORELIEUSE MANUEL C250 GBC PERFORER 20F/RELIER 450F\"",
+        "Price": "55000",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "1421910120001",
+        "Designation": "\"PORTE CLE PM POUPEE EMOJI\"",
+        "Price": "100",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "1421911130001",
+        "Designation": "\"LEGO BUILDING BLOCKS 42/48 PCS MM\"",
+        "Price": "650",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "1601912040001",
+        "Designation": "\"BALLON A SAUTER PM\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "200040369752",
+        "Designation": "\"BATTERIE VOITURE / ONDULEUR 12V 7A ICON \"",
+        "Price": "4000",
+        "Famile": "\"PILE & BATTERIE\""
+    },
+    {
+        "Code": "200400000335",
+        "Designation": "\"KIT MAIN LIBRE SAMSUNG .ORIGINAL.CHAMP 1 CHOIX\"",
+        "Price": "800",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "200400000370",
+        "Designation": "\"KIT MAIN LIBRE SAMSUNG.HCP.CHAMP\"",
+        "Price": "300",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "200400003093",
+        "Designation": "\"TRANSFO MODEM DOUBLE-FCHE/ 1 FICHE 12V 2A\"",
+        "Price": "500",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "200400028797",
+        "Designation": "\"KIT MAIN LIBRE TELEPHONE CODOR\"",
+        "Price": "450",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2044",
+        "Designation": "\"POCHETTE MANETTE PS3\"",
+        "Price": "700",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2049",
+        "Designation": "\"CABLE XBOX 360 VGA + 2RC\"",
+        "Price": "700",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "20502",
+        "Designation": "\"KIT MAIN BLUETOOTH CR\"",
+        "Price": "2300",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210002896777",
+        "Designation": "\"KIT MAIN LIBRE TELEPHONE HUAWEI\"",
+        "Price": "450",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210010265678",
+        "Designation": "\"KIT MAIN LIBRE TELEPHONE SAMSUNG J5\"",
+        "Price": "400",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210011142351",
+        "Designation": "\"CABLE SAMSUNG A10 S\"",
+        "Price": "500",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210014963586",
+        "Designation": "\"SOURIES SANS FIL NOVA NT M4W 022\"",
+        "Price": "1000",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210040030699",
+        "Designation": "\"CHARGEUR TELEPHONE SAMSUNG ORIGINAL 1.55A\"",
+        "Price": "1200",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210040030713",
+        "Designation": "\"ADAPTATEUR PRISE ANGLAISE 1 CHOIX \"",
+        "Price": "200",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210306395236",
+        "Designation": "\"CHARGEUR HUAWEI 2A FAST TYPE-C ORIGINAL\"",
+        "Price": "1800",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210400034522",
+        "Designation": "\"TAPIS DE SOURIS REPOSE MAIN \"",
+        "Price": "70",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210400236542",
+        "Designation": "\"ADAPTATEUR HDMI F/F\"",
+        "Price": "300",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210400326981",
+        "Designation": "\"ADAPTATEUR PRISE ANGLAISE 1 CHOIX \"",
+        "Price": "200",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210410748512",
+        "Designation": "\"ADAPTATEUR PRISE ANGLAISE 1 CHOIX MARKEN\"",
+        "Price": "250",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "210410985544",
+        "Designation": "\"KIT MAIN LIBRE TELEPHONE AKG-IG955\"",
+        "Price": "500",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "211210722369",
+        "Designation": "\"ETIQUETTE ALPHABETIQUE FRANCAIS /ARABE LAYOUT BLANCH\"",
+        "Price": "100",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "212583366614",
+        "Designation": "\"CABLE CHARGEUR TELEPHONE SAMSUNG FAT TYPE-C\"",
+        "Price": "400",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "213252215546",
+        "Designation": "\"KIT MAIN LIBRE TELEPHONE CODOR\"",
+        "Price": "400",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "213693658965",
+        "Designation": "\"HICHT TORCH SOLAIR FLASH LIGHT MICRO USB+CHARGING BANK\"",
+        "Price": "3200",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "214715823987",
+        "Designation": "\"TRANSFO MODEN ADSL 6V\"",
+        "Price": "600",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "217411478954",
+        "Designation": "\"LABEL TERMIQUE 40*20 MM 2000 ETIQUETTE\"",
+        "Price": "350",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "217855896325",
+        "Designation": "\"ZOOME MOBILE\"",
+        "Price": "3500",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2178963698745",
+        "Designation": "\"SUPPORTS RING RGB LED MJ07\"",
+        "Price": "3700",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "218748995823",
+        "Designation": "\"HIGHT TORCH GHT+ CHRGEUR PILLE+2 PILLE RECHARGABLE\"",
+        "Price": "2600",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2208",
+        "Designation": "\"CHARGEUR CONDOR\"",
+        "Price": "600",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "228525852693",
+        "Designation": "\"SAC A DOS EN TOILE USB+JACK - S206\"",
+        "Price": "4200",
+        "Famile": "\"SAC A DOS & MALETTE\""
+    },
+    {
+        "Code": "22853217896",
+        "Designation": "\"DVD WIN7/WIN10/OFFICE 10/OFFECE 7\"",
+        "Price": "200",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2287452589654",
+        "Designation": "\"CONSOLE JEUX CONTROLLER GAMEPAD WIRELES\"",
+        "Price": "11000",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2650",
+        "Designation": "\"KIT MAIN LIBRE TELEPHONE\"",
+        "Price": "700",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "27242274358",
+        "Designation": "\"PILE SONY AAA 1.5V AAA LR03 X4\"",
+        "Price": "200",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2801912010001",
+        "Designation": "\"ENVELOPPE 114 X 162 POUR CARTE INVITATION F 10\"",
+        "Price": "250",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "2929",
+        "Designation": "\"POCHETTE RANGEMENT 24 CD-CAR WALLET\"",
+        "Price": "300",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "336",
+        "Designation": "\"KITMAIN SAMSUNG ORIGINAL\"",
+        "Price": "700",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "381191012001",
+        "Designation": "\"TIRELIRE MM RECTANGLE /CARRE HASSALA\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "381191130001",
+        "Designation": "\"BUREAU ENFANTS EN PLASTIQUE U CHOUPLASST\"",
+        "Price": "400",
+        "Famile": "\"MOBILIER\""
+    },
+    {
+        "Code": "391908260011",
+        "Designation": "\"TABLIER TBG1911 GARCON BLEU AVEC MANCHE\"",
+        "Price": "500",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "391908260014",
+        "Designation": "\"TABLIER TBG1914 6/12 GARCON BLEU AVEC MANCHE\"",
+        "Price": "450",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "391908260017",
+        "Designation": "\"TABLIER TBG1917 GARCON BLEU AVEC MANCHE\"",
+        "Price": "700",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "391908260018",
+        "Designation": "\"TABLIER TBF1918 FILETTE ROSE SANS MANCHE\"",
+        "Price": "600",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "391908260020",
+        "Designation": "\"TABLIER TBG1920 GARCON BLEU SANS MANCHE\"",
+        "Price": "450",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "391908261004",
+        "Designation": "\"TABLIER TBF1904 FILETTE BLANCHE SANS MANCHE\"",
+        "Price": "480",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "391908261005",
+        "Designation": "\"TABLIER TBF1905 FILETTE BLANCHE SANS MANCHE\"",
+        "Price": "480",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "391908261007",
+        "Designation": "\"TABLIER TBF1907 FILETTE ROSE SANS MANCHE\"",
+        "Price": "400",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "391908261008",
+        "Designation": "\"TABLIER TBF1908 FILETTE ROSE SANS MANCHE\"",
+        "Price": "500",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "391908262001",
+        "Designation": "\"TABLIER TBG1901 GARCON BLANCHE AVEC MANCHE\"",
+        "Price": "550",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "391908262003",
+        "Designation": "\"TABLIER TBF1903 FILETTE BLANCHE SANS MANCHE\"",
+        "Price": "550",
+        "Famile": "\"TABLIER 2019\""
+    },
+    {
+        "Code": "47875840034",
+        "Designation": "\"DVD XBOX 360 CHILD OF EDEN BETTER WITH KINECT\"",
+        "Price": "350",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "5",
+        "Designation": "\"EMAIL @\"",
+        "Price": "50",
+        "Famile": "\"SERVICE\""
+    },
+    {
+        "Code": "5121911300001",
+        "Designation": "\"TABLEAU EN PAPIER LUX AVEC MARQUEUR\"",
+        "Price": "550",
+        "Famile": "\"TABLEAUX & ACCESSOIRES\""
+    },
+    {
+        "Code": "5221911200003",
+        "Designation": "\"BON DE COMMANDE A4 IMPRIMERIE ES-SALEM\"",
+        "Price": "270",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "5271912210004",
+        "Designation": "\"CORAN MASHAF 14/20 EN BOITE BOIS 2 PORT\"",
+        "Price": "700",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "5341911260001",
+        "Designation": "\"ARDOISE SOROBAN 24*14\"",
+        "Price": "180",
+        "Famile": "\"ARDOISE\""
+    },
+    {
+        "Code": "5341911260002",
+        "Designation": "\"BALANCE DOUCK BOARD GAME 5071\"",
+        "Price": "1450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "5341911260003",
+        "Designation": "\"WONDERFUL FORESIGHT AY2052\"",
+        "Price": "2800",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "5341911300001",
+        "Designation": "\"PLAY THE ROLE OF DOCTOR 9201\"",
+        "Price": "900",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "5341911300002",
+        "Designation": "\"MONTRE XAPWV WATER RESIST SR-010/G-SPORT\"",
+        "Price": "800",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "5341911300004",
+        "Designation": "\"TANGRAM FITNESS OF BRAIN 103 PASS CARD BRAIN EXERCISES AY2053\"",
+        "Price": "1400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "631911240001",
+        "Designation": "\"ELKAAIDA A-NORANIA\"",
+        "Price": "180",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "631912090004",
+        "Designation": "\"CHARH MATEN ELJAZRIA\"",
+        "Price": "800",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "631912090006",
+        "Designation": "\"CHARH MATEN TOHFET ATFAL\"",
+        "Price": "270",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "660201818",
+        "Designation": "\"FLASHING SPIKY BALL SHAMS KHIT/ARNEB/KONDS\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "660201819",
+        "Designation": "\"FOIL BALLON NUMBER /LETTRE 173240\"",
+        "Price": "80",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "691804160001",
+        "Designation": "\"ZOOM BALL SONIC SPLASH A331\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "691804160002",
+        "Designation": "\"ZOOM BALL SONIC SPLASH A334\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "691804160003",
+        "Designation": "\"DINETTES COMBINATION BOWL ART NO°: 02D04\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "691804160004",
+        "Designation": "\"PISTOLET A EAU NO 824 SQUIRT KING\"",
+        "Price": "100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "691804160020",
+        "Designation": "\"PUZZLE BT491419\"",
+        "Price": "300",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "691804160039",
+        "Designation": "\"JEUX DE BALLONS 4 PIECES S2310/RT951\"",
+        "Price": "70",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "691804160043",
+        "Designation": "\"SIFFLET OIE BT414969\"",
+        "Price": "30",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "691804160050",
+        "Designation": "\"POMPES A BALLONS D Q T\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160108",
+        "Designation": "\"SPINNER SIMPLE\"",
+        "Price": "80",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160116",
+        "Designation": "\"LEGO GM AC-16 48 PCS ZAHRA TOYS\"",
+        "Price": "650",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "701804160122",
+        "Designation": "\"LASER A PILE 806\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160131",
+        "Designation": "\"CUBE MAGIQUE B252\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160141",
+        "Designation": "\"MICKEY MOUSE/DAURAYMON 2228/688-3 JAZZ BEAT TABAL\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160142",
+        "Designation": "\"SIFFLET EN PLASTIQUE OK\"",
+        "Price": "30",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160144",
+        "Designation": "\"MASQUE PLASTIQUE SIMPLE 12PCS\"",
+        "Price": "20",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160168",
+        "Designation": "\"ELASTIQUE ET ACCESSOIRES POUR FILLES DIY YAS-009 \"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160178",
+        "Designation": "\"SURTETE PAPILLON /TADJ\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160179",
+        "Designation": "\"BALLON D'EAU\"",
+        "Price": "90",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160180",
+        "Designation": "\"TUBE DE GONFLAGE BALLON A GONFLER\"",
+        "Price": "35",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701804160181",
+        "Designation": "\"BALLON A GONFLER HAPPY BIRTHDAY\"",
+        "Price": "30",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701805050193",
+        "Designation": "\"LASER+SPINER\"",
+        "Price": "160",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701805050201",
+        "Designation": "\"PAPILLON\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "70181112012",
+        "Designation": "\"LUNETTE LINKANG /UV400\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "70181112013",
+        "Designation": "\"LUNETTE KEER SIMPLE\"",
+        "Price": "120",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "701910090003",
+        "Designation": "\"VOITURE TRANSFORM ROBOT 8986-8987-8993-8990-8997-8999-8992-FW-2042A/FW-2037A/9904-2\"",
+        "Price": "900",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "701910090015",
+        "Designation": "\"EMOJI VOITURE SMILE RESOURS\"",
+        "Price": "170",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "711804160184",
+        "Designation": "\"MOTO 4*4 PARK 008/POLICE/AUTOBUS379\"",
+        "Price": "60",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "711804160185",
+        "Designation": "\"FARFARA PM\"",
+        "Price": "40",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "711804160186",
+        "Designation": "\"FARFARA GM\"",
+        "Price": "60",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "711804160192",
+        "Designation": "\"SUPPORT BALLON FANTAISI\"",
+        "Price": "35",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "711804160203",
+        "Designation": "\"CUBE MAGIQUE SIMPLE 3X3X3 GM\"",
+        "Price": "170",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "711804160209",
+        "Designation": "\"LUNETTE LUMINEUX\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "711804160265",
+        "Designation": "\"POUPEE MARIONNETTE\"",
+        "Price": "600",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "711804160287",
+        "Designation": "\"POUPEE AVEC PORT CLE BARBIE\"",
+        "Price": "700",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "711805050357",
+        "Designation": "\"ZMAR AVEC BALLON A GONFLER\"",
+        "Price": "15",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "711805050361",
+        "Designation": "\"JEUX DE FLECHETTE 888\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "711805050362",
+        "Designation": "\"SURTETE PAPILLON LUX 510-2\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "74040734034",
+        "Designation": "\"KIT DE CALIGRAPHINE MINI SHEFR_73403_00\"",
+        "Price": "2630",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "74040734041",
+        "Designation": "\"KIT DE CALIGRAPHINE MAXI SHEFR_73404_00\"",
+        "Price": "3900",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "741804160358",
+        "Designation": "\"DVD XBOX 360 173\"",
+        "Price": "250",
+        "Famile": "\"JEUX XBOX\""
+    },
+    {
+        "Code": "741804160359",
+        "Designation": "\"DVD PS2 PC 176\"",
+        "Price": "200",
+        "Famile": "\"JEUX PS2\""
+    },
+    {
+        "Code": "741805120398",
+        "Designation": "\"TIRELIRE CAISSE GM HASSALA\"",
+        "Price": "100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "741807050360",
+        "Designation": "\"DVD PC\"",
+        "Price": "200",
+        "Famile": "\"JEUX PC\""
+    },
+    {
+        "Code": "77020181202",
+        "Designation": "\"STICKER 12 PCS MIKE SAYIT IN CRYSTALS\"",
+        "Price": "50",
+        "Famile": "\"DECORATION & DESIGN\""
+    },
+    {
+        "Code": "77020181204",
+        "Designation": "\"BITAKAT ISTIHSEN GM\"",
+        "Price": "5",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "7825757143",
+        "Designation": "\"PISCINE INTEX 57143NP 279X36CM\"",
+        "Price": "9800",
+        "Famile": "\"PISCINE & ACCESSOIRES\""
+    },
+    {
+        "Code": "78257588022",
+        "Designation": "\"MATELAS DE PLAGE INTEX 58802NP 160X85CM\"",
+        "Price": "2200",
+        "Famile": "\"PISCINE & ACCESSOIRES\""
+    },
+    {
+        "Code": "78257597031",
+        "Designation": "\"MATELAS 183X69 59703\"",
+        "Price": "800",
+        "Famile": "\"PISCINE & ACCESSOIRES\""
+    },
+    {
+        "Code": "8",
+        "Designation": "\"RELIURE\"",
+        "Price": "70",
+        "Famile": "\"SERVICE\""
+    },
+    {
+        "Code": "807201122188",
+        "Designation": "\"MANETTE VIBRANTE USB DUNTH GP188\"",
+        "Price": "900",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "9",
+        "Designation": "\"SCANNER\"",
+        "Price": "30",
+        "Famile": "\"SERVICE\""
+    },
+    {
+        "Code": "9035",
+        "Designation": "\"CHARGEUR TELEPHONE SAMSUNG ORIGINAL INDIA 1.55A\"",
+        "Price": "900",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "9036",
+        "Designation": "\"CABLE CHARGEUR CONDOR TELEPHONE SAMSUNG ORIGINAL\"",
+        "Price": "500",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "92399539759",
+        "Designation": "\"CACHET 4913 TRODAT 53975/53982\"",
+        "Price": "750",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "92399608172",
+        "Designation": "\"CACHET 4910 TRODAT\"",
+        "Price": "470",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "92399803577",
+        "Designation": "\"CACHET ROND 46030 TRODAT 4630\"",
+        "Price": "950",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "0D500000011135",
+        "Designation": "\"CABLE XBOX 360\"",
+        "Price": "1000",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "10",
+        "Designation": "\"FLEXY MARTSHIP\"",
+        "Price": "1",
+        "Famile": "\"SERVICE\""
+    },
+    {
+        "Code": "1000000000001",
+        "Designation": "\"CAHIER TRAVAUX DE LECTURE ARABE (PRE)\"",
+        "Price": "180",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000002",
+        "Designation": "\"CAHIER TRAVAUX DE MATH (PRE)\"",
+        "Price": "180",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000303",
+        "Designation": "\"SCIENCE ET TECHNOLOGIE (3AP)\"",
+        "Price": "215",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000403",
+        "Designation": "\"SCIENCE ET TECHNOLOGIE (4AP)\"",
+        "Price": "220",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000410",
+        "Designation": "\"CAHIER TRAVAUX DE LANGUE Français (4AP)\"",
+        "Price": "210",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000414",
+        "Designation": "\"EDUCATION CIVIQUE (4AP)\"",
+        "Price": "90",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000501",
+        "Designation": "\"LECTURE ARABE (5AP)\"",
+        "Price": "260",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000502",
+        "Designation": "\"MATH (5AP)\"",
+        "Price": "230",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000503",
+        "Designation": "\"SCIENCE ET TECHNOLOGIE (5AP)\"",
+        "Price": "230",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000505",
+        "Designation": "\"EDUCATION ISLAMIQUE (5AP)\"",
+        "Price": "220",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000506",
+        "Designation": "\"FRANCAIS (5AP)\"",
+        "Price": "250",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000510",
+        "Designation": "\"CAHIER TRAVAUX DE LANGUE Français (5AP)\"",
+        "Price": "250",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000511",
+        "Designation": "\"CAHIER TRAVAUX DE LANGUE ARAB…. (5AP)\"",
+        "Price": "220",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000512",
+        "Designation": "\"CAHIER TRAVAUX DE MATH (5AP)\"",
+        "Price": "220",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000514",
+        "Designation": "\"EDUCATION CIVIQUE (5AP)\"",
+        "Price": "220",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000703",
+        "Designation": "\"EDUCATION ISLAMIQUE (1AM)\"",
+        "Price": "240",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000704",
+        "Designation": "\"HISTOIRE (1AM)\"",
+        "Price": "250",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000705",
+        "Designation": "\"GEOGRAPHIE (1AM)\"",
+        "Price": "260",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000707",
+        "Designation": "\"SCIENCE NATUREL (1AM)\"",
+        "Price": "250",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000711",
+        "Designation": "\"EDUCATION CIVIQUE (1AM)\"",
+        "Price": "240",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000804",
+        "Designation": "\"HISTOIRE (2AM) 2018\"",
+        "Price": "185.22",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000805",
+        "Designation": "\"GEOGRAPHIE (2AM) 2018\"",
+        "Price": "188.92",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000807",
+        "Designation": "\"SCIENCE NATUREL (2AM)\"",
+        "Price": "205.12",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000808",
+        "Designation": "\"SCIENCE ET TECHNOLOGIE (2AM)\"",
+        "Price": "240",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000811",
+        "Designation": "\"EDUCATION CIVIQUE (2AM) 2018\"",
+        "Price": "141.46",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000901",
+        "Designation": "\"LA LECTURE ARABE (3AM)\"",
+        "Price": "215",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000903",
+        "Designation": "\"EDUCATION ISLAMIQUE (3AM)\"",
+        "Price": "158.36",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000904",
+        "Designation": "\"HISTOIRE (3AM)\"",
+        "Price": "190",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000905",
+        "Designation": "\"GEOGRAPHIE (3AM)\"",
+        "Price": "188.92",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000907",
+        "Designation": "\"SCIENCE NATUREL (3AM)\"",
+        "Price": "210",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000908",
+        "Designation": "\"SCIENCE ET TECHNOLOGIE (3AM)\"",
+        "Price": "240",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000909",
+        "Designation": "\"FRANCAIS (3AM)\"",
+        "Price": "260",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000910",
+        "Designation": "\"ANGLAIS (3AM)\"",
+        "Price": "250",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000000911",
+        "Designation": "\"EDUCATION CIVIQUE (3AM)\"",
+        "Price": "152.34",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001002",
+        "Designation": "\"MATH (4AM)\"",
+        "Price": "273.92",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001004",
+        "Designation": "\"HISTOIRE (4AM)\"",
+        "Price": "250",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001005",
+        "Designation": "\"GEOGRAPHIE (4AM)\"",
+        "Price": "210",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001006",
+        "Designation": "\"SCIENCE NATUREL (4AM)\"",
+        "Price": "207.88",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001007",
+        "Designation": "\"SCIENCE ET TECHNOLOGIE (4AM)\"",
+        "Price": "182",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001010",
+        "Designation": "\"EDUCATION CIVIQUE (4AM)\"",
+        "Price": "143.01",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001111",
+        "Designation": "\"LECTURE ARABE LETTRE (1AS)\"",
+        "Price": "210",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001113",
+        "Designation": "\"PHYSIQUE LETTRE (1AS)\"",
+        "Price": "240",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001115",
+        "Designation": "\"SCIENCE NATUREL LETTRE (1AS)\"",
+        "Price": "250",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001118",
+        "Designation": "\"GESTION ET ECONOMIE (1AS)\"",
+        "Price": "70",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001209",
+        "Designation": "\"SCIENCE NATUREL SCIENCE (2AS)\"",
+        "Price": "360",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001213",
+        "Designation": "\"PHYSIQUE LETTRE (2AS)\"",
+        "Price": "240",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001215",
+        "Designation": "\"SCIENCE NATUREL LETTRE (2AS)\"",
+        "Price": "215",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001218",
+        "Designation": "\"PHILOSOPHIE COURS LETTRE (2AS)\"",
+        "Price": "260",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001219",
+        "Designation": "\"PHILOSOPHIE TEXTES LETTRE (2AS)\"",
+        "Price": "215",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001220",
+        "Designation": "\"ALLEMAND LANGUES (2AS)\"",
+        "Price": "250",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001221",
+        "Designation": "\"ESPAGNOLE LANGUES (2AS)\"",
+        "Price": "310",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001222",
+        "Designation": "\"GESTION DE COMPTABILITE ET FINANCIERE TECHNIQUE (2AS)\"",
+        "Price": "290",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001224",
+        "Designation": "\"TECHNOLOGIE DE GENIE MECANIQUE (2AS)\"",
+        "Price": "190",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001225",
+        "Designation": "\"TECHNOLOGIE DE GENIE CIVILE (2AS)\"",
+        "Price": "190",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001227",
+        "Designation": "\"TECHNOLOGIE DE GENIE DE PROCEDE (2AS)\"",
+        "Price": "190",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001228",
+        "Designation": "\"ITALIENNE (2AS)\"",
+        "Price": "260",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001312",
+        "Designation": "\"MATHEMATIQUE GESTION ET ECONOMIE (3AS)\"",
+        "Price": "260",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001313",
+        "Designation": "\"PHILOSOPHIE TEXTE ET COURS LANGUES (3AS)\"",
+        "Price": "260",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001317",
+        "Designation": "\"SCIENCE NATUREL LETTRE (3AS)\"",
+        "Price": "230",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001318",
+        "Designation": "\"PHILOSOPHIE COURS LETTRE ET PHILO (3AS)\"",
+        "Price": "330",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001320",
+        "Designation": "\"ALLEMAND LANGUES (3AS)\"",
+        "Price": "230",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001321",
+        "Designation": "\"ESPAGNOLE LANGUES (3AS)\"",
+        "Price": "260",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001322",
+        "Designation": "\"GESTION DE COMPTABILITE ET FINANCIERE TECHNIQUE (3AS)\"",
+        "Price": "260",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001323",
+        "Designation": "\"ECONOMIE GESTION ET DROITS TECHNIQUE (3AS)\"",
+        "Price": "260",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001324",
+        "Designation": "\"TECHNOLOGIE DE GENIE MECANIQUE (3AS)\"",
+        "Price": "250",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001325",
+        "Designation": "\"TECHNOLOGIE DE GENIE CIVILE (3AS)\"",
+        "Price": "210",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001326",
+        "Designation": "\"TECHNOLOGIE DE GENIE ELECTRIQUE (3AS)\"",
+        "Price": "290",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001327",
+        "Designation": "\"TECHNOLOGIE DE GENIE DE PROCEDE (3AS)\"",
+        "Price": "190",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001329",
+        "Designation": "\"CAHIER DES TP DE GENIE DE PROCEDE (3AS)\"",
+        "Price": "190",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000001330",
+        "Designation": "\"ITALIENNE (3AS)\"",
+        "Price": "290",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "1000000004823",
+        "Designation": "\"MANETTE POUR TELEPHONE POPGI\"",
+        "Price": "750",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "1000000004908",
+        "Designation": "\"CABLE DATA LDNIO LS 63 TYPE-C\"",
+        "Price": "750",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "1000088678282",
+        "Designation": "\"PAPIER BRILLANT BLUE ADH DECORE 57-2 LUXPAP 10SHEETS 80GR 678282\"",
+        "Price": "300",
+        "Famile": "\"SCOLAIRE\""
+    },
+    {
+        "Code": "1001804091347",
+        "Designation": "\"GOURDE THERMO 500ML NOTHING HIPPO 20201217-2\"",
+        "Price": "1400",
+        "Famile": "\"GOURDES\""
+    },
+    {
+        "Code": "1012003010012",
+        "Designation": "\"PORTE GATEAU ANNIVERSAIRE 00002\"",
+        "Price": "500",
+        "Famile": "\"JOUETS\""
+    },
+    {
+        "Code": "1012060000004",
+        "Designation": "\"KIT CHATER PLUS CH+003 12PCS 4EXP\"",
+        "Price": "650",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "1019563525119",
+        "Designation": "\"FIGURINE DRAGON BALL Z 18 CM\"",
+        "Price": "1350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "10703625649940",
+        "Designation": "\"CARTOUCHE D ENCRE POUR MARQUEUR T-BLANC BLEU 3.2G TECHNO_4994\"",
+        "Price": "420",
+        "Famile": "\"MARQUEUR & FEUTRE\""
+    },
+    {
+        "Code": "10703625649957",
+        "Designation": "\"CARTOUCHE D ENCRE POUR MARQUEUR T-BLANC NOIR 3.2G TECHNO_4995\"",
+        "Price": "420",
+        "Famile": "\"MARQUEUR & FEUTRE\""
+    },
+    {
+        "Code": "10703625655026",
+        "Designation": "\"ENVELOPPE F 15 BLANCHE ADHESIVE 110x220 PAQUE DE 500 TECHNO_5502_00\"",
+        "Price": "2200",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "10703625655040",
+        "Designation": "\"ENVELOPPE F 15 BLANCHE AVEC FENETRE ADHESIVE 110x220 PAQUE DE 500 TECHNO_5504_00\"",
+        "Price": "2400",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "114002755",
+        "Designation": "\"MACHINE PERFO-RELIEUSE POUR SPIRAL EN METAL C 25 FLLS COMIX B2920\"",
+        "Price": "49800",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "1192003011035",
+        "Designation": "\"CABLE MANETTE XBOX 360 COMPATIBLE 2IN1\"",
+        "Price": "500",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "1217311211431",
+        "Designation": "\"SAC CADEAU PM 18*23*8 GC988-1\"",
+        "Price": "150",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "1234564060203",
+        "Designation": "\"TABLEAU 2F SLIME VERSAL 40*60\"",
+        "Price": "2200",
+        "Famile": "\"TABLEAUX & ACCESSOIRES\""
+    },
+    {
+        "Code": "123456789012",
+        "Designation": "\"PAPIER A DESSIN COULEURS POCHETTE 10F 24X32 CM\"",
+        "Price": "35",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "1242002290010",
+        "Designation": "\"STYLO ENFANT 376-1\"",
+        "Price": "150",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "1242002290011",
+        "Designation": "\"STYLO ENFANT 376-2\"",
+        "Price": "150",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "1311910060001",
+        "Designation": "\"TRICYCLE PINGOUSN AVEC BRA LMB-208 \"",
+        "Price": "8000",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "1341907290004",
+        "Designation": "\"STREET FIGHTER 5 ARCADE EDITION 5 DVD\"",
+        "Price": "750",
+        "Famile": "\"JEUX PC\""
+    },
+    {
+        "Code": "1341907290005",
+        "Designation": "\"NBA 2K19 10 DVD\"",
+        "Price": "1500",
+        "Famile": "\"JEUX PC\""
+    },
+    {
+        "Code": "13569836145",
+        "Designation": "\"CARNET 50 P SP32 9185 TADJ-PAP\"",
+        "Price": "20",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "15",
+        "Designation": "\"SACHET 15\"",
+        "Price": "15",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "160000000025",
+        "Designation": "\"CAHIER D'ECRITURE AR DAR EL HANA EL DJADIDA\"",
+        "Price": "60",
+        "Famile": "\"COLORIAGE & ECRITURE & CALCUL\""
+    },
+    {
+        "Code": "160000000032",
+        "Designation": "\"CAHIER D'ECRITURE /MON CAHIER D'ECRITURE DAR ELHANA\"",
+        "Price": "60",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "1600010051536",
+        "Designation": "\"MONOPOLY 0112A D2\"",
+        "Price": "1900",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "1600010051543",
+        "Designation": "\"MONOPOLY JUNIOR 3125F/0020A/ \"",
+        "Price": "1350",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "1600010111193",
+        "Designation": "\"PLANCHE A ROULETTE PM 1011119\"",
+        "Price": "950",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "1600013110834",
+        "Designation": "\"FLEUR LUMINEUSE\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600013110841",
+        "Designation": "\"VENTILLATEUR LUMINEUSE AVEC MUSIQUE\"",
+        "Price": "500",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600014060916",
+        "Designation": "\"TROTINETTE SCOOTER MISIC BAS FROZENET SPIDER-MAIN 1406091\"",
+        "Price": "5500",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "1600015120312",
+        "Designation": "\"COLIER FROZEN EN PLAQUE 1512031\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600015120336",
+        "Designation": "\"FROZEN LIGHT DANCE BOITE +6 ANS 58617\"",
+        "Price": "950",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600016050052",
+        "Designation": "\"TENUE MINIONS 1605005 \"",
+        "Price": "650",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600017102361",
+        "Designation": "\"MASQUE PJMASKS LUMINEU 1710236\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600017102491",
+        "Designation": "\"TENUE MACHA L(7-8 AGE -120CM) 1710249\"",
+        "Price": "2100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600017102637",
+        "Designation": "\"HOCHET POUR BEBE BABY RATTLE 1710263\"",
+        "Price": "400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600017102705",
+        "Designation": "\"MAQUILLAGE EN BOITE FASHION 1710270\"",
+        "Price": "1200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600017102712",
+        "Designation": "\"MAQUILLAGE EN BOITE CUTE GIRL 1710271\"",
+        "Price": "1000",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600018113045",
+        "Designation": "\"VOITURE QUADE FRICT BIG FOOT 1811304\"",
+        "Price": "500",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "1600018113434",
+        "Designation": "\"STICKER GONFLER HXP-00X 1811343\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600019040029",
+        "Designation": "\"BALLON PM LUMINEU MULTICOULEUR 1904002\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600019040036",
+        "Designation": "\"YOYO PILOTE LIGHT 1904003\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600019040296",
+        "Designation": "\"BRAS AVENGERS SB801 1904029\"",
+        "Price": "1350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1600019040357",
+        "Designation": "\"AVION ANIMAL PILOT 1904035\"",
+        "Price": "900",
+        "Famile": "\"ARTICLES BEBE\""
+    },
+    {
+        "Code": "1601910305255",
+        "Designation": "\"TENU REINE DES NEIGES HY1379 MICKY MOUSE/JERRY/TOM/HELLO KITTY/\"",
+        "Price": "1700",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1601910305258",
+        "Designation": "\"LUNETTE FILETTE\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "16132004793686",
+        "Designation": "\"BOBINE DE CAISSE 80MM*76MM 55G/M TECHNO 9368\"",
+        "Price": "250",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "16951202829375",
+        "Designation": "\"CARTOUCHE D'ENCRE VERT TECHNO\"",
+        "Price": "400",
+        "Famile": "\"MARQUEUR & FEUTRE\""
+    },
+    {
+        "Code": "16951202833556",
+        "Designation": "\"POCHETTE COIN EN PP BLEU 120 UM 3355\"",
+        "Price": "20",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "16951202833563",
+        "Designation": "\"POCHETTE COIN EN PP VERTE T 120UM TECHNO_3356_00\"",
+        "Price": "20",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "16951202833587",
+        "Designation": "\"POCHETTE COIN EN PP JAUNE 120 UM 3358\"",
+        "Price": "20",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "16951202849960",
+        "Designation": "\"CARTOUCHE D'ENCRE POUR MARQUEUR T- BLANC VERT 3g TECHNO_4996_00\"",
+        "Price": "420",
+        "Famile": "\"MARQUEUR & FEUTRE\""
+    },
+    {
+        "Code": "16951202849977",
+        "Designation": "\"CARTOUCHE D ENCRE POUR MARQUEUR T-BLANC ROUGE 3G TECHNO_4997\"",
+        "Price": "420",
+        "Famile": "\"MARQUEUR & FEUTRE\""
+    },
+    {
+        "Code": "1700018060384",
+        "Designation": "\"BEBE TELEPHONE SAC NO.086\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700018060742",
+        "Designation": "\"DINETTE PLAQUE COFFEE 2902\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700018062951",
+        "Designation": "\"TALKY JAUNE WALKIE TALKIE 2287 9V\"",
+        "Price": "1100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700018063347",
+        "Designation": "\"TELEPHONE EN PLAQUE MICKEY MOUSE K770L\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700018120576",
+        "Designation": "\"VOITURE FOLE AVENGERS MM 1812N057\"",
+        "Price": "950",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "1700018120965",
+        "Designation": "\"BAGUETTE MAGIQUE PLAQUE FROZEN 126A-13\"",
+        "Price": "600",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700018121450",
+        "Designation": "\"MAQUILLAGE PLAQUE FROZEN BEAUTY PARADISE 9846\"",
+        "Price": "1200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700018123140",
+        "Designation": "\"LEGO ALPHABET EN SAC 1812N314/010-2A\"",
+        "Price": "550",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "1700018123591",
+        "Designation": "\"VOITURE V PLAQUE CANDY CAT 1812N359/YY6514C\"",
+        "Price": "300",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "1700020040701",
+        "Designation": "\"VOITURE V SF CARS 2004N070/0395D\"",
+        "Price": "3850",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "1700020040756",
+        "Designation": "\"COIFEUSE FROZEN 55 CM /31 CM /60 CM 88017-01 2004N075\"",
+        "Price": "9000",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700020040978",
+        "Designation": "\"TALKY 2PCS EN BOITE PAW PATROL 2718 2004N097\"",
+        "Price": "950",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700020041142",
+        "Designation": "\"BEBE MOBIL MUSICAL PLAQUE HAPPY UNLIMITED CY1013-2C\"",
+        "Price": "600",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700020041166",
+        "Designation": "\"DINETTE SAC KITCHEN SET 2004N116/311-11\"",
+        "Price": "600",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700020041487",
+        "Designation": "\"TALKY 2PCS EN BOITE PJMASKS 2727 2004N148\"",
+        "Price": "950",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1700020080028",
+        "Designation": "\"VOITURE TELEPHONE FIX 0316\"",
+        "Price": "1500",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "1700020080684",
+        "Designation": "\"LEGO COGO CITY 112PCS 4182 +6AGES\"",
+        "Price": "900",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "1700020080691",
+        "Designation": "\"LEGO COGO CITY 123PCS 4183 +6AGES\"",
+        "Price": "900",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "1700020082022",
+        "Designation": "\"COURDE A SAUTER PLAQUE MIRACULOURS MIRACULOUS 2008N202\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1821807290001",
+        "Designation": "\"TABLIER F1405 3/5 SALAMO FILETTE ROSE DEMI MANCHE 3-4\"",
+        "Price": "900",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807290003",
+        "Designation": "\"TABLIER T41 4/5 CHAHINE FILETTE ROSE AVEC MANCHE\"",
+        "Price": "800",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807290010",
+        "Designation": "\"TABLIER TBG8 4/5 AYA GARCON BLEU AVEC MANCHE\"",
+        "Price": "650",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293002",
+        "Designation": "\"TABLIER TBF4 38/42 YOUSRA FILLE BLANCHE SANS MANCHE\"",
+        "Price": "650",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293003",
+        "Designation": "\"TABLIER T20 12/16 IMEN FILLE BLANCHE SANS MANCHE\"",
+        "Price": "650",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293004",
+        "Designation": "\"TABLIER 40 12/16 TAUCAN FILLE BLANCHE SANS MANCHE\"",
+        "Price": "650",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293006",
+        "Designation": "\"TABLIER T80 L/XXL AICH GARCON BLANCHE AVEC MANCHE\"",
+        "Price": "550",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293007",
+        "Designation": "\"TABLIER T56 12/14 AFRAH GARCON BLANCHE AVEC MANCHE\"",
+        "Price": "600",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293008",
+        "Designation": "\"TABLIER TG9 16/18 AFRAH GARCON BLANCHE AVEC MANCHE\"",
+        "Price": "600",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293009",
+        "Designation": "\"TABLIER T37 14/18 AFRAH GARCON BLANCHE AVEC MANCHE\"",
+        "Price": "850",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293010",
+        "Designation": "\"TABLIER T38 14/18 AFRAH GARCON BLANCHE AVEC MANCHE\"",
+        "Price": "600",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293012",
+        "Designation": "\"TABLIER T36 46/50 AFRAH GARCON BLANCHE AVEC MANCHE\"",
+        "Price": "1000",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293014",
+        "Designation": "\"TABLIER T55 38/44 AFRAH GARCON BLANCHE AVEC MANCHE\"",
+        "Price": "850",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293016",
+        "Designation": "\"TABLIER 05FD17 36/40 FAMOD GARCON BLANCHE AVEC MANCHE\"",
+        "Price": "800",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1821807293017",
+        "Designation": "\"TABLIER T61 38/42 DINATEX GARCON BLANCHE AVEC MANCHE\"",
+        "Price": "850",
+        "Famile": "\"TABLIER 2018\""
+    },
+    {
+        "Code": "1843163017559",
+        "Designation": "\"CHARGEUR SAMSUNG FAST 5V-2.0A\"",
+        "Price": "500",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "1862485248297",
+        "Designation": "\"TROUSSE ECOLIER CARRE REF 482-9\"",
+        "Price": "100",
+        "Famile": "\"TROUSSE\""
+    },
+    {
+        "Code": "1902007050001",
+        "Designation": "\"SPINER TOB LUMINEAUX\"",
+        "Price": "600",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "1912160002023",
+        "Designation": "\"ATTESTATION DE FELICITATION VIERGE DV023\"",
+        "Price": "20",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "1912160003024",
+        "Designation": "\"ATTESTATION D'HONNEUR VIERGE DV024\"",
+        "Price": "30",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "1912160003528",
+        "Designation": "\"DIPLOME VIERGE DV028\"",
+        "Price": "35",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "1912160003539",
+        "Designation": "\"DIPLOME VIERGE DV039\"",
+        "Price": "35",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "1912160003540",
+        "Designation": "\"DIPLOME VIERGE DV040\"",
+        "Price": "35",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "1912160004522",
+        "Designation": "\"DIPLOME VIERGE DORE DV022\"",
+        "Price": "45",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "1912170135001",
+        "Designation": "\"CARTE INVITATION TBZ 601116 INV001\"",
+        "Price": "35",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912170135004",
+        "Designation": "\"CARTE INVITATION INV004/ 601065\"",
+        "Price": "40",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912170140002",
+        "Designation": "\"CARTE INVITATION TBZ 601115 INV002\"",
+        "Price": "40",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912170140003",
+        "Designation": "\"CARTE INVITATION TBZ 601112 INV003\"",
+        "Price": "40",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912170140005",
+        "Designation": "\"CARTE INVITATION TBZ 601111 INV005\"",
+        "Price": "40",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220006",
+        "Designation": "\"CARTE INVITATION TBZ 124533 INV006\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220007",
+        "Designation": "\"CARTE INVITATION TBZ 124526 INV007\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220009",
+        "Designation": "\"CARTE INVITATION TBZ 124530 INV009\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220010",
+        "Designation": "\"CARTE INVITATION TBZ 124528 INV010\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220012",
+        "Designation": "\"CARTE INVITATION TBZ 124535 INV012\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220013",
+        "Designation": "\"CARTE INVITATION TBZ 124540 INV013\"",
+        "Price": "40",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220014",
+        "Designation": "\"CARTE INVITATION TBZ 124538 INV014\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220015",
+        "Designation": "\"CARTE INVITATION TBZ 124531 INV015\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220016",
+        "Designation": "\"CARTE INVITATION TBZ 124539 INV016\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220017",
+        "Designation": "\"CARTE INVITATION TBZ 124542 INV017\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220018",
+        "Designation": "\"CARTE INVITATION TBZ 124529 INV018\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220019",
+        "Designation": "\"CARTE INVITATION TBZ 124536 INV019\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220020",
+        "Designation": "\"CARTE INVITATION TBZ 124537 INV020\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220021",
+        "Designation": "\"CARTE INVITATION TBZ D-2409 INV021\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220022",
+        "Designation": "\"CARTE INVITATION TBZ D-2406 INV022\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220023",
+        "Designation": "\"CARTE INVITATION TBZ D-2404 INV023\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220024",
+        "Designation": "\"CARTE INVITATION TBZ D-2403 INV024\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220025",
+        "Designation": "\"CARTE INVITATION TBZ D-2402 INV025\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220026",
+        "Designation": "\"CARTE INVITATION TBZ D-24010 INV026\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220027",
+        "Designation": "\"CARTE INVITATION TBZ D-24011 INV027\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220028",
+        "Designation": "\"CARTE INVITATION CESAR 116 INV028\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912240220029",
+        "Designation": "\"CARTE INVITATION TBZ W24023 INV029\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912250335030",
+        "Designation": "\"CARTE INVITATION TBZ 150131 INV030\"",
+        "Price": "35",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912250335031",
+        "Designation": "\"CARTE INVITATION TBZ 150134 INV031\"",
+        "Price": "35",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912250335032",
+        "Designation": "\"CARTE INVITATION TBZ 150136 INV032\"",
+        "Price": "35",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912250335033",
+        "Designation": "\"CARTE INVITATION TBZ 150137 INV033\"",
+        "Price": "35",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912250335034",
+        "Designation": "\"CARTE INVITATION TBZ 150138 INV034\"",
+        "Price": "35",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912250335035",
+        "Designation": "\"CARTE INVITATION TBZ 150139 INV035\"",
+        "Price": "35",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912260220036",
+        "Designation": "\"CARTE INVITATION W24103 INV036\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912260220037",
+        "Designation": "\"CARTE INVITATION W24100/ W24129 INV037\"",
+        "Price": "20",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912260220042",
+        "Designation": "\"CARTE INVITATION CESAR 108 INV042\"",
+        "Price": "15",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912260340041",
+        "Designation": "\"CARTE INVITATION IR ISO 161012 INV041\"",
+        "Price": "40",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912260345039",
+        "Designation": "\"CARTE INVITATION IR 141099 2P INV039\"",
+        "Price": "45",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912260350040",
+        "Designation": "\"CARTE INVITATION IR 141098 2P INV040\"",
+        "Price": "50",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1912260355038",
+        "Designation": "\"CARTE INVITATION IR ISO 141459 INV038\"",
+        "Price": "50",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "1946385246",
+        "Designation": "\"CARNET SPIRAL 50P TADJ-PAP SP33 PM\"",
+        "Price": "30",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "20",
+        "Designation": "\"SACHET 20\"",
+        "Price": "20",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "200",
+        "Designation": "\"COLI\"",
+        "Price": "200",
+        "Famile": "\"XNOUVEAU\""
+    },
+    {
+        "Code": "2000000005393",
+        "Designation": "\"POCHETTE CD 1 PIECES\"",
+        "Price": "2.3",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "2000000023830",
+        "Designation": "\"TANGRAM TO THE MAX CHALLENGE 4PCS/100FORM ALA/HIQU 2020 VISION\"",
+        "Price": "400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2000004081914",
+        "Designation": "\"PUZZLE 3D EN MOUSSE ANIMAUX\"",
+        "Price": "150",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2000009261152",
+        "Designation": "\"POCHETTE CARTE D'IDENTITE NATIONALE VERT\"",
+        "Price": "10",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "2000010310340",
+        "Designation": "\"GOURDE THERMO 340ML WATER BOTTLE\"",
+        "Price": "1150",
+        "Famile": "\"GOURDES\""
+    },
+    {
+        "Code": "2000010310510",
+        "Designation": "\"GOURDE THERMO COFFEE MUGS 510ML\"",
+        "Price": "1250",
+        "Famile": "\"GOURDES\""
+    },
+    {
+        "Code": "2000010313350",
+        "Designation": "\"GOURDE ENFANT EN PLASTIQUE AVEC FIL\"",
+        "Price": "350",
+        "Famile": "\"GOURDES\""
+    },
+    {
+        "Code": "2001206180001",
+        "Designation": "\"BAVETTE ENFANT BENOUR /TOTAL CARE\"",
+        "Price": "30",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "2001210121009",
+        "Designation": "\"BATTERIE VOITURE 6V 4.5AH/ 20HR MIR SAT\"",
+        "Price": "1500",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2001403140002",
+        "Designation": "\"FILLET BALLON FIL00001 CHABKA\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2002111051408",
+        "Designation": "\"MOULES PATE A MODELER BIMEX 6913-8M+/3045\"",
+        "Price": "70",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2003330074978",
+        "Designation": "\"TRICYCLE EN PLASTIQUE SUPER FLIPPER\"",
+        "Price": "3500",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "2003330074985",
+        "Designation": "\"CHEVALE EN PLASTQUE A ROULETTES SH 300\"",
+        "Price": "3250",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "2003330126455",
+        "Designation": "\"CAMION EN PLASTIQUE GM GH-19\"",
+        "Price": "750",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2003806060001",
+        "Designation": "\"BON DE COMMANDE A4 21*27 2*50\"",
+        "Price": "200",
+        "Famile": "\"PAPETERIE\""
+    },
+    {
+        "Code": "2003806060002",
+        "Designation": "\"FACTURE GM A4 21*27 2*50\"",
+        "Price": "200",
+        "Famile": "\"PAPETERIE\""
+    },
+    {
+        "Code": "2003812311504",
+        "Designation": "\"RAPPORTEUR TABLEAU BLANC 50CM\"",
+        "Price": "250",
+        "Famile": "\"TRACAGE\""
+    },
+    {
+        "Code": "2004001120001",
+        "Designation": "\"TENUE SPIDERMAN/SUPERMAN/ZORRO/BATMAN/BEN10/ \"",
+        "Price": "650",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2004001120002",
+        "Designation": "\"BALLE DUR FOOT/HAND/BASKET/TENNIS\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2004007050003",
+        "Designation": "\"BOUGIE CHIFFREPARTY CANDLE HX 8476-5\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2004007050004",
+        "Designation": "\"YOYO SERIES STYLES JAUNE\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2004012231899",
+        "Designation": "\"JEUX D'ECHEC BOIS PM \"",
+        "Price": "700",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2004012233329",
+        "Designation": "\"JEUX D'ECHEC BOIS S/B GM\"",
+        "Price": "1350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2004012233417",
+        "Designation": "\"JEUX D'ECHEC BOIS MM\"",
+        "Price": "950",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2004603170355",
+        "Designation": "\"MOTO A BATTERIE PM A 8888/ B20-3439 3220281-2\"",
+        "Price": "23000",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2004603170389",
+        "Designation": "\"BUREAU ENFANT C-20 /611 PM/GM \"",
+        "Price": "7000",
+        "Famile": "\"MOBILIER\""
+    },
+    {
+        "Code": "2004603170399",
+        "Designation": "\"MARCHE BEBE BABY/BABY GATE\"",
+        "Price": "4500",
+        "Famile": "\"ARTICLES BEBE\""
+    },
+    {
+        "Code": "2004604050001",
+        "Designation": "\"TOBBOGAN P FERDI PLAST GM\"",
+        "Price": "8900",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2004604050002",
+        "Designation": "\"BALANCOIRE AVEC PIED P FERDI PLAST\"",
+        "Price": "7200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2004605300002",
+        "Designation": "\"VELO NEW BIKE HF-027 N° 12 BLEU/ROUGE\"",
+        "Price": "11000",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "2004606070001",
+        "Designation": "\"TRICYCLE BABYGATE TRC008\"",
+        "Price": "4200",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "2004608271251",
+        "Designation": "\"MARCHE BEBE PINGOUIN BABY WALKER TROTTEUR JP-1118RA6 JP-1120R6\"",
+        "Price": "9900",
+        "Famile": "\"ARTICLES BEBE\""
+    },
+    {
+        "Code": "2004611230001",
+        "Designation": "\"VELO POUR ENFANT APACHI BABY GATE BCY001 \"",
+        "Price": "11000",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "2004903080002",
+        "Designation": "\"PORTE DIPLOME LUXE 922-2 /922-1\"",
+        "Price": "350",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "2004903080003",
+        "Designation": "\"PORTE DIPLOME LUXE 635-3\"",
+        "Price": "550",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "2004903080004",
+        "Designation": "\"PORTE DIPLOME 1189\"",
+        "Price": "400",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "2004903080005",
+        "Designation": "\"PORTE DIPLOME 375-1\"",
+        "Price": "320",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "2004911190011",
+        "Designation": "\"AGENDA DE POCHE 2021 11 BLEU\"",
+        "Price": "150",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2004911190012",
+        "Designation": "\"AGENDA JOURNALIER 2021 12 MARRON\"",
+        "Price": "350",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2004911190027",
+        "Designation": "\"AGENDA JOURNALIER 2021 27 BLEU\"",
+        "Price": "550",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2004911191718",
+        "Designation": "\"AGENDA ORGANISEUR 473 6 ANNEAU\"",
+        "Price": "350",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2004911191737",
+        "Designation": "\"TRIEUR METALLIQUE 2 ETAGE YAPAP 55-4\"",
+        "Price": "1250",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2004911191802",
+        "Designation": "\"CAHIER JOURNAL FR POUR LES PROFESSEURS /MOYEN ET SECONDAIR\"",
+        "Price": "150",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2004911191803",
+        "Designation": "\"CAHIER JOURNAL AR POUR LES PROFESSEURS /MOYEN ET SECONDAIR\"",
+        "Price": "150",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2004911192160",
+        "Designation": "\"SAC A GOUTER 216\"",
+        "Price": "300",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2004912222021",
+        "Designation": "\"CALENDRIER SOUS MAIN 2021\"",
+        "Price": "55",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2006007160001",
+        "Designation": "\"FIL LUMINEUX DE BATTERIE 290 CM\"",
+        "Price": "180",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006101190004",
+        "Designation": "\"JEUX DE COLORIAGE DIY PERLER PEADS\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006121104632",
+        "Designation": "\"SPINER TOP 6169 3PCS\"",
+        "Price": "400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006202290013",
+        "Designation": "\"DANCE HERO LD-155E/LD-155B/LD-155G/925A\"",
+        "Price": "1650",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006203010008",
+        "Designation": "\"BALANCOIRE 2 EN 1 EVOLUTION ASSOU\"",
+        "Price": "3200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006203020001",
+        "Designation": "\"SOROBAN DE CALCUL GM 17 EN BOIS\"",
+        "Price": "5350",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "2006203020003",
+        "Designation": "\"PALMIER LUMINEUSE\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006203140001",
+        "Designation": "\"PISTOLET A EAU BUBBLE WATER\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006203140002",
+        "Designation": "\"PISTOLET A SAVON BUBBLE WATER /20055/HIROICH\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006203140003",
+        "Designation": "\"CUBE MAGIQUE SIMPLE 3X3X3 PM\"",
+        "Price": "130",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006203140004",
+        "Designation": "\"CUBE MAGIQUE 3X3X3 MATCH SPECIAL B290\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006203140006",
+        "Designation": "\"CUBE MAGIQUE 3X3X3 NO8733\"",
+        "Price": "400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006203140007",
+        "Designation": "\"CUBE MAGIQUE 3X3X3 NEW\"",
+        "Price": "400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006205030002",
+        "Designation": "\"VOITURE STUNT JIN XING TOYS 999G-1A\"",
+        "Price": "1400",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2006205040002",
+        "Designation": "\"PISTOLET A BILLE LINDA NO:192/ZHAN YING 2265\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006205040003",
+        "Designation": "\"PISTOLET A BILLE PM L208\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006205040004",
+        "Designation": "\"PISTOLET A BILLE PM L209\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006205180003",
+        "Designation": "\"SPEED YO-YO /SUPER YOYO METAL/SMILY\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006206080001",
+        "Designation": "\"VOITURE MAJNONA MM 9802-6/9802M-\"",
+        "Price": "2300",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2006206150004",
+        "Designation": "\"CARTOCHE PISTOLET POLICE OFFICER 8 SHOT\"",
+        "Price": "100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006206170001",
+        "Designation": "\"PISTOLET A EAU XD:06\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006206170003",
+        "Designation": "\"PISTOLET A EAU PM 593\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006206280001",
+        "Designation": "\"BRICK GAME 9999IN1 BAI BIAN\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006206280003",
+        "Designation": "\"DINOSAUR CENTURY 328-1\"",
+        "Price": "1000",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006208111534",
+        "Designation": "\"MONTRE POUR ENFANT\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006208236978",
+        "Designation": "\"POUPEE CANETTE MIRACULUS L697\"",
+        "Price": "350",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2006211280927",
+        "Designation": "\"LA TENTE 110*160*110 CM 333-162/333-159\"",
+        "Price": "4900",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006211281013",
+        "Designation": "\"LEGO EN SACHET PM 73 P V-6606\"",
+        "Price": "650",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006211281220",
+        "Designation": "\"TENUE MIRACULOUS 6889\"",
+        "Price": "1700",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2006212161409",
+        "Designation": "\"VOITURE MODEL CAR LUXUZIOUS 27-XXBS\"",
+        "Price": "1550",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2006901250001",
+        "Designation": "\"LIVRE ARABE \"WAKFA MAA ELNEFS\"\"",
+        "Price": "50",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2006905140002",
+        "Designation": "\"SEFAT ELWODOA W ELSALAT\"",
+        "Price": "150",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2006905140003",
+        "Designation": "\"CORAN MASHAF MOTARJEM FRANCAIS TAJWID\"",
+        "Price": "700",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2006912081455",
+        "Designation": "\"HICEN AL MOSLIM MM\"",
+        "Price": "100",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "20070700001",
+        "Designation": "\"BALLON A GONFLER GM AVEC ESTIQUE N35\"",
+        "Price": "35",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2007201260001",
+        "Designation": "\"TABLE AVEC CHAISE GM 001\"",
+        "Price": "3600",
+        "Famile": "\"MOBILIER\""
+    },
+    {
+        "Code": "2007401272011",
+        "Designation": "\"TOBBOGAN AINOU PLAST\"",
+        "Price": "3800",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2007401272012",
+        "Designation": "\"TIRELIRE CARRE ET RON GM 115X115X115MM HASSALA\"",
+        "Price": "120",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2007401280001",
+        "Designation": "\"VEILLEUSE DE CHAMBRE GM\"",
+        "Price": "2100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2009052232004",
+        "Designation": "\"TABLIER AIT2004 4/12 CREATION FILLETTE ROSE SANS MANCHE\"",
+        "Price": "900",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232005",
+        "Designation": "\"TABLIER TLR 12/16 LILAS FILLETTE ROSE SANS MANCHE\"",
+        "Price": "700",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232009",
+        "Designation": "\"TABLIER TLGA 12/16 LILAS GARCON BLEU SANS MANCHE\"",
+        "Price": "650",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232010",
+        "Designation": "\"TABLIER 2002 12/16 GARCON BLEU SANS MANCHE\"",
+        "Price": "850",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232011",
+        "Designation": "\"TABLIER 1136 6/12 GARCON BLEU SANS MANCHE\"",
+        "Price": "550",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232012",
+        "Designation": "\"TABLIER ABD400 4/5 ECOLIERE FILETTE ROSE SANS MANCHE\"",
+        "Price": "650",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232014",
+        "Designation": "\"TABLIER ABD300 6/12 FILLETTE SANS MANCHE\"",
+        "Price": "700",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232018",
+        "Designation": "\"TABLIER X014 12/16 LILLIA FILLETTE ROSE SANS MANCHE\"",
+        "Price": "650",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232019",
+        "Designation": "\"TABLIER FR 12/16 NAKHLA FILLETTE ROSE SANS MANCHE\"",
+        "Price": "600",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232020",
+        "Designation": "\"TABLIER 0109 12/16 FILLETTE ROSE SANS MANCHE\"",
+        "Price": "600",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232021",
+        "Designation": "\"TABLIER TFL2 6/12 LILAS FILLETTE ROSE SANS MANCHE\"",
+        "Price": "1000",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232023",
+        "Designation": "\"TABLIER F1X 4/5 NAKHLA FILLETTE ROSE SANS MANCHE 4\"",
+        "Price": "750",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232030",
+        "Designation": "\"TABLIER H7 6/12 CHIK TEX FILLETTE ROSE MANCHE DEMONTABLE\"",
+        "Price": "1000",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232031",
+        "Designation": "\"TABLIER H11 6/12 CHIK TEX FILLETTE ROSE MANCHE DEMONTABLE F1504\"",
+        "Price": "1000",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232035",
+        "Designation": "\"TABLIER TLBGS 12/16 GARCON BLANCHE SANS MANCHE\"",
+        "Price": "750",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232042",
+        "Designation": "\"TABLIER F1901 6/12 SALAMO FILLETTE ROSE MANCHE DEMONTABLE\"",
+        "Price": "1600",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232043",
+        "Designation": "\"TABLIER G1902 6/12 SALAMO GARCON BLEU MANCHE DEMONTABLE\"",
+        "Price": "1600",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232044",
+        "Designation": "\"TABLIER G1904 6/12 SALAMO GARCON BLEU SANS MANCHE\"",
+        "Price": "1400",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232045",
+        "Designation": "\"TABLIER F1902 6/12 SALAMO FILLETTE ROSE MANCHE DEMONTABLE\"",
+        "Price": "1600",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009052232046",
+        "Designation": "\"TABLIER F1903 6/12 SALAMO FILLETTE ROSE SANS MANCHE\"",
+        "Price": "1400",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2009232232047",
+        "Designation": "\"TABLIER HOMME PROF 40/52 BLANCH\"",
+        "Price": "1350",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2010402180005",
+        "Designation": "\"CHARGEUR VOITURE 7V 0.8A\"",
+        "Price": "3000",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2010402180006",
+        "Designation": "\"MANETTE R/C VOITURE MINI COPER\"",
+        "Price": "2500",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2010512311917",
+        "Designation": "\"KIT MAIN MI\"",
+        "Price": "400",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2010603210001",
+        "Designation": "\"BALLON 1/2 2 COULEUR\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2010606210013",
+        "Designation": "\"USTENSILES DE CUISINE SERVICE DE VERT +PLATO\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2010609211053",
+        "Designation": "\"TABLE ENFANT EN PVC\"",
+        "Price": "1500",
+        "Famile": "\"MOBILIER\""
+    },
+    {
+        "Code": "2010702230003",
+        "Designation": "\"TRUCKS ALG 2020 POWER 10\"",
+        "Price": "600",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2010703110002",
+        "Designation": "\"CHEVALE AVEC ROULETTE BALANCER\"",
+        "Price": "3500",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "2010706140004",
+        "Designation": "\"VOITURE SWEET CAR KM-2107 50.5*23.5*23 CM /KM-2022 /KM-0560 PLASTIQUE LOCAL\"",
+        "Price": "2100",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2010708160002",
+        "Designation": "\"CHAISE ENFANT BEBE\"",
+        "Price": "900",
+        "Famile": "\"JOUETS\""
+    },
+    {
+        "Code": "2010712230813",
+        "Designation": "\"VOITURE POLICE FAST P.C JSTICE JH813\"",
+        "Price": "600",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2011202290008",
+        "Designation": "\"POUPEE OURS EN PELUCHE GM COULEUR CREME\"",
+        "Price": "6750",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2011203150001",
+        "Designation": "\"POUPEE MARIONETTE DODO\"",
+        "Price": "350",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2011903140003",
+        "Designation": "\"RESIDENT EVIL 4 PS2\"",
+        "Price": "250",
+        "Famile": "\"JEUX PS2\""
+    },
+    {
+        "Code": "2011903140010",
+        "Designation": "\"HITMAN BLOOD MONEY PS2\"",
+        "Price": "250",
+        "Famile": "\"JEUX PS2\""
+    },
+    {
+        "Code": "2011903140011",
+        "Designation": "\"HULK THE INCREDIBLE PS2\"",
+        "Price": "250",
+        "Famile": "\"JEUX PS2\""
+    },
+    {
+        "Code": "2011903140012",
+        "Designation": "\"MAX PAYNE PS2\"",
+        "Price": "250",
+        "Famile": "\"JEUX PS2\""
+    },
+    {
+        "Code": "2011903140014",
+        "Designation": "\"METAL SLUG ANTHOLOGY PS2\"",
+        "Price": "250",
+        "Famile": "\"JEUX PS2\""
+    },
+    {
+        "Code": "2011903140015",
+        "Designation": "\"NBA 2K12 PS2\"",
+        "Price": "250",
+        "Famile": "\"JEUX PS2\""
+    },
+    {
+        "Code": "2011903140019",
+        "Designation": "\"PES 2020 PRO EVOLUTION SOCCER PS2\"",
+        "Price": "250",
+        "Famile": "\"JEUX PS2\""
+    },
+    {
+        "Code": "2011903140020",
+        "Designation": "\"PRINCE OF PERSIA LES SABLES DU TEMPS PS2\"",
+        "Price": "250",
+        "Famile": "\"JEUX PS2\""
+    },
+    {
+        "Code": "2011903140027",
+        "Designation": "\"DVD XBOX FIFA 2019\"",
+        "Price": "350",
+        "Famile": "\"JEUX XBOX\""
+    },
+    {
+        "Code": "2011903140034",
+        "Designation": "\"DVD XBOX PES 2018 PRO EVOLUTION SOCCER\"",
+        "Price": "350",
+        "Famile": "\"JEUX XBOX\""
+    },
+    {
+        "Code": "2012411261610",
+        "Designation": "\"TRAIN ELECTRIC TRAIN SET 168D-11/168D-41/168D-3\"",
+        "Price": "550",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2012411261649",
+        "Designation": "\"ANIMAL KINGDOM PM\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2012803050001",
+        "Designation": "\"CARTE INVITATION 163145/163146/163149/163151 100 PCS\"",
+        "Price": "1500",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "20130121",
+        "Designation": "\"CORAN MASHAF MO3LIM MP3 MANCHAWI\"",
+        "Price": "200",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2013102606450",
+        "Designation": "\"TAPIS MOUSSE LETTRE EVA PUZZLE MATS SERIES AR MM 3 PCS\"",
+        "Price": "630",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2013102606573",
+        "Designation": "\"TAPIS MOUSSE LETTRE EVA PUZZLE MATS SERIES AR GM 3 PCS\"",
+        "Price": "850",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2014011261350",
+        "Designation": "\"CADRE PHOTO 50*70 CM\"",
+        "Price": "1200",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "2014103192579",
+        "Designation": "\"PORTE DIPLOME ABG-1110\"",
+        "Price": "300",
+        "Famile": "\"DIPLOME & ATTESTATION\""
+    },
+    {
+        "Code": "2014109081246",
+        "Designation": "\"BROSSE ARDOISE CRAIE SIMPLE\"",
+        "Price": "20",
+        "Famile": "\"BROSSE\""
+    },
+    {
+        "Code": "2014109081309",
+        "Designation": "\"RAPPORTEUR ECOLIER ETS TOUMI/YKR2216\"",
+        "Price": "20",
+        "Famile": "\"TRACAGE\""
+    },
+    {
+        "Code": "2014109091703",
+        "Designation": "\"TAMPON ENFANT KRAFT PG-536\"",
+        "Price": "50",
+        "Famile": "\"SCOLAIRE DIVERS\""
+    },
+    {
+        "Code": "2014109101631",
+        "Designation": "\"COMPAS METAL ABG-100\"",
+        "Price": "50",
+        "Famile": "\"COMPAS\""
+    },
+    {
+        "Code": "2014110091508",
+        "Designation": "\"STYLO FANTAISIE KRAFT STF\"",
+        "Price": "90",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "2015072603897",
+        "Designation": "\"BALLON PUZZLE MM 6 PCS AGES 3+ MX-40S\"",
+        "Price": "250",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2015605170001",
+        "Designation": "\"CABLE TV PS2\"",
+        "Price": "500",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "201600708045",
+        "Designation": "\"DVD XBOX SNIPER ELITE\"",
+        "Price": "350",
+        "Famile": "\"JEUX XBOX\""
+    },
+    {
+        "Code": "201600708046",
+        "Designation": "\"DVD XBOX ENEMY FRONT\"",
+        "Price": "350",
+        "Famile": "\"JEUX XBOX\""
+    },
+    {
+        "Code": "201600708047",
+        "Designation": "\"DVD XBOX GEARS OF WAR3\"",
+        "Price": "350",
+        "Famile": "\"JEUX XBOX\""
+    },
+    {
+        "Code": "201600708410",
+        "Designation": "\"DVD XBOX CALL OF DUTY4\"",
+        "Price": "350",
+        "Famile": "\"JEUX XBOX\""
+    },
+    {
+        "Code": "2016007270001",
+        "Designation": "\"DVD XBOX 360 ACTIVE 2 PERSONAL TRAINER REQUIRES KINECT SENSOR\"",
+        "Price": "350",
+        "Famile": "\"JEUX XBOX\""
+    },
+    {
+        "Code": "2016022300019",
+        "Designation": "\"PISTOLET A EAU AVEC LUNETTE 173\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2016606070001",
+        "Designation": "\"ROULEAU PLASTIQUE D'EMBALAGE\"",
+        "Price": "6250",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "2017051103190",
+        "Designation": "\"PUZZLE PLAQUE MOUSSE ALPHABETTE AR EVA PUZZLE TH-903\"",
+        "Price": "300",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2017908111136",
+        "Designation": "\"PEINTURE CERNE RELIEFE PEBEO 20 ML\"",
+        "Price": "600",
+        "Famile": "\"AQUARELLE & PEINTURE\""
+    },
+    {
+        "Code": "2017910251339",
+        "Designation": "\"PORTE MANGE AVEC GOURDE EN PLASTIQUE HSE PLAST\"",
+        "Price": "400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2017911261190",
+        "Designation": "\"ENSEMBLE DE BUREAU 6 PCS GF-1190\"",
+        "Price": "5500",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2017911261603",
+        "Designation": "\"ENSEMBLE DE BUREAU 5 PCS MAROQUINERIE D'ART\"",
+        "Price": "4000",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "201880705137",
+        "Designation": "\"FLEUR+PANDA PLASTIFER 6721-8\"",
+        "Price": "250",
+        "Famile": "\"JOUETS\""
+    },
+    {
+        "Code": "201880705138",
+        "Designation": "\"CHAPEAU ANNIVERSAIRE ENF 4711-3\"",
+        "Price": "120",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "201880705140",
+        "Designation": "\"SACHET PM HL-E 623\"",
+        "Price": "100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "201880705142",
+        "Designation": "\"SACHET CADEAU FLEUR 7876-5/201810\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2018907070005",
+        "Designation": "\"TENUE PITRE MOHARIGE L DIFARAZ HOMBRE PAYASO\"",
+        "Price": "2800",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2018907070006",
+        "Designation": "\"TENUE MASHA MAWA XF-6882\"",
+        "Price": "1700",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2018907070008",
+        "Designation": "\"TENUE PAPILLON LUMINEUX\"",
+        "Price": "650",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2018907070012",
+        "Designation": "\"DINOSAURE +DINOSAURE PM LUMINEUX\"",
+        "Price": "800",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2018907070020",
+        "Designation": "\"RONGEURS.INSECTES ET REPTILES HACHARAT EN CAOUTCHOUC\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2018907120001",
+        "Designation": "\"KIT DE MAQUILLAGE MM MIRACULOUS MY30088-10\"",
+        "Price": "1350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2019032235036",
+        "Designation": "\"GARBAA CHANCHANA FLEUR WARDA 350-3\"",
+        "Price": "50",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2019101021805",
+        "Designation": "\"ANIMAUX BAZBAZA SAFETY TOYS W.S\"",
+        "Price": "100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2019336325013",
+        "Designation": "\"TELEPHONE FILLETTE 8319-15\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2019607070945",
+        "Designation": "\"SCOTCH STAR TOLIER 24MM PM\"",
+        "Price": "80",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2019607070946",
+        "Designation": "\"SCOTCH STAR TOLIER 48MM GM\"",
+        "Price": "150",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2020008319117",
+        "Designation": "\"AIGLE EN PVC AVEC FILE 8319-11\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2020081800001",
+        "Designation": "\"LOT 1e ANNEE PRIMAIRE\"",
+        "Price": "650",
+        "Famile": "\"SCOLAIRE\""
+    },
+    {
+        "Code": "2020083100002",
+        "Designation": "\"LOT 2e ANNEE PRIMAIRE\"",
+        "Price": "750",
+        "Famile": "\"SCOLAIRE\""
+    },
+    {
+        "Code": "2020083100003",
+        "Designation": "\"LOT 3e ANNEE PRIMAIRE\"",
+        "Price": "950",
+        "Famile": "\"SCOLAIRE\""
+    },
+    {
+        "Code": "2020090100004",
+        "Designation": "\"LOT 4e ANNEE PRIMAIRE\"",
+        "Price": "1200",
+        "Famile": "\"SCOLAIRE\""
+    },
+    {
+        "Code": "2020090503104",
+        "Designation": "\"SCRABBLE ARABE ORIGINAL 0137A-1 503-10\"",
+        "Price": "1600",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "202009100005",
+        "Designation": "\"LOT 5e ANNEE PRIMAIRE\"",
+        "Price": "1350",
+        "Famile": "\"SCOLAIRE\""
+    },
+    {
+        "Code": "2020091400007",
+        "Designation": "\"LOT 1e 2e 3e 4e ANNEE MOYEN\"",
+        "Price": "1950",
+        "Famile": "\"SCOLAIRE\""
+    },
+    {
+        "Code": "2020210100411",
+        "Designation": "\"TAPIS MOUSSE LETTRE EVA PUZZLE MATS SERIES AR PM 3 PCS\"",
+        "Price": "470",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2020307120002",
+        "Designation": "\"BAVETTE MULTICOULEUR\"",
+        "Price": "60",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "2020307120003",
+        "Designation": "\"BAVETTE MASQUE EN PLASTIQUE\"",
+        "Price": "300",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "2020607200004",
+        "Designation": "\"NUMBERS LOGIC A CREATIVITY AY2020\"",
+        "Price": "2300",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2020608250850",
+        "Designation": "\"LIVRE ELECTRONIQUE ARABE ETIFEL ELMOSLIM 1502A\"",
+        "Price": "1950",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "2021041983976",
+        "Designation": "\"ANIMALS WILD GM 9839-7\"",
+        "Price": "750",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2021050923017",
+        "Designation": "\"PISTOLET + POUPEE SPIDER-MAN BOY PM\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2021808291202",
+        "Designation": "\"SACHET PQ 2020\"",
+        "Price": "0",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2022062012711",
+        "Designation": "\"ANIMAUL WILD PM NO.038/037\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2023309231547",
+        "Designation": "\"MINI CLOCK\"",
+        "Price": "980",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2024210111446",
+        "Designation": "\"TABLIER MANEL/CLASSIC FASHION FEMME PROF 36/52 BLANCH\"",
+        "Price": "1600",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2024210201711",
+        "Designation": "\"TABLIER MANEL/CLASSIC FASHION FEMME PROF 32/48 BLANCH DIMI MANCHE\"",
+        "Price": "1600",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2025210171403",
+        "Designation": "\"CAHIER D'ECRITURE AR TAHSINE ELKHAAT\"",
+        "Price": "90",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2025510181740",
+        "Designation": "\"FIL CADEAU MULTICOULEUR FANTAISI\"",
+        "Price": "70",
+        "Famile": "\"DIVERS\""
+    },
+    {
+        "Code": "2026310241528",
+        "Designation": "\"TABLIER EA7 12/18 GARCON BLEU MANCHE\"",
+        "Price": "850",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2026324101517",
+        "Designation": "\"TABLIER DACINE 12/16 GARCON BLEU MANCHE\"",
+        "Price": "850",
+        "Famile": "\"TABLIER 2020\""
+    },
+    {
+        "Code": "2027411092138",
+        "Designation": "\"ARDOISE BLANCHE EN BIS M-102\"",
+        "Price": "150",
+        "Famile": "\"ARDOISE\""
+    },
+    {
+        "Code": "2100000000001",
+        "Designation": "\"LIVRES SCOLAIRES [PRE]\"",
+        "Price": "360",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "2100000001000",
+        "Designation": "\"LIVRES SCOLAIRES [4AM]\"",
+        "Price": "2120",
+        "Famile": "\"LIVRES SCOLAIRE\""
+    },
+    {
+        "Code": "2100004141022",
+        "Designation": "\"KIT CACE-CACHE MAGAZINE GHAMIDA N° 02/03/04/05/06\"",
+        "Price": "750",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2100007011115",
+        "Designation": "\"DVD WINDOS 7\"",
+        "Price": "100",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2100009230219",
+        "Designation": "\"CARTE D'IDENTITE SCOLAIRE\"",
+        "Price": "10",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2100010201353",
+        "Designation": "\"BALLON HANDBALL MOLTEN 5000\"",
+        "Price": "1850",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2100010201359",
+        "Designation": "\"BALLON VOLLEY-BALL SPOEDUN MVP L'ITE\"",
+        "Price": "1850",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2100011171349",
+        "Designation": "\"LTAWZIE ALSHAHRI A4\"",
+        "Price": "50",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2100702031605",
+        "Designation": "\"PORTE CLE KEY RING POUR FILLE\"",
+        "Price": "250",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2100901301418",
+        "Designation": "\"TUBE TELESCOPIQUE GM\"",
+        "Price": "1300",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2100911111435",
+        "Designation": "\"HISTOIRE D'ENFANTS ALHAGH AYOUB SAID ALSABIRIN 02\"",
+        "Price": "60",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2100911111454",
+        "Designation": "\"HISTOIRE D'ENFANTS ALHAGH YAHYA BEN ZAKRIA\"",
+        "Price": "60",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2100911111502",
+        "Designation": "\"HISTOIRE D'ENFANTS ALHAGH ISSA BEN MERIEM 03\"",
+        "Price": "60",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2101212121459",
+        "Designation": "\"CHARGEUR AUTO 2 USB 5V 2.1A 24V\"",
+        "Price": "600",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2101504200852",
+        "Designation": "\"SERIE D'HISTOIRES INTERNATIONALES D'ENFANTS DIVERS 20 PCS\"",
+        "Price": "900",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2101506240740",
+        "Designation": "\"DTT PAPIER MELLIMETRE\"",
+        "Price": "5",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2102210122022",
+        "Designation": "\"AGENDA 2022 JOURNALIER A5\"",
+        "Price": "600",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2102304191100",
+        "Designation": "\"CHAINETTE DE COL NOIR ET ORNG LARGE 1.5 CM TECHNO\"",
+        "Price": "30",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2102507101320",
+        "Designation": "\"MATEN ELAABKARI GM\"",
+        "Price": "70",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2103801011652",
+        "Designation": "\"SCOTCH D'EMBALLAGE TRANSPARENT PVC 100 YARDS OUR RESOURCES/MOSTER SCO210\"",
+        "Price": "210",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2103801181723",
+        "Designation": "\"PUZZLE +36 MONTHS THE BOX CONTAINS 4X7 SHAPES 28 PICES\"",
+        "Price": "600",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2103805270385",
+        "Designation": "\"CARNET DE SANTE\"",
+        "Price": "100",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2103809050053",
+        "Designation": "\"ARDOISE NOIR ORD LUX SNIPER\"",
+        "Price": "25",
+        "Famile": "\"ARDOISE\""
+    },
+    {
+        "Code": "2103810309014",
+        "Designation": "\"SCOTCH D'EMBALLAGE TRANSPARENT 48MMX100 YARDS SARL YIDAEMBALLAGE SCO180\"",
+        "Price": "180",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2103811221530",
+        "Designation": "\"CRNET INTIME POUR ENFANT AVEC CLE PM\"",
+        "Price": "180",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2103812251130",
+        "Designation": "\"RECHARGE MINES 2B/0.5 75MM*20PCS MOUNTAIN PEACK 697\"",
+        "Price": "40",
+        "Famile": "\"CRAYON NOIR\""
+    },
+    {
+        "Code": "2103812251138",
+        "Designation": "\"BON POUR SIMPL A6 14*10.5 SOYEZ SELICTIF PALAGE PAP\"",
+        "Price": "50",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2103812251155",
+        "Designation": "\"PAPIER AUTOCOLLANT A4 100 FUILL DAHMN\"",
+        "Price": "1100",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2103812301500",
+        "Designation": "\"SAC ELASTIQUE 400 GRS YAPAP\"",
+        "Price": "650",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2104001171201",
+        "Designation": "\"POUPEE EN PELUCHE MASHA PM\"",
+        "Price": "550",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2104001171206",
+        "Designation": "\"POUPEE EN PELUCHE MASHA MM\"",
+        "Price": "850",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2104002271816",
+        "Designation": "\"CHAT ROBOT PM\"",
+        "Price": "500",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104002282025",
+        "Designation": "\"ZMAR VOVOZILA 2025\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104003201445",
+        "Designation": "\"TENUE PAPILLON LUMINEUX\"",
+        "Price": "550",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104003201523",
+        "Designation": "\"POUPEE EN PELLUCHE PLUTO GM \"",
+        "Price": "2100",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2104004191108",
+        "Designation": "\"BABY FOOT TABLETOP FOOTBALL 70CMX36CM\"",
+        "Price": "11500",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104005050753",
+        "Designation": "\"NEBOULA SMILY SHUAIAN VERT ET GRIS METALISE N25\"",
+        "Price": "25",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104006051239",
+        "Designation": "\"OITURE AVEC TELECOMMANDE NO.27-18G/NO.27-20J\"",
+        "Price": "2200",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2104006053291",
+        "Designation": "\"BALLON BASKETBALL NO7\"",
+        "Price": "1200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104006103322",
+        "Designation": "\"PISTOLET A EAU PM 168-56\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104007041128",
+        "Designation": "\"PISTOLET A EAU PM 668\"",
+        "Price": "130",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104007191058",
+        "Designation": "\"BABY FOOT TABLETOP FOOSBALL 50CM.LX25CM.WX15.5CM.H BOITE BLANC \"",
+        "Price": "7500",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104007191104",
+        "Designation": "\"BABY FOOT FOOTBALL TABLE GAMER 34.5X23.5X6.6CM\"",
+        "Price": "4300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104101041524",
+        "Designation": "\"AGENDA DE POCHE 2021\"",
+        "Price": "120",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2104101048051",
+        "Designation": "\"STYLO FIXE POUR COMPTOIR ALGO 5706\"",
+        "Price": "250",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "2104602010901",
+        "Designation": "\"MARCHE BEBE 901-S /G GUERGOUR PLAST\"",
+        "Price": "3950",
+        "Famile": "\"ARTICLES BEBE\""
+    },
+    {
+        "Code": "2104602011559",
+        "Designation": "\"MARCHE BEBE MON BEBE AVEC BALANCOIRE\"",
+        "Price": "5100",
+        "Famile": "\"ARTICLES BEBE\""
+    },
+    {
+        "Code": "2104602271601",
+        "Designation": "\"VOITURE MAGIQUE GM ROULMA MUSIQUE\"",
+        "Price": "4900",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2104602271638",
+        "Designation": "\"VOITURE A BATTERIE TRACTEUR GM\"",
+        "Price": "42500",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2104606131615",
+        "Designation": "\"MOTO A BATTERIE BT-1229 BLEU /B20-1230R1\"",
+        "Price": "34000",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2104609050957",
+        "Designation": "\"MARCHE BEBE ANIMAUX\"",
+        "Price": "3500",
+        "Famile": "\"ARTICLES BEBE\""
+    },
+    {
+        "Code": "2104609051013",
+        "Designation": "\"MARCHE BEBE FLEUR\"",
+        "Price": "3300",
+        "Famile": "\"ARTICLES BEBE\""
+    },
+    {
+        "Code": "2104906210991",
+        "Designation": "\"CALCULATRICE SCIENTIFIQUE FX 991 KAJIB 249 FONCTIONS\"",
+        "Price": "650",
+        "Famile": "\"CALCULATRICE\""
+    },
+    {
+        "Code": "2104906270947",
+        "Designation": "\"NOTE BOOK GM YONGA\"",
+        "Price": "400",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2104906270953",
+        "Designation": "\"NOTE BOOK PM YONGA\"",
+        "Price": "350",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2104907050900",
+        "Designation": "\"CARTE D ALGERIE\"",
+        "Price": "600",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2104909060003",
+        "Designation": "\"TABLIER 3 FILETTE MASHA ROSE SAN MANCHE\"",
+        "Price": "500",
+        "Famile": "\"TABLIER 2021\""
+    },
+    {
+        "Code": "2104909060010",
+        "Designation": "\"TABLIER 10 FILLETTE ROSE SAN MANCHE\"",
+        "Price": "700",
+        "Famile": "\"TABLIER 2021\""
+    },
+    {
+        "Code": "2104909060608",
+        "Designation": "\"TABLIER DORA 6/8 FILLETTE ROSE SAN MANCHE\"",
+        "Price": "700",
+        "Famile": "\"TABLIER 2021\""
+    },
+    {
+        "Code": "2104909060610",
+        "Designation": "\"TABLIER 6/10 GARCON BLEU BEN10/SPIDERMAN SAN MANCHE\"",
+        "Price": "700",
+        "Famile": "\"TABLIER 2021\""
+    },
+    {
+        "Code": "2104909061706",
+        "Designation": "\"TABLIER NC FILLETTE BLACHE SAN MANCHE\"",
+        "Price": "750",
+        "Famile": "\"TABLIER 2021\""
+    },
+    {
+        "Code": "2104909110378",
+        "Designation": "\"COUVERTURE SPECIAL PAPIER VOITURE A BOUTON\"",
+        "Price": "250",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "2104909191704",
+        "Designation": "\"NOTE BOOK PVS A/STYLO PM MADANI\"",
+        "Price": "210",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2104909232021",
+        "Designation": "\"AGENDA 2021\"",
+        "Price": "450",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2104911130002",
+        "Designation": "\"AGENDA 2022 JOURNALIER SPIRAL EN PVC AVEC STYLO 02\"",
+        "Price": "650",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2104911130008",
+        "Designation": "\"AGENDA 2022 DE POCHE PM A BOUTTON BLEU 08\"",
+        "Price": "200",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2104911130026",
+        "Designation": "\"AGENDA 2022 JOURNALIER CEINTURE MARRON 26/BLEU 27\"",
+        "Price": "650",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2104911130035",
+        "Designation": "\"AGENDA 2022 PLANING CEINTURE A4 BLEU 35\"",
+        "Price": "900",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2104911131454",
+        "Designation": "\"REGLE 30CM KUTCHE TRIANGLE\"",
+        "Price": "220",
+        "Famile": "\"TRACAGE\""
+    },
+    {
+        "Code": "2104911131619",
+        "Designation": "\"CALENDRIER SOUS MAIN 2022\"",
+        "Price": "80",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2104911131628",
+        "Designation": "\"CALENDRIER CHEVALET 2022 SADJ\"",
+        "Price": "250",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2104911131631",
+        "Designation": "\"CALENDRIER 2022 MOIAKIT SALAT SPIRAL SALAT-2\"",
+        "Price": "200",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2104911140034",
+        "Designation": "\"TROUSSE NIKE\"",
+        "Price": "150",
+        "Famile": "\"TROUSSE\""
+    },
+    {
+        "Code": "2104911201408",
+        "Designation": "\"ROULEAU PAPIER POUR TABLE TRACANTE 914MMX50M 80G PLOTTER\"",
+        "Price": "1950",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2106001091419",
+        "Designation": "\"POUPEE OURS EN PELUCHE G.GM \"",
+        "Price": "8800",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2106006260915",
+        "Designation": "\"VOITURE R/C THE SPEEDS KING 788-11\"",
+        "Price": "2800",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2106006260940",
+        "Designation": "\"POUPEE AVION PM 1688 +8 ANS\"",
+        "Price": "1400",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2106006261233",
+        "Designation": "\"BOUGIE ALLUMEE\"",
+        "Price": "85",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106006261414",
+        "Designation": "\"PISTOLET DE POLICE CONQUEROR QUICK ACTION TEAM +3 ANS 060\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106006261425",
+        "Designation": "\"PISTOLET KLACH TOYS 8300\"",
+        "Price": "950",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106006261502",
+        "Designation": "\"BALLON FANTAISIE AVEC FIL CAOUTCHOU\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106006261550",
+        "Designation": "\"BALLON FOOT BALL BLEU\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106006271724",
+        "Designation": "\"BALLON FOOT BALL\"",
+        "Price": "950",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106201050320",
+        "Designation": "\"ROBO LOL O.M.G. 320G\"",
+        "Price": "1400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106201051032",
+        "Designation": "\"BALLON LUMINEUX AVEC FIL BAZBAZA FLASHING\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106201051046",
+        "Designation": "\"POUSSETTE POUR POUPEE METAL ROSE\"",
+        "Price": "1000",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106201270003",
+        "Designation": "\"JEUX D'ECHEC DAMA EN BOIS MM CHESS\"",
+        "Price": "700",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106206061604",
+        "Designation": "\"VOITURE MODEL CAR NOBLE RACING 8810-8811\"",
+        "Price": "900",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2106206100161",
+        "Designation": "\"VOITURE ROLLING CAR AVENGERS R/C\"",
+        "Price": "1600",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2106206232265",
+        "Designation": "\"BALLON FANTAISIE BLEU/VERT/ROUGE/ROSE\"",
+        "Price": "150",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106210070034",
+        "Designation": "\"WILD ANIMALS 06 PCS GM 034/030\"",
+        "Price": "700",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106210071842",
+        "Designation": "\"BALLON A SAUTER GM\"",
+        "Price": "470",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106210110936",
+        "Designation": "\"NEBOULA FROZEN CA-095\"",
+        "Price": "320",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106210110948",
+        "Designation": "\"NEBOULA PUNCH BALL BALLOONS 50PCS BLEU\"",
+        "Price": "650",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106210111015",
+        "Designation": "\"NEBOULA HAOLIN PARTY BALLONS 100 PCS\"",
+        "Price": "950",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106210240914",
+        "Designation": "\"OUTILS DE DOCTEUR +3 ANS\"",
+        "Price": "400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106210240923",
+        "Designation": "\"OUTILS DE DOCTEUR TOOLS\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106210240927",
+        "Designation": "\"VOITURE 4*4 PM PLASTIQ\"",
+        "Price": "300",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2106210241001",
+        "Designation": "\"TENUE POLICE JYWL +3 ANS S 69923\"",
+        "Price": "2600",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106210241024",
+        "Designation": "\"BEYBLADE SUPER TOP 6D SYSTEM +8 ANS 2013-47\"",
+        "Price": "500",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106210241036",
+        "Designation": "\"BEYBLADE SUPER GYROSCOPIC ROTATING 1.2.3. GO 2013-41\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106211071227",
+        "Designation": "\"OUTLIS CUISINE AVEC POUPEE KIDS EDUCATIONAL TOY SET\"",
+        "Price": "750",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106211071248",
+        "Designation": "\"VOITURE NEW ARRIVAL YONG XING TOYS R/C +VOLANT YQ034-\"",
+        "Price": "2900",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2106211181533",
+        "Designation": "\"PATE A MODELER SLIME 12 COULEUR YOUQI\"",
+        "Price": "300",
+        "Famile": "\"PATE A MODELER\""
+    },
+    {
+        "Code": "2106211181540",
+        "Designation": "\"COURDA ET MONTRE ET LUNETTES FROZEN-MICKY MOUSE -ROAD\"",
+        "Price": "280",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106211181546",
+        "Designation": "\"LEGO MORE NEW PUZZLE BUILDING +3ANS EN-71\"",
+        "Price": "480",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2106231011457",
+        "Designation": "\"MACHINE A COUDRE LS820K3 MINI SWING MACHINE\"",
+        "Price": "2000",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2106231011720",
+        "Designation": "\"VOITURE ULTIMATE SPIDER MAN MADJNONA 682/683\"",
+        "Price": "250",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2106901061316",
+        "Designation": "\"CORAN MASHAF 14/20 RDOSI\"",
+        "Price": "800",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106903160908",
+        "Designation": "\"CORAN MASHAF MULTICOULEUR 20/14\"",
+        "Price": "800",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106903160941",
+        "Designation": "\"CORAN MASHAF ROB3 YASSINE COULEURS\"",
+        "Price": "300",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106903160947",
+        "Designation": "\"CORAN MASHAF BLANCH GM\"",
+        "Price": "1050",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106903160953",
+        "Designation": "\"CORAN MASHAF TADJWID GM\"",
+        "Price": "4400",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106904201206",
+        "Designation": "\"CORAN MASHAF 20/14 COULEUR MM\"",
+        "Price": "800",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106906171421",
+        "Designation": "\"CORAN MASHAF 17/24 CADEAU MM\"",
+        "Price": "1100",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106906171424",
+        "Designation": "\"CORAN MASHAF 12/17 CADEAU PM\"",
+        "Price": "650",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106906171444",
+        "Designation": "\"CORAN MASHAF BLANC GM\"",
+        "Price": "1100",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106906171504",
+        "Designation": "\"CARNET MOTABA3A HIFD ELQORAN KARIM 60P\"",
+        "Price": "180",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106907111634",
+        "Designation": "\"CORAN MASHAF 20/14 TADJWID\"",
+        "Price": "1450",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106910310955",
+        "Designation": "\"CORAN MASHAF 14/20 LBNANI\"",
+        "Price": "650",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106910311000",
+        "Designation": "\"CORAN MASHAF 17/24 LBNANI\"",
+        "Price": "750",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912080830",
+        "Designation": "\"CORAN JOUZ AMA DAR IMAM MALIK\"",
+        "Price": "60",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912080839",
+        "Designation": "\"ARBAA W ARBAAOUN NAWAWIA PM\"",
+        "Price": "50",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912080849",
+        "Designation": "\"TROIS ORIGINES DAR IMAM MALIK\"",
+        "Price": "50",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912080853",
+        "Designation": "\"MATIN TOUHFAT AL ATFAL PM\"",
+        "Price": "50",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912080905",
+        "Designation": "\"CARNET MOTABA3A HIFD ELQORAN KARIM 112P\"",
+        "Price": "200",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912080921",
+        "Designation": "\"MATIN AGROUMIYA MM\"",
+        "Price": "100",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912080924",
+        "Designation": "\"ARBAA W ARBAAOUN NAWAWIA GM\"",
+        "Price": "150",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912080953",
+        "Designation": "\"CORAN MASHAF DJAWMI3I CHAMO\"",
+        "Price": "1500",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912081001",
+        "Designation": "\"CORAN MASHAF 27/21\"",
+        "Price": "950",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912081003",
+        "Designation": "\"CORAN MASHAF 12/8 CHAMO PM\"",
+        "Price": "350",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2106912081006",
+        "Designation": "\"CORAN MASHAF 22/15 MM\"",
+        "Price": "650",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2108110121430",
+        "Designation": "\"SAC A DOS CRECHE MICKE-MOUSSE\"",
+        "Price": "1150",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2108110121440",
+        "Designation": "\"SAC A DOS CRECHE CHAOTONG TIANXIA OURS\"",
+        "Price": "1150",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2108110121444",
+        "Designation": "\"SAC ADOS CRECHE I LOVE UNICORN\"",
+        "Price": "900",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2108110121446",
+        "Designation": "\"SAC A DOS CRECHE A-B-C-D\"",
+        "Price": "850",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2109907281517",
+        "Designation": "\"TABLEAU BLANC/VERT 100X150 SLIM APEX\"",
+        "Price": "7500",
+        "Famile": "\"TABLEAUX & ACCESSOIRES\""
+    },
+    {
+        "Code": "2110504052007",
+        "Designation": "\"CHARGEUR SAMSUNG ORIGINAL H-2007/A-121\"",
+        "Price": "900",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2110601041604",
+        "Designation": "\"POUPEE EN PELUCHE SUPER MARIO/ MICKEY MAOUSSE\"",
+        "Price": "1900",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2110605021320",
+        "Designation": "\"LEGO EN BIDON BUILDING BLOKS 84PCS SALAH TOYS\"",
+        "Price": "950",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2110605021345",
+        "Designation": "\"LEGO BUILDING BLOKS 140 PCS SALAH TOYS EN BIDON\"",
+        "Price": "1200",
+        "Famile": "\"PUZZLE & LEGO & SCRABBLE & MONOPOLY\""
+    },
+    {
+        "Code": "2110605021423",
+        "Designation": "\"PISTOLET FBI EN PLAQUE\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2110610231629",
+        "Designation": "\"PISTOLET A 3 BALLON PM CLASH\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2110611211301",
+        "Designation": "\"PISTOLET + MINUTE ITS\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2110611211314",
+        "Designation": "\"PARK 3 VOITURE\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2110611211704",
+        "Designation": "\"RAQUETTE DE TENNIS PLASTIQUE PERFOREE\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2110611220011",
+        "Designation": "\"POCLAIN TRUCK PLASTIQUE AC-11\"",
+        "Price": "800",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2110611221100",
+        "Designation": "\"DINETTE SAC KITCHEN PLAY SET MY FAMILY\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2110611221141",
+        "Designation": "\"VOITURE FIRARI BRI-POLICE-GENDARMERIE T3802\"",
+        "Price": "500",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2110611221569",
+        "Designation": "\"CAMION BOULLDOZER 1569\"",
+        "Price": "600",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2110716011016",
+        "Designation": "\"AVION MULTICOULEUR\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2111204159219",
+        "Designation": "\"SAC A DOS 3D JERRY/SCHTROUMPFS\"",
+        "Price": "600",
+        "Famile": "\"SAC A DOS & MALETTE\""
+    },
+    {
+        "Code": "2111204159243",
+        "Designation": "\"SAC A DOS 3D SPONGE POP\"",
+        "Price": "900",
+        "Famile": "\"SAC A DOS & MALETTE\""
+    },
+    {
+        "Code": "2111204159531",
+        "Designation": "\"VENTILLATEUR ELECTRIQUE HELLO KITTY LD116\"",
+        "Price": "750",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2111204159637",
+        "Designation": "\"POUPEE PORTE FEUILLE PM\"",
+        "Price": "400",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2111204159926",
+        "Designation": "\"HAUT PARLEUR FM/USB/CARTE MEMOIRE MIGNION DESPICABLE XC-01/SK#31\"",
+        "Price": "850",
+        "Famile": "\"INFORMATIQUE & TELEPHONE\""
+    },
+    {
+        "Code": "2111207011545",
+        "Designation": "\"POUPEE EN PELUCHE CAT PROMO 15%\"",
+        "Price": "2600",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2111207011550",
+        "Designation": "\"POUPEE EN PELUCHE MICKY MOUSE S-9088\"",
+        "Price": "4200",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2111207011625",
+        "Designation": "\"POUPEE EN POLUCHE MM MOVE ROSE\"",
+        "Price": "2600",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2111207011638",
+        "Designation": "\"OREILLET ROSE LOVE\"",
+        "Price": "700",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2111904131016",
+        "Designation": "\"BATMAN PS2\"",
+        "Price": "250",
+        "Famile": "\"JEUX PS2\""
+    },
+    {
+        "Code": "2112707031148",
+        "Designation": "\"JEU DE GRUYERE\"",
+        "Price": "2800",
+        "Famile": "\"LIVRES DIVERS\""
+    },
+    {
+        "Code": "2112801130001",
+        "Designation": "\"STYLO A BILLE BLEU UNIMAX EECO\"",
+        "Price": "15",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "2112801131547",
+        "Designation": "\"CARTE INVITATION 2 PCS 163098\"",
+        "Price": "35",
+        "Famile": "\"CARTE D'INVITATION\""
+    },
+    {
+        "Code": "2112802091601",
+        "Designation": "\"SCOTCH D'EMBALLAGE TRANSPARENT 50 YARDS MOSTER TAPES\"",
+        "Price": "60",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2113003131543",
+        "Designation": "\"GOURDE THERMOS POUR LES ENFANTS 0.35L\"",
+        "Price": "700",
+        "Famile": "\"GOURDES\""
+    },
+    {
+        "Code": "2114110240236",
+        "Designation": "\"BON POUR 105X133 YAPAP 1015\"",
+        "Price": "70",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2114110240237",
+        "Designation": "\"BON DE LIVRAISON NCR A5 140X200 YAPAP 1014\"",
+        "Price": "110",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2114110240263",
+        "Designation": "\"LIVRET DE FAMILLE ARABE\"",
+        "Price": "100",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2114110240324",
+        "Designation": "\"ETUI DE PROTECTION POUR CARTE CHIFA + MAGNETIQUE\"",
+        "Price": "30",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2114110241232",
+        "Designation": "\"POCHETTE LIVRE FAMILLE MP\"",
+        "Price": "30",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "2114110241645",
+        "Designation": "\"POCHETTE CARNET DE SANTE MP PROS\"",
+        "Price": "40",
+        "Famile": "\"POCHETTE & ENVELOPPE\""
+    },
+    {
+        "Code": "2114112110912",
+        "Designation": "\"TROUSSE ECOLIER YAPAP YA0117\"",
+        "Price": "450",
+        "Famile": "\"TROUSSE\""
+    },
+    {
+        "Code": "2114112110928",
+        "Designation": "\"DRAPEAUX NATIONALE ALG 100*150\"",
+        "Price": "650",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2114112111053",
+        "Designation": "\"DRAPEAUX NATIONALE ALG 150*225\"",
+        "Price": "1300",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2114112111130",
+        "Designation": "\"DRAPEAUX NATIONALE ALG DE BUREAU AVEC SUPPORT BRONZE\"",
+        "Price": "1650",
+        "Famile": "\"FOURNITURES DE BUREAU\""
+    },
+    {
+        "Code": "2115311201210",
+        "Designation": "\"LUNETTE ENFANT S-1830-3\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2115311201216",
+        "Designation": "\"LUNETTE ENFANT 1830\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2115311201219",
+        "Designation": "\"LUNETTE ENFANT A-25\"",
+        "Price": "250",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2115311201429",
+        "Designation": "\"MONTRE A MAIN CALCULATRICE KK-907\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2115311201441",
+        "Designation": "\"MONTRE A MAIN YITONG Y-015\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2115311201447",
+        "Designation": "\"MONTRE A MAIN SONNETTE T-02\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2115311201453",
+        "Designation": "\"MONTRE A MAIN WR-30M-HO\"",
+        "Price": "400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2115311201458",
+        "Designation": "\"MONTRE A MAIN PARA 506-30\"",
+        "Price": "180",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2115311201501",
+        "Designation": "\"MONTRE A MAIN PARA 6825 199\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2116303010689",
+        "Designation": "\"JEU DE SAVON EN PLAQUE BUBBLE 689\"",
+        "Price": "950",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2116306105211",
+        "Designation": "\"BALLON MOUSSE GEANT/EMOJI/MONDIAL GM\"",
+        "Price": "200",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2116311201004",
+        "Designation": "\"POUPEE PARLANTE EN BOITE GM 1403038\"",
+        "Price": "4500",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2116801031314",
+        "Designation": "\"PLAQUE CHIFFRES MAGNETIQUE PM KIOSE\"",
+        "Price": "150",
+        "Famile": "\"EDUCATIF DIVERS\""
+    },
+    {
+        "Code": "2116801031613",
+        "Designation": "\"AUTOCOLANT SMILEY CM A-K6/K5/\"",
+        "Price": "250",
+        "Famile": "\"DECORATION & DESIGN\""
+    },
+    {
+        "Code": "2116801031896",
+        "Designation": "\"NOTE BOOK AVEC STYLO PVC PM HEXAGONE/QUICK NOTE PP 159\"",
+        "Price": "250",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2116801041120",
+        "Designation": "\"AGENDA DE BUREAU PVC HEXAGONE AVEC STYLO 2021\"",
+        "Price": "400",
+        "Famile": "\"AGENDA & CALENDRIER\""
+    },
+    {
+        "Code": "2116803011017",
+        "Designation": "\"TOMPON 10PCS STAMP SET\"",
+        "Price": "250",
+        "Famile": "\"SCOLAIRE DIVERS\""
+    },
+    {
+        "Code": "2116803011103",
+        "Designation": "\"NOTE BOOK 160 PAGES MINI\"",
+        "Price": "100",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2116803071423",
+        "Designation": "\"BON POUR NCR IMDB\"",
+        "Price": "60",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2116809232021",
+        "Designation": "\"REGISTRE D'APPEL ARABE /FR BLEU\"",
+        "Price": "50",
+        "Famile": "\"CAHIER DE PROFESSEUR\""
+    },
+    {
+        "Code": "2116812042953",
+        "Designation": "\"CARTE D'ALGERIE ADMINISTRATIF 58 WILAYA SERIE LE SAVOIR\"",
+        "Price": "200",
+        "Famile": "\"PAPETERIE DIVERS\""
+    },
+    {
+        "Code": "2117311211359",
+        "Designation": "\"SAC CADEAU BRIANTE GM 0306-3\"",
+        "Price": "400",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2117311211410",
+        "Designation": "\"SAC CADEAU GM 30*43*12 GA-9003-1\"",
+        "Price": "250",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2117311211418",
+        "Designation": "\"SAC CADEAU MM 26*32*10.5 GB-9003-1\"",
+        "Price": "200",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2117311211423",
+        "Designation": "\"SAC CADEAU PM 18-23*8 GC-2302-4\"",
+        "Price": "150",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2117311211443",
+        "Designation": "\"SAC CADEAU BRIANTE PM 0682-10\"",
+        "Price": "150",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2117311211507",
+        "Designation": "\"STICKER ENFANT 7D AQG-002-003-012-008-001-006\"",
+        "Price": "450",
+        "Famile": "\"DECORATION & DESIGN\""
+    },
+    {
+        "Code": "2117311211612",
+        "Designation": "\"SAC CADEAU BRIANTE GM 0306-2\"",
+        "Price": "250",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2117311211615",
+        "Designation": "\"SAC CADEAU GM 32*44*11CM JA18-9443-3\"",
+        "Price": "170",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2117311211620",
+        "Designation": "\"FLEUR SIMLPLE AMANI\"",
+        "Price": "100",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2117311220838",
+        "Designation": "\"CORAN MASHAF COFFRET KATIFA MM\"",
+        "Price": "900",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117311220844",
+        "Designation": "\"CORAN MASHAF KATIFA COULEUR PM\"",
+        "Price": "550",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117311220848",
+        "Designation": "\"CORAN MASHAF COULEUR PM\"",
+        "Price": "500",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117311220852",
+        "Designation": "\"CORAN MASHAF KODS HILAL+CAREE PM EN BOIS\"",
+        "Price": "550",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117311220856",
+        "Designation": "\"CORAN MASHAF COFFRET BOIS PM\"",
+        "Price": "600",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117311220901",
+        "Designation": "\"CORAN MASHAF COFFRET BATEAU EN BOIS PM\"",
+        "Price": "600",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117311220913",
+        "Designation": "\"CORAN MASHAF COFFRET BRAINT MM B201\"",
+        "Price": "850",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117311220917",
+        "Designation": "\"CORAN MASHAF COFFRET BATEAU BRIANT EN BOIS MM R119\"",
+        "Price": "900",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117311220925",
+        "Designation": "\"CORAN MASHAF COFFRET AFRAH EN BOIS MM\"",
+        "Price": "1100",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117311220932",
+        "Designation": "\"CORAN MASHAF COFFRET AFRAH R66 MM\"",
+        "Price": "750",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117311220936",
+        "Designation": "\"CORAN MASHAF +SPPORT H11\"",
+        "Price": "720",
+        "Famile": "\"CORAN\""
+    },
+    {
+        "Code": "2117901041317",
+        "Designation": "\"BALLON GONFLABLE 25 PCS 0642-6\"",
+        "Price": "380",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2117906031551",
+        "Designation": "\"SAC CADEAU UNI GM\"",
+        "Price": "120",
+        "Famile": "\"SAC DIVERS\""
+    },
+    {
+        "Code": "2117909120130",
+        "Designation": "\"SCOTCH CHARTITON ELECRIC 0.13MM*15MM*10M BLANC/VERT/ROUGE ETOIL 00130 D\"",
+        "Price": "60",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2117909120300",
+        "Designation": "\"BANDE STOP 300M*65MM ETOILE\"",
+        "Price": "800",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2117909121231",
+        "Designation": "\"BANDE STOP 100M GTA\"",
+        "Price": "450",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2117909121252",
+        "Designation": "\"PANIER POUR CLIENT LIBRAIRIE\"",
+        "Price": "750",
+        "Famile": "\"XNOUVEAU\""
+    },
+    {
+        "Code": "2117909121311",
+        "Designation": "\"SCOTCH EN PAPIER PRIMEX/INDUTRIES PLAST PM\"",
+        "Price": "80",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2117909121329",
+        "Designation": "\"SCOTCH EN PAPIER PRIMEX GM\"",
+        "Price": "150",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2117909121357",
+        "Designation": "\"SCOTCH CHARTITON ELECRIC NOIR NORMAFLEX\"",
+        "Price": "100",
+        "Famile": "\"SCOTCH\""
+    },
+    {
+        "Code": "2117909231436",
+        "Designation": "\"GOURDE ENFANT PLASTIQUE MULTICOULEUR\"",
+        "Price": "180",
+        "Famile": "\"GOURDES\""
+    },
+    {
+        "Code": "2117909251654",
+        "Designation": "\"GOURDE THERMOS 500ML\"",
+        "Price": "1350",
+        "Famile": "\"GOURDES\""
+    },
+    {
+        "Code": "2117910071425",
+        "Designation": "\"BUREAU ENFANTS EN PLASTIQUE U CHOUPLASST 550\"",
+        "Price": "550",
+        "Famile": "\"MOBILIER\""
+    },
+    {
+        "Code": "2117912051122",
+        "Designation": "\"STYLO SERIGRAPHIE NOIR 39\"",
+        "Price": "40",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "2117912051135",
+        "Designation": "\"STYLO SERIGRAPHIE SER 860-1\"",
+        "Price": "50",
+        "Famile": "\"STYLO\""
+    },
+    {
+        "Code": "2117912181539",
+        "Designation": "\"VOITURE LETID GO /LET'S SMILE CITY CAR PM DY00\"",
+        "Price": "250",
+        "Famile": "\"VOITURES & TRANSPORT\""
+    },
+    {
+        "Code": "2117912181550",
+        "Designation": "\"PISTOLET FBI\"",
+        "Price": "350",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2117912191044",
+        "Designation": "\"TELEPHONE ENFANT SOFIA+HALLO KITTY\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2118107041200",
+        "Designation": "\"VELO MODEL ARMY N°16\" COXI BICYCLE \"",
+        "Price": "17500",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "2118107043378",
+        "Designation": "\"VELO GINAIT ROSE SOLTANE BABY N°12 3378-5 \"",
+        "Price": "12750",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "2118901061625",
+        "Designation": "\"SACOCHE SOROBAN VERT/ORANGE\"",
+        "Price": "700",
+        "Famile": "\"CARTABLE & SACOCHE\""
+    },
+    {
+        "Code": "2119101031122",
+        "Designation": "\"ANIMAUX BAZBAZA 6 PCS\"",
+        "Price": "450",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2119102011258",
+        "Designation": "\"DANCE HIBOU ANIME 6666\"",
+        "Price": "1650",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2119102014497",
+        "Designation": "\"SPIDERMAN MM\"",
+        "Price": "1500",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2119102015369",
+        "Designation": "\"TROTINETTE SCOOTER METAL ET PLASTIQUE BLEU/VERT\"",
+        "Price": "3800",
+        "Famile": "\"VELO & TRICYCLE & TROTINETTE\""
+    },
+    {
+        "Code": "2119102130802",
+        "Designation": "\"ENSEMBLE DE CAFE SX802\"",
+        "Price": "300",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2119104151125",
+        "Designation": "\"SPIDERMAN GM PROMO 15%\"",
+        "Price": "2400",
+        "Famile": "\"JOUETS DIVERS\""
+    },
+    {
+        "Code": "2119104156325",
+        "Designation": "\"POUPEE ANIMAUX SAUVAGE MM (TIGRE) \"",
+        "Price": "4800",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "2119104158936",
+        "Designation": "\"POUPEE ANIMAUX SAUVAGE GM (LION, TIGRE, LEOPARD) \"",
+        "Price": "5800",
+        "Famile": "\"POUPEE\""
+    },
+    {
+        "Code": "",
+        "Designation": null,
+        "Price": null,
+        "Famile": null
+    }
+]
+
+}
