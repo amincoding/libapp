@@ -21,6 +21,3 @@ class BelbaliLibrary extends StatelessWidget {
     );
   }
 }
-
-// start with scholar tech then after finishing 
-// u can actually go back on fixing the rest of the problems
