@@ -127,7 +127,8 @@ class _articlesState extends State<articles> {
                                               fontSize: 18,
                                               fontWeight: FontWeight.bold),
                                         ),
-                                        Text(_items[index]["Price"] + " دج"),
+                                        Text(_items[index]["PriceHT"]
+                                            .toString()),
                                       ])
                                     ],
                                   )),
