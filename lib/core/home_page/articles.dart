@@ -79,7 +79,7 @@ class _articlesState extends State<articles> {
                           child: Stack(
                             children: [
                               Container(
-                                  height: SizeConfig.screenHeight! * 0.15,
+                                  height: SizeConfig.screenHeight! * 0.3,
                                   child: Column(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
@@ -90,13 +90,15 @@ class _articlesState extends State<articles> {
                                             "Code bar : ",
                                             style: TextStyle(
                                                 color: Colors.green,
-                                                fontSize: 18,
+                                                fontSize: 20,
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           Text(
                                             _items[index]["Code"],
-                                            style:
-                                                TextStyle(color: Colors.black),
+                                            style: TextStyle(
+                                              color: Colors.black,
+                                              fontSize: 16,
+                                            ),
                                           ),
                                         ],
                                       ),
@@ -106,12 +108,33 @@ class _articlesState extends State<articles> {
                                             "Designation : ",
                                             style: TextStyle(
                                                 color: Colors.green,
-                                                fontSize: 18,
+                                                fontSize: 20,
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           Flexible(
                                             child: Text(
                                               _items[index]["Designation"],
+                                              style: TextStyle(fontSize: 16),
+                                              maxLines: 3,
+                                              softWrap: true,
+                                              overflow: TextOverflow.fade,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                      Row(
+                                        children: [
+                                          Text(
+                                            "Famille : ",
+                                            style: TextStyle(
+                                                color: Colors.green,
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                          Flexible(
+                                            child: Text(
+                                              _items[index]["Famile"],
+                                              style: TextStyle(fontSize: 16),
                                               maxLines: 3,
                                               softWrap: true,
                                               overflow: TextOverflow.fade,
@@ -121,15 +144,32 @@ class _articlesState extends State<articles> {
                                       ),
                                       Row(children: [
                                         Text(
-                                          "Price : ",
+                                          "Price de HT : ",
                                           style: TextStyle(
-                                              color: Colors.green,
-                                              fontSize: 18,
+                                              color: Colors.red,
+                                              fontSize: 20,
                                               fontWeight: FontWeight.bold),
                                         ),
-                                        Text(_items[index]["PriceHT"]
-                                            .toString()),
-                                      ])
+                                        Text(
+                                          _items[index]["PriceHT"].toString() +
+                                              " دج",
+                                          style: TextStyle(fontSize: 16),
+                                        ),
+                                      ]),
+                                      Row(children: [
+                                        Text(
+                                          "Price de VT : ",
+                                          style: TextStyle(
+                                              color: Colors.teal,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        Text(
+                                          _items[index]["PriceVT"].toString() +
+                                              ".00 دج",
+                                          style: TextStyle(fontSize: 16),
+                                        ),
+                                      ]),
                                     ],
                                   )),
                               SizedBox(
