@@ -14,10 +14,13 @@ class qrCode extends StatefulWidget {
 }
 
 class _qrCodeState extends State<qrCode> {
-  String _scanBarcode = 'Unknown';
+  String _productName = 'Unknown';
+  String _productPrice = 'Unknown';
 
+  int temp = 0;
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> scanBarcodeNormal() async {
+    temp = 0;
     String barcodeScanRes;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
@@ -32,8 +35,17 @@ class _qrCodeState extends State<qrCode> {
     // message was in flight, we want to discard the reply rather than calling
     // setState to update our non-existent appearance.
 
+    while (_items[temp]["Code"] != barcodeScanRes) {
+      temp++;
+      if (temp > _items.length) {
+        break;
+      }
+    }
+
     setState(() {
-      _scanBarcode = barcodeScanRes;
+      _productName = _items[temp]["Designation"];
+      _productPrice = _items[temp]["Price"];
+      ;
     });
   }
 
@@ -70,16 +82,59 @@ class _qrCodeState extends State<qrCode> {
                                 itemCount: 1,
                                 itemBuilder: (context, index) {
                                   return Column(children: [
-                                    ElevatedButton(
-                                        onPressed: () {
-                                          scanBarcodeNormal();
-
-                                          if (_scanBarcode ==
-                                              _items[index]["Code"]) {
-                                            Text(_items[index]["Designation"]);
-                                          }
-                                        },
-                                        child: Text('Start barcode scan')),
+                                    Container(
+                                      height: SizeConfig.screenHeight! * 0.1,
+                                      color: Colors.green[50],
+                                      child: Row(
+                                        children: [
+                                          Text(
+                                            "Désignation :     ",
+                                            style: TextStyle(
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                          Flexible(
+                                            child: Text(
+                                              _productName,
+                                              maxLines: 3,
+                                              softWrap: true,
+                                              overflow: TextOverflow.fade,
+                                              style: TextStyle(
+                                                  fontSize: 20,
+                                                  color: Colors.teal),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    Container(
+                                        height: SizeConfig.screenHeight! * 0.1,
+                                        color: Colors.yellow[50],
+                                        child: Row(
+                                          children: [
+                                            Text(
+                                              "Prix :     ",
+                                              style: TextStyle(
+                                                  fontSize: 20,
+                                                  fontWeight: FontWeight.bold),
+                                            ),
+                                            Text(
+                                              _productPrice + ".00 دج",
+                                              style: TextStyle(
+                                                  fontSize: 20,
+                                                  color: Colors.teal),
+                                            ),
+                                          ],
+                                        )),
+                                    Padding(
+                                      padding: const EdgeInsets.symmetric(
+                                          vertical: 400),
+                                      child: ElevatedButton(
+                                          onPressed: () {
+                                            scanBarcodeNormal();
+                                          },
+                                          child: Text('Start barcode scan')),
+                                    ),
                                   ]);
                                 }))
                         : Container(),
