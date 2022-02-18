@@ -15,7 +15,7 @@ class BelbaliLibrary extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      theme: ThemeData(fontFamily: KFont),
+      theme: ThemeData(fontFamily: KFont, backgroundColor: Colors.teal),
       debugShowCheckedModeBanner: false,
       home: splashView(),
     );
