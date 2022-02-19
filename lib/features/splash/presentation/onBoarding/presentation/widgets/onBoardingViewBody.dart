@@ -37,7 +37,7 @@ class _onBoaringViewBodyState extends State<onBoaringViewBody> {
             pageController: pageController,
           ),
           Positioned(
-            bottom: SizeConfig.screenHeight! * 0.20,
+            bottom: MediaQuery.of(context).size.height * 0.10,
             left: 0,
             right: 0,
             child: customIndecator(

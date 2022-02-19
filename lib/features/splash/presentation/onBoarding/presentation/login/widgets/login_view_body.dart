@@ -8,7 +8,6 @@ import 'package:viplive/core/widgets/custom_buttons.dart';
 import 'package:viplive/core/widgets/space_widget.dart';
 import 'package:viplive/features/splash/presentation/onBoarding/presentation/complete_information/complete_information_view.dart';
 import 'package:viplive/screens/signUpEmail.dart';
-import 'package:viplive/screens/signup.dart';
 
 class LoginViewBody extends StatelessWidget {
   const LoginViewBody({Key? key}) : super(key: key);
@@ -31,12 +30,12 @@ class LoginViewBody extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 8),
                 child: CustomButtonWithIcon(
                   color: Color(0xFFdb3236),
-                  iconData: FontAwesomeIcons.googlePlusG,
+                  iconData: FontAwesomeIcons.google,
                   text: 'GOOGLE',
                   onTap: () {
-                    Get.to(() => CompleteInformationView(),
-                        duration: Duration(milliseconds: 500),
-                        transition: Transition.rightToLeft);
+                    // Get.to(() => CompleteInformationView(),
+                    //     duration: Duration(milliseconds: 500),
+                    //     transition: Transition.rightToLeft);
                   },
                 ),
               ),
@@ -51,23 +50,8 @@ class LoginViewBody extends StatelessWidget {
                         transition: Transition.rightToLeft);
                   },
                   color: Color(0xFF4267B2),
-                  iconData: FontAwesomeIcons.facebookF,
+                  iconData: Icons.email,
                   text: 'EMAIL',
-                ),
-              ),
-            ),
-            Flexible(
-              flex: 1,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 8),
-                child: CustomButtonWithIcon(
-                  onTap: () {
-                    Get.to(() => HomePage(),
-                        transition: Transition.rightToLeft);
-                  },
-                  color: Color(0xFF4267B2),
-                  iconData: FontAwesomeIcons.dumbbell,
-                  text: 'Test mode',
                 ),
               ),
             ),

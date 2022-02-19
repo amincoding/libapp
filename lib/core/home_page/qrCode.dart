@@ -111,7 +111,7 @@ class _qrCodeState extends State<qrCode> {
                                 }))
                         : Container(),
                     SizedBox(
-                      height: SizeConfig.screenHeight! * 0.01,
+                      height: 50,
                     ),
                   ],
                 ),
@@ -132,7 +132,7 @@ show() {
   return Column(
     children: [
       Container(
-        height: SizeConfig.screenHeight! * 0.1,
+        height: 50,
         color: Colors.green[50],
         child: Row(
           children: [
@@ -153,7 +153,7 @@ show() {
         ),
       ),
       Container(
-        height: SizeConfig.screenHeight! * 0.1,
+        height: 50,
         color: Colors.yellow[50],
         child: Row(
           children: [
@@ -174,7 +174,7 @@ show() {
         ),
       ),
       Container(
-          height: SizeConfig.screenHeight! * 0.1,
+          height: 50,
           color: Colors.green[50],
           child: Row(
             children: [
@@ -192,7 +192,7 @@ show() {
             ],
           )),
       Container(
-          height: SizeConfig.screenHeight! * 0.1,
+          height: 50,
           color: Colors.yellow[50],
           child: Row(
             children: [
@@ -210,7 +210,7 @@ show() {
             ],
           )),
       Container(
-          height: SizeConfig.screenHeight! * 0.1,
+          height: 50,
           color: Colors.green[50],
           child: Row(
             children: [

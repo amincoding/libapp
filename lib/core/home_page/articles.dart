@@ -95,7 +95,7 @@ class _articlesState extends State<articles> {
               ),
             ),
             SizedBox(
-              height: SizeConfig.screenHeight! * 0.02,
+              height: 40,
             ),
             _items.isNotEmpty
                 ? Expanded(
@@ -111,7 +111,7 @@ class _articlesState extends State<articles> {
                                 child: Stack(
                                   children: [
                                     Container(
-                                        height: SizeConfig.screenHeight! * 0.3,
+                                        height: 300,
                                         child: Column(
                                           mainAxisAlignment:
                                               MainAxisAlignment.spaceBetween,
@@ -255,7 +255,7 @@ class _articlesState extends State<articles> {
                                           ],
                                         )),
                                     SizedBox(
-                                      height: SizeConfig.screenHeight! * 0.01,
+                                      height: 40,
                                     ),
                                   ],
                                 ),

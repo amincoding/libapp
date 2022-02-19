@@ -1,6 +1,8 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
 import 'package:viplive/core/home_page/home.dart';
@@ -23,13 +25,47 @@ enum FormType { login, register }
 
 // ignore: camel_case_types
 class _signin_emailState extends State<signin_email> {
-  final _formkey = GlobalKey<FormState>();
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+  bool? _success;
+  String? _userEmail;
 
-  // three() {
-  //   return Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-  //     password_forget(),
-  //   ]);
-  // }
+  get user => null;
+
+  Future<void> _signInWithEmailAndPassword() async {
+    try {
+      final User? user =
+          (await FirebaseAuth.instance.signInWithEmailAndPassword(
+        email: _emailController.text,
+        password: _passwordController.text,
+      ))
+              .user;
+    } on FirebaseException catch (e) {
+      Fluttertoast.showToast(
+          msg: e.toString(),
+          timeInSecForIosWeb: 3,
+          toastLength: Toast.LENGTH_SHORT);
+    }
+
+    if (user != null) {
+      setState(() {
+        _success = true;
+        _userEmail = user.email;
+      });
+    } else {
+      setState(() {
+        _success = false;
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _emailController.dispose();
+    _passwordController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -71,16 +107,21 @@ class _signin_emailState extends State<signin_email> {
             height: height * 0.05,
           ),
           Form(
-              key: _formkey,
+              key: _formKey,
               child: Column(
                 children: [
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 25),
                     child: TextFormField(
-                      validator: (val) =>
-                          val!.isEmpty ? 'Enter a UserName' : null,
+                      controller: _emailController,
+                      validator: (value) {
+                        if (value!.isEmail) {
+                          return null;
+                        }
+                        return "please enter a valide email";
+                      },
                       decoration: InputDecoration(
-                          hintText: 'Username or Email',
+                          hintText: 'Email',
                           prefixIcon: Icon(
                             Icons.supervised_user_circle,
                             color: Colors.grey,
@@ -106,8 +147,13 @@ class _signin_emailState extends State<signin_email> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 25),
                     child: TextFormField(
-                      validator: (val) =>
-                          val!.length < 8 ? 'Enter a password 8+ long' : null,
+                      controller: _passwordController,
+                      validator: (value) {
+                        if (value!.isNotEmpty && value.length < 8) {
+                          return "Enter a stronger password more that 8 charachters";
+                        }
+                        return null;
+                      },
                       obscureText: true,
                       decoration: InputDecoration(
                           hintText: 'Password',
@@ -138,8 +184,12 @@ class _signin_emailState extends State<signin_email> {
               builder: (context) => RaisedButton(
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8)),
-                  onPressed: () {
-                    Get.to(() => HomePage());
+                  onPressed: () async {
+                    if (_formKey.currentState!.validate()) {
+                      await _signInWithEmailAndPassword();
+
+                      Get.to(() => HomePage());
+                    }
                   },
                   color: KTextFeildSingUpColor,
                   child: Text('Log In',

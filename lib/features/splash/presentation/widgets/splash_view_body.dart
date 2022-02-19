@@ -1,9 +1,11 @@
 // ignore_for_file: camel_case_types
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:viplive/core/utils/sizeConfig.dart';
 import 'package:viplive/features/splash/presentation/onBoarding/presentation/onBoardingView.dart';
+import 'package:viplive/features/splash/presentation/onBoarding/presentation/widgets/stop_screen.dart';
 
 class splashViewBody extends StatefulWidget {
   const splashViewBody({Key? key}) : super(key: key);
@@ -45,7 +47,7 @@ class _splashViewBodyState extends State<splashViewBody>
         children: [
           FadeTransition(
             opacity: fadingAnimation!,
-            child: Image.asset("assets/splash_view.png"),
+            child: Image.asset("assets/Belbali_logo.png"),
           ),
         ],
       ),
@@ -53,8 +55,8 @@ class _splashViewBodyState extends State<splashViewBody>
   }
 
   void goToNextView() {
-    Future.delayed(Duration(seconds: 4), () {
-      Get.to(() => onBoardingView(), transition: Transition.fadeIn);
+    Future.delayed(Duration(seconds: 3), () {
+      Get.to(() => stopScreen(), transition: Transition.fadeIn);
     });
   }
 }
