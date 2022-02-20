@@ -92,7 +92,10 @@ class _articlesState extends State<articles> {
                       borderRadius: BorderRadius.circular(30),
                       borderSide: BorderSide.none),
                   hintText: 'code bar ou nom',
-                  prefixIcon: Icon(Icons.search),
+                  prefixIcon: Icon(
+                    Icons.search,
+                    color: Colors.red,
+                  ),
                 ),
               ),
               SizedBox(
@@ -131,10 +134,10 @@ class _articlesState extends State<articles> {
                                                     _textEditingController!
                                                             .text.isEmpty
                                                         ? _items[index]["Code"]
-                                                        : _items2[index]
-                                                            ["Code"],
+                                                            .toString()
+                                                        : _items2[index]["Code"]
+                                                            .toString(),
                                                     style: TextStyle(
-                                                      color: Colors.black,
                                                       fontSize: 16,
                                                     ),
                                                   ),
