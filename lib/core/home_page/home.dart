@@ -1,5 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/utils.dart';
+import 'package:viplive/drawer.dart';
+import 'package:viplive/screens/signUpEmail.dart';
 
 class home extends StatelessWidget {
   const home({Key? key}) : super(key: key);
@@ -7,20 +11,10 @@ class home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: NavDrawer(),
       appBar: AppBar(
-        title: Center(
-          child: Text("Home"),
-        ),
-      ),
-      body: Center(
-        child: Container(
-          child: ElevatedButton(
-            child: Text("SIGN OUT"),
-            onPressed: () async {
-              await FirebaseAuth.instance.signOut();
-            },
-          ),
-        ),
+        title: Text("Home"),
+        centerTitle: true,
       ),
     );
   }

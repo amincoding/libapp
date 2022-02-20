@@ -9,7 +9,6 @@ import 'package:viplive/core/home_page/home.dart';
 import 'package:viplive/core/home_page/homePage.dart';
 import 'package:viplive/core/utils/sizeConfig.dart';
 import 'package:viplive/screens/signUpEmail.dart';
-import '../SLS.dart';
 import '../core/constants.dart';
 import 'package:email_validator/email_validator.dart';
 
@@ -41,22 +40,13 @@ class _signin_emailState extends State<signin_email> {
         password: _passwordController.text,
       ))
               .user;
-    } on FirebaseException catch (e) {
+      _success = true;
+    } on FirebaseAuthException catch (e) {
       Fluttertoast.showToast(
-          msg: e.toString(),
+          msg: e.message.toString(),
           timeInSecForIosWeb: 3,
           toastLength: Toast.LENGTH_SHORT);
-    }
-
-    if (user != null) {
-      setState(() {
-        _success = true;
-        _userEmail = user.email;
-      });
-    } else {
-      setState(() {
-        _success = false;
-      });
+      _success = false;
     }
   }
 
@@ -186,9 +176,9 @@ class _signin_emailState extends State<signin_email> {
                       borderRadius: BorderRadius.circular(8)),
                   onPressed: () async {
                     if (_formKey.currentState!.validate()) {
-                      await _signInWithEmailAndPassword();
-
-                      Get.to(() => HomePage());
+                      await _signInWithEmailAndPassword().then((value) => {
+                            if (_success == true) Get.to(() => HomePage()),
+                          });
                     }
                   },
                   color: KTextFeildSingUpColor,

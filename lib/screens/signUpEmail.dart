@@ -40,11 +40,17 @@ class _signUpEmailState extends State<signUpEmail> {
         password: _passwordController.text,
       ))
               .user;
-    } on FirebaseException catch (e) {
+      setState(() {
+        _success = true;
+      });
+    } on FirebaseAuthException catch (e) {
       Fluttertoast.showToast(
-        msg: e.toString(),
+        msg: e.message.toString(),
         timeInSecForIosWeb: 3,
       );
+      setState(() {
+        _success = false;
+      });
     }
 
     if (user != null) {

@@ -3,6 +3,7 @@ import 'package:viplive/core/constants.dart';
 import 'package:viplive/core/home_page/articles.dart';
 import 'package:viplive/core/home_page/home.dart';
 import 'package:viplive/core/home_page/qrCode.dart';
+import 'package:viplive/drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -61,6 +62,7 @@ class _MyStatfullWidgetState extends State<MyStatfullWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: NavDrawer(),
       body: PageView(
         controller: _pageController,
         children: _screen,

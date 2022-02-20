@@ -1,17 +1,18 @@
-import 'dart:async';
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:viplive/core/utils/sizeConfig.dart';
+import 'package:viplive/drawer.dart';
 
-void main() => runApp(qrCode());
 String _productCode = 'Unknown';
 String _productName = 'Unknown';
 String _productPriceHT = 'Unknown';
 String _productPriceVT = 'Unknown';
 String _productFamille = 'Unknown';
+String _productQuantity = 'Unknown';
+
+bool found = false;
 
 class qrCode extends StatefulWidget {
   @override
@@ -19,18 +20,11 @@ class qrCode extends StatefulWidget {
 }
 
 class _qrCodeState extends State<qrCode> {
-  // String _productCode = 'Unknown';
-  // String _productName = 'Unknown';
-  // String _productPriceHT = 'Unknown';
-  // String _productPriceVT = 'Unknown';
-  // String _productFamille = 'Unknown';
-  bool? found;
   int temp = 0;
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> scanBarcodeNormal() async {
     temp = 0;
     String barcodeScanRes;
-    // Platform messages may fail, so we use a try/catch PlatformException.
     try {
       barcodeScanRes = await FlutterBarcodeScanner.scanBarcode(
           '#ff6666', 'Cancel', true, ScanMode.BARCODE);
@@ -39,12 +33,9 @@ class _qrCodeState extends State<qrCode> {
       barcodeScanRes = 'Failed to get platform version.';
     }
     if (!mounted) return;
-    // If the widget was removed from the tree while the asynchronous platform
-    // message was in flight, we want to discard the reply rather than calling
-    // setState to update our non-existent appearance.
-
     while (_items[temp]["Code"] != barcodeScanRes) {
       temp++;
+      found = true;
       if (temp > _items.length) {
         found = false;
         break;
@@ -57,6 +48,7 @@ class _qrCodeState extends State<qrCode> {
       _productPriceHT = _items[temp]["PriceHT"].toString();
       _productPriceVT = _items[temp]["PriceVT"].toString();
       _productFamille = _items[temp]["Famile"].toString();
+      _productQuantity = _items[temp]["Stock"].toString();
       ;
     });
   }
@@ -79,39 +71,41 @@ class _qrCodeState extends State<qrCode> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Scaffold(
-            appBar: AppBar(title: const Text('Barcode scan')),
+    return SafeArea(
+        child: Scaffold(
+            drawer: NavDrawer(),
+            appBar: AppBar(
+              title: const Text('Barcode scan'),
+              centerTitle: true,
+            ),
             body: Builder(builder: (BuildContext context) {
               return Container(
                 alignment: Alignment.center,
-                margin: const EdgeInsets.all(10),
+                margin: const EdgeInsets.all(5),
                 child: Stack(
                   children: [
                     _items.isNotEmpty
-                        ? Expanded(
-                            child: ListView.builder(
-                                itemCount: 1,
-                                itemBuilder: (context, index) {
-                                  return Column(children: [
-                                    Container(
-                                      child: show(),
-                                    ),
-                                    Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                          vertical: 200),
-                                      child: ElevatedButton(
-                                          onPressed: () {
-                                            scanBarcodeNormal();
-                                          },
-                                          child: Text('Start barcode scan')),
-                                    ),
-                                  ]);
-                                }))
+                        ? ListView.builder(
+                            itemCount: 1,
+                            itemBuilder: (context, index) {
+                              return Column(children: [
+                                Container(
+                                  child: test(found),
+                                ),
+                                Padding(
+                                  padding:
+                                      const EdgeInsets.symmetric(vertical: 50),
+                                  child: ElevatedButton(
+                                      onPressed: () {
+                                        scanBarcodeNormal();
+                                      },
+                                      child: Text('Start barcode scan')),
+                                ),
+                              ]);
+                            })
                         : Container(),
                     SizedBox(
-                      height: 50,
+                      height: MediaQuery.of(context).size.height * 30,
                     ),
                   ],
                 ),
@@ -120,11 +114,18 @@ class _qrCodeState extends State<qrCode> {
   }
 }
 
+test(bool found) {
+  if (found == true) {
+    return show();
+  } else {
+    return notShow();
+  }
+}
+
 notShow() {
-  return Column(
-    children: [
-      Text("This Item Doesnt Exist"),
-    ],
+  return Container(
+    height: SizeConfig.screenHeight! * 0.7,
+    child: Center(child: Text("No item was found")),
   );
 }
 
@@ -132,7 +133,7 @@ show() {
   return Column(
     children: [
       Container(
-        height: 50,
+        height: 100,
         color: Colors.green[50],
         child: Row(
           children: [
@@ -153,7 +154,7 @@ show() {
         ),
       ),
       Container(
-        height: 50,
+        height: 100,
         color: Colors.yellow[50],
         child: Row(
           children: [
@@ -174,7 +175,7 @@ show() {
         ),
       ),
       Container(
-          height: 50,
+          height: 100,
           color: Colors.green[50],
           child: Row(
             children: [
@@ -192,7 +193,7 @@ show() {
             ],
           )),
       Container(
-          height: 50,
+          height: 100,
           color: Colors.yellow[50],
           child: Row(
             children: [
@@ -210,7 +211,7 @@ show() {
             ],
           )),
       Container(
-          height: 50,
+          height: 100,
           color: Colors.green[50],
           child: Row(
             children: [
@@ -220,6 +221,21 @@ show() {
               ),
               Text(
                 _productFamille,
+                style: TextStyle(fontSize: 20, color: Colors.teal),
+              ),
+            ],
+          )),
+      Container(
+          height: 100,
+          color: Colors.yellow[50],
+          child: Row(
+            children: [
+              Text(
+                "Stock :     ",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                _productQuantity,
                 style: TextStyle(fontSize: 20, color: Colors.teal),
               ),
             ],
