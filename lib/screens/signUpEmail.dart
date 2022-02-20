@@ -52,17 +52,6 @@ class _signUpEmailState extends State<signUpEmail> {
         _success = false;
       });
     }
-
-    if (user != null) {
-      setState(() {
-        _success = true;
-        _userEmail = user.email;
-      });
-    } else {
-      setState(() {
-        _success = false;
-      });
-    }
   }
 
   @override
@@ -223,9 +212,9 @@ class _signUpEmailState extends State<signUpEmail> {
                         borderRadius: BorderRadius.circular(8)),
                     onPressed: () async {
                       if (_formKey.currentState!.validate()) {
-                        await _register();
-
-                        Get.to(() => HomePage());
+                        await _register().then((value) {
+                          Get.to(() => signin_email());
+                        });
                       }
                     },
                     color: KTextFeildSingUpColor,
