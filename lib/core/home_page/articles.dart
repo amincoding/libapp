@@ -65,7 +65,6 @@ class _articlesState extends State<articles> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        drawer: NavDrawer(),
         appBar: AppBar(
           centerTitle: true,
           title: Text("Les Articles"),

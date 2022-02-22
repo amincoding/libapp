@@ -6,7 +6,6 @@ import 'package:viplive/core/home_page/homePage.dart';
 import 'package:viplive/core/utils/sizeConfig.dart';
 import 'package:viplive/core/widgets/custom_buttons.dart';
 import 'package:viplive/core/widgets/space_widget.dart';
-import 'package:viplive/features/splash/presentation/onBoarding/presentation/complete_information/complete_information_view.dart';
 import 'package:viplive/screens/signUpEmail.dart';
 
 class LoginViewBody extends StatelessWidget {
