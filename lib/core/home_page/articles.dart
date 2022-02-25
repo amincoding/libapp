@@ -42,7 +42,7 @@ class articles extends StatefulWidget {
 class _articlesState extends State<articles> {
   TextEditingController? _textEditingController = TextEditingController();
   List _items = [];
-  List _items2 = [];
+  List _foundItems = [];
 
   // Fetch content from the json file
   Future<void> readJson() async {
@@ -57,8 +57,30 @@ class _articlesState extends State<articles> {
   void initState() {
     // TODO: implement initState
     readJson();
+    setState(() {
+      _foundItems = _items;
+    });
     super.initState();
-    _items2 = _items;
+  }
+
+  void _runFilter(String enteredKeyword) {
+    List results = [];
+    if (enteredKeyword.isEmpty) {
+      // if the search field is empty or only contains white-space, we'll display all users
+      results = _items;
+    } else {
+      results = _items
+          .where((items) => items['Designation']
+              .toLowerCase()
+              .contains(enteredKeyword.toLowerCase()))
+          .toList();
+      // we use the toLowerCase() method to make it case-insensitive
+    }
+
+    // Refresh the UI
+    setState(() {
+      _foundItems = results;
+    });
   }
 
   @override
@@ -75,13 +97,7 @@ class _articlesState extends State<articles> {
             children: [
               TextField(
                 onChanged: (value) {
-                  setState(() {
-                    _items2 = _items
-                        .where((item) => item['Designation']
-                            .toLowerCase()
-                            .contains(value.toLowerCase()))
-                        .toList();
-                  });
+                  _runFilter(value);
                 },
                 decoration: InputDecoration(
                   contentPadding: EdgeInsets.all(30),
@@ -100,180 +116,137 @@ class _articlesState extends State<articles> {
               SizedBox(
                 height: 40,
               ),
-              _items.isNotEmpty
-                  ? Expanded(
-                      child: _textEditingController!.text.isNotEmpty
-                          ? Text("NOTHING IS FOUND")
-                          : ListView.builder(
-                              itemCount: _textEditingController!.text.isEmpty
-                                  ? _items.length
-                                  : _items2.length,
-                              itemBuilder: (context, index) {
-                                return Card(
-                                  margin: const EdgeInsets.all(10),
-                                  child: Stack(
-                                    children: [
-                                      Container(
-                                          height: 300,
-                                          child: Column(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.spaceBetween,
-                                            children: [
-                                              Row(
-                                                children: [
-                                                  Text(
-                                                    "Code bar : ",
-                                                    style: TextStyle(
-                                                        color: Colors.green,
-                                                        fontSize: 20,
-                                                        fontWeight:
-                                                            FontWeight.bold),
-                                                  ),
-                                                  Text(
-                                                    _textEditingController!
-                                                            .text.isEmpty
-                                                        ? _items[index]["Code"]
-                                                            .toString()
-                                                        : _items2[index]["Code"]
-                                                            .toString(),
-                                                    style: TextStyle(
-                                                      fontSize: 16,
-                                                    ),
-                                                  ),
-                                                ],
+              Expanded(
+                child: _foundItems.isNotEmpty
+                    ? ListView.builder(
+                        itemCount: _foundItems.length,
+                        itemBuilder: (context, index) {
+                          return Card(
+                            margin: const EdgeInsets.all(10),
+                            child: Stack(
+                              children: [
+                                Container(
+                                    height: 300,
+                                    child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Row(
+                                          children: [
+                                            Text(
+                                              "Code bar : ",
+                                              style: TextStyle(
+                                                  color: Colors.green,
+                                                  fontSize: 20,
+                                                  fontWeight: FontWeight.bold),
+                                            ),
+                                            Text(
+                                              _foundItems[index]["Code"],
+                                              style: TextStyle(
+                                                fontSize: 16,
                                               ),
-                                              Row(
-                                                children: [
-                                                  Text(
-                                                    "Designation : ",
-                                                    style: TextStyle(
-                                                        color: Colors.green,
-                                                        fontSize: 20,
-                                                        fontWeight:
-                                                            FontWeight.bold),
-                                                  ),
-                                                  Flexible(
-                                                    child: Text(
-                                                      _textEditingController!
-                                                              .text.isEmpty
-                                                          ? _items[index]
-                                                              ["Designation"]
-                                                          : _items2[index]
-                                                              ["Designation"],
-                                                      style: TextStyle(
-                                                          fontSize: 16),
-                                                      maxLines: 3,
-                                                      softWrap: true,
-                                                      overflow:
-                                                          TextOverflow.fade,
-                                                    ),
-                                                  ),
-                                                ],
+                                            ),
+                                          ],
+                                        ),
+                                        Row(
+                                          children: [
+                                            Text(
+                                              "Designation : ",
+                                              style: TextStyle(
+                                                  color: Colors.green,
+                                                  fontSize: 20,
+                                                  fontWeight: FontWeight.bold),
+                                            ),
+                                            Flexible(
+                                              child: Text(
+                                                _foundItems[index]
+                                                    ["Designation"],
+                                                style: TextStyle(fontSize: 16),
+                                                maxLines: 3,
+                                                softWrap: true,
+                                                overflow: TextOverflow.fade,
                                               ),
-                                              Row(
-                                                children: [
-                                                  Text(
-                                                    "Famille : ",
-                                                    style: TextStyle(
-                                                        color: Colors.green,
-                                                        fontSize: 20,
-                                                        fontWeight:
-                                                            FontWeight.bold),
-                                                  ),
-                                                  Flexible(
-                                                    child: Text(
-                                                      _textEditingController!
-                                                              .text.isEmpty
-                                                          ? _items[index]
-                                                              ["Famile"]
-                                                          : _items2[index]
-                                                              ["Famile"],
-                                                      style: TextStyle(
-                                                          fontSize: 16),
-                                                      maxLines: 3,
-                                                      softWrap: true,
-                                                      overflow:
-                                                          TextOverflow.fade,
-                                                    ),
-                                                  ),
-                                                ],
+                                            ),
+                                          ],
+                                        ),
+                                        Row(
+                                          children: [
+                                            Text(
+                                              "Famille : ",
+                                              style: TextStyle(
+                                                  color: Colors.green,
+                                                  fontSize: 20,
+                                                  fontWeight: FontWeight.bold),
+                                            ),
+                                            Flexible(
+                                              child: Text(
+                                                _foundItems[index]["Famile"],
+                                                style: TextStyle(fontSize: 16),
+                                                maxLines: 3,
+                                                softWrap: true,
+                                                overflow: TextOverflow.fade,
                                               ),
-                                              Row(children: [
-                                                Text(
-                                                  "Price de HT : ",
-                                                  style: TextStyle(
-                                                      color: Colors.red,
-                                                      fontSize: 20,
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                ),
-                                                Text(
-                                                  _textEditingController!.text.isEmpty
-                                                      ? _items[index]["PriceHT"]
-                                                              .toString() +
-                                                          " دج"
-                                                      : _items2[index]
-                                                                  ["PriceHT"]
-                                                              .toString() +
-                                                          " دج",
-                                                  style:
-                                                      TextStyle(fontSize: 16),
-                                                ),
-                                              ]),
-                                              Row(children: [
-                                                Text(
-                                                  "Price de VT : ",
-                                                  style: TextStyle(
-                                                      color: Colors.teal,
-                                                      fontSize: 20,
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                ),
-                                                Text(
-                                                  _textEditingController!.text.isEmpty
-                                                      ? _items[index]["PriceVT"]
-                                                              .toString() +
-                                                          " دج"
-                                                      : _items2[index]
-                                                                  ["PriceVT"]
-                                                              .toString() +
-                                                          " دج",
-                                                  style:
-                                                      TextStyle(fontSize: 16),
-                                                ),
-                                              ]),
-                                              Row(children: [
-                                                Text(
-                                                  "Stock : ",
-                                                  style: TextStyle(
-                                                      color: Colors.teal,
-                                                      fontSize: 20,
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                ),
-                                                Text(
-                                                  _textEditingController!
-                                                          .text.isEmpty
-                                                      ? _items[index]["Stock"]
-                                                          .toString()
-                                                      : _items2[index]["Stock"]
-                                                          .toString(),
-                                                  style:
-                                                      TextStyle(fontSize: 16),
-                                                ),
-                                              ]),
-                                            ],
-                                          )),
-                                      SizedBox(
-                                        height: 40,
-                                      ),
-                                    ],
-                                  ),
-                                );
-                              },
+                                            ),
+                                          ],
+                                        ),
+                                        Row(children: [
+                                          Text(
+                                            "Price de HT : ",
+                                            style: TextStyle(
+                                                color: Colors.red,
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                          Text(
+                                            _foundItems[index]["PriceHT"]
+                                                    .toString() +
+                                                " دج",
+                                            style: TextStyle(fontSize: 16),
+                                          ),
+                                        ]),
+                                        Row(children: [
+                                          Text(
+                                            "Price de VT : ",
+                                            style: TextStyle(
+                                                color: Colors.teal,
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                          Text(
+                                            _foundItems[index]["PriceVT"]
+                                                    .toString() +
+                                                " دج",
+                                            style: TextStyle(fontSize: 16),
+                                          ),
+                                        ]),
+                                        Row(children: [
+                                          Text(
+                                            "Stock : ",
+                                            style: TextStyle(
+                                                color: Colors.teal,
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                          Text(
+                                            _foundItems[index]["Stock"]
+                                                .toString(),
+                                            style: TextStyle(fontSize: 16),
+                                          ),
+                                        ]),
+                                      ],
+                                    )),
+                                SizedBox(
+                                  height: 40,
+                                ),
+                              ],
                             ),
-                    )
-                  : Container()
+                          );
+                        },
+                      )
+                    : Container(
+                        child: Text("NOTHING IS FOUND"),
+                      ),
+              )
             ],
           ),
         ),

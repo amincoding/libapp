@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
 import 'package:viplive/core/utils/sizeConfig.dart';
@@ -9,7 +8,6 @@ import 'package:viplive/drawer_screens/about_us_screen.dart';
 import 'package:viplive/drawer_screens/feedback.dart';
 import 'package:viplive/drawer_screens/follow_us_screen.dart';
 import 'package:viplive/drawer_screens/profile.dart';
-import 'package:viplive/drawer_screens/settings_details/themeData.dart';
 import 'package:viplive/features/splash/presentation/onBoarding/presentation/complete_information/widgets/complete_information_body.dart';
 import 'package:viplive/screens/signin_email.dart';
 
@@ -31,7 +29,8 @@ class _NavDrawerState extends State<NavDrawer> {
 
     return SafeArea(
       child: Drawer(
-        backgroundColor: Colors.brown[50],
+        backgroundColor:
+            themeChange.darkTheme ? Colors.black : Colors.teal[100],
         child: ListView(
           padding: EdgeInsets.only(top: 10),
           children: <Widget>[
@@ -40,7 +39,7 @@ class _NavDrawerState extends State<NavDrawer> {
               child: Row(
                 children: [
                   Container(
-                    height: SizeConfig.screenHeight! * 0.15,
+                    height: SizeConfig.screenHeight! * 0.10,
                     width: SizeConfig.screenWidth! * 0.3,
                     child: CircleAvatar(
                       backgroundColor: Colors.white,
@@ -48,57 +47,61 @@ class _NavDrawerState extends State<NavDrawer> {
                     ),
                   ),
                   SizedBox(
-                    width: SizeConfig.screenWidth! * 0.25,
+                    width: SizeConfig.screenWidth! * 0.01,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(right: 2),
+                  Container(
                     child: Column(
-                      children: [
-                        Container(
-                          height: SizeConfig.screenHeight! * 0.04,
-                          width: SizeConfig.screenWidth! * 0.04,
-                          child: Switch(
-                              activeColor: Colors.white,
-                              value: themeChange.darkTheme,
-                              onChanged: (bool value) {
-                                themeChange.darkTheme = value;
-                              }),
-                        ),
-                        Container(
-                          child: Text(themeChange.darkTheme
-                              ? 'Dark mode'
-                              : 'Light mode'),
-                        ),
-                      ],
-                    ),
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          SizedBox(
+                            height: SizeConfig.screenHeight! * 0.07,
+                          ),
+                          Text("USERNAME : ",
+                              style: TextStyle(
+                                  fontSize: 16, fontWeight: FontWeight.bold)),
+                          Text(user),
+                          Text("RULE : ",
+                              style: TextStyle(
+                                  fontSize: 16, fontWeight: FontWeight.bold))
+                        ]),
                   ),
                 ],
               ),
             ),
-            Center(child: Text(user)),
             SizedBox(
               height: SizeConfig.screenHeight! * 0.05,
             ),
-            ListTile(
-              leading: Icon(Icons.verified_user),
-              title: Text('Profile'),
-              onTap: () => {
-                Get.to(() => completInfo == false
-                    ? CompleteInformationBody()
-                    : profileScreen())
-              },
+            Container(
+              color:
+                  themeChange.darkTheme ? Colors.black12 : Colors.orange[200],
+              child: ListTile(
+                leading: Icon(Icons.verified_user),
+                title: Text('Profile'),
+                onTap: () => {
+                  Get.to(() => completInfo == false
+                      ? CompleteInformationBody()
+                      : profileScreen())
+                },
+              ),
             ),
             SizedBox(height: SizeConfig.screenHeight! * 0.02),
-            ListTile(
-              leading: Icon(Icons.settings),
-              title: Text('Settings'),
-              onTap: () => {Get.to(() => settingsScreen())},
+            Container(
+              color: themeChange.darkTheme ? Colors.black12 : Colors.amber[200],
+              child: ListTile(
+                leading: Icon(Icons.settings),
+                title: Text('Settings'),
+                onTap: () => {Get.to(() => settingsScreen())},
+              ),
             ),
             SizedBox(height: SizeConfig.screenHeight! * 0.02),
-            ListTile(
-              leading: Icon(Icons.border_color),
-              title: Text('Feedback'),
-              onTap: () => {Get.to(() => feedbackScreen())},
+            Container(
+              color:
+                  themeChange.darkTheme ? Colors.black12 : Colors.yellow[200],
+              child: ListTile(
+                leading: Icon(Icons.border_color),
+                title: Text('Feedback'),
+                onTap: () => {Get.to(() => feedbackScreen())},
+              ),
             ),
             SizedBox(height: SizeConfig.screenHeight! * 0.1),
             Row(
@@ -120,7 +123,7 @@ class _NavDrawerState extends State<NavDrawer> {
             ),
             Divider(),
             SizedBox(
-              height: SizeConfig.screenHeight! * 0.09,
+              height: SizeConfig.screenHeight! * 0.01,
             ),
             Center(
               child: ElevatedButton.icon(
@@ -143,7 +146,48 @@ class _NavDrawerState extends State<NavDrawer> {
                   style: TextStyle(color: Colors.red, fontSize: 12),
                 ),
               ),
-            )
+            ),
+            Divider(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Container(
+                  height: 25,
+                  width: 25,
+                  child: GestureDetector(
+                    child: Image.asset(
+                      "assets/bulb.png",
+                      color:
+                          themeChange.darkTheme ? Colors.white : Colors.black,
+                    ),
+                    onTap: () {
+                      Get.to(() => aboutUsScreen());
+                    },
+                  ),
+                ),
+                SizedBox(
+                  width: SizeConfig.screenWidth! * 0.2,
+                ),
+                Container(
+                  height: SizeConfig.screenHeight! * 0.04,
+                  width: SizeConfig.screenWidth! * 0.04,
+                  child: Switch(
+                      activeColor: Colors.white,
+                      value: themeChange.darkTheme,
+                      onChanged: (bool value) {
+                        themeChange.darkTheme = value;
+                      }),
+                ),
+              ],
+            ),
+            Padding(
+              padding: const EdgeInsets.only(
+                left: 235,
+              ),
+              child: Container(
+                child: Text(themeChange.darkTheme ? 'Dark mode' : 'Light mode'),
+              ),
+            ),
           ],
         ),
       ),
