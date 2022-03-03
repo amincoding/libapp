@@ -80,7 +80,7 @@ class _signin_emailState extends State<signin_email> {
               ),
             ),
             onTap: () {
-              Get.to(() => signUpEmail());
+              Navigator.popAndPushNamed(context, "4");
             },
           ),
         ],
@@ -177,7 +177,8 @@ class _signin_emailState extends State<signin_email> {
                   onPressed: () async {
                     if (_formKey.currentState!.validate()) {
                       await _signInWithEmailAndPassword().then((value) => {
-                            if (_success == true) Get.to(() => HomePage()),
+                            if (_success == true)
+                              Navigator.popAndPushNamed(context, "10"),
                           });
                     }
                   },

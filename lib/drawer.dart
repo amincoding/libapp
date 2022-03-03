@@ -90,7 +90,7 @@ class _NavDrawerState extends State<NavDrawer> {
               child: ListTile(
                 leading: Icon(Icons.settings),
                 title: Text('Settings'),
-                onTap: () => {Get.to(() => settingsScreen())},
+                onTap: () => {Navigator.popAndPushNamed(context, "11")},
               ),
             ),
             SizedBox(height: SizeConfig.screenHeight! * 0.02),
@@ -100,7 +100,7 @@ class _NavDrawerState extends State<NavDrawer> {
               child: ListTile(
                 leading: Icon(Icons.border_color),
                 title: Text('Feedback'),
-                onTap: () => {Get.to(() => feedbackScreen())},
+                onTap: () => {Navigator.popAndPushNamed(context, "12")},
               ),
             ),
             SizedBox(height: SizeConfig.screenHeight! * 0.1),
@@ -110,13 +110,13 @@ class _NavDrawerState extends State<NavDrawer> {
                 ElevatedButton(
                   child: Text("about us"),
                   onPressed: () {
-                    Get.to(() => aboutUsScreen());
+                    Navigator.popAndPushNamed(context, "8");
                   },
                 ),
                 ElevatedButton(
                   child: Text("follow us"),
                   onPressed: () {
-                    Get.to(() => followUsScreen());
+                    Navigator.popAndPushNamed(context, "7");
                   },
                 ),
               ],
@@ -130,9 +130,7 @@ class _NavDrawerState extends State<NavDrawer> {
                   label: Text("Log ouT"),
                   onPressed: () async {
                     await FirebaseAuth.instance.signOut();
-                    Get.to(
-                      () => signin_email(),
-                    );
+                    Navigator.popAndPushNamed(context, "5");
                   },
                   icon: Icon(Icons.exit_to_app)),
             ),
@@ -161,7 +159,7 @@ class _NavDrawerState extends State<NavDrawer> {
                           themeChange.darkTheme ? Colors.white : Colors.black,
                     ),
                     onTap: () {
-                      Get.to(() => aboutUsScreen());
+                      //
                     },
                   ),
                 ),

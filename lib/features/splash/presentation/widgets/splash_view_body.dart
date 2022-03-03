@@ -56,7 +56,7 @@ class _splashViewBodyState extends State<splashViewBody>
 
   void goToNextView() {
     Future.delayed(Duration(seconds: 3), () {
-      Get.to(() => stopScreen(), transition: Transition.fadeIn);
+      Navigator.popAndPushNamed(context, "2");
     });
   }
 }

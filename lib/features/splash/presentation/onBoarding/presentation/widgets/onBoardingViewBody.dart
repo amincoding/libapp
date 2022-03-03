@@ -53,8 +53,7 @@ class _onBoaringViewBodyState extends State<onBoaringViewBody> {
               top: SizeConfig.screenHeight! * .08,
               right: SizeConfig.screenWidth! * .15,
               child: InkWell(
-                onTap: () => Get.to(() => LoginView(),
-                    transition: Transition.rightToLeft),
+                onTap: () => Navigator.popAndPushNamed(context, "3"),
                 child: Text(
                   'SKIP',
                   style: TextStyle(
@@ -81,7 +80,7 @@ class _onBoaringViewBodyState extends State<onBoaringViewBody> {
                       duration: Duration(microseconds: 500),
                       curve: Curves.easeIn);
                 } else {
-                  Get.to(() => LoginView(), transition: Transition.rightToLeft);
+                  Navigator.popAndPushNamed(context, "3");
                 }
               },
             ),

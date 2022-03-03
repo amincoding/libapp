@@ -45,8 +45,7 @@ class LoginViewBody extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 8),
                 child: CustomButtonWithIcon(
                   onTap: () {
-                    Get.to(() => signUpEmail(),
-                        transition: Transition.rightToLeft);
+                    Navigator.popAndPushNamed(context, "4");
                   },
                   color: Color(0xFF4267B2),
                   iconData: Icons.email,

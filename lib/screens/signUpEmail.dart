@@ -89,7 +89,7 @@ class _signUpEmailState extends State<signUpEmail> {
               ),
             ),
             onTap: () {
-              Get.to(() => signin_email());
+              Navigator.popAndPushNamed(context, "5");
             },
           ),
         ],
@@ -288,7 +288,7 @@ class _signUpEmailState extends State<signUpEmail> {
                           "adress": _adressController.toString(),
                           "phone_number": _phoneNumberController
                         }).then((value) {
-                          Get.to(() => signin_email());
+                          Navigator.popAndPushNamed(context, "5");
                         });
                       }
                     }
