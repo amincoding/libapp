@@ -11,6 +11,10 @@ String _productPriceHT = 'Unknown';
 String _productPriceVT = 'Unknown';
 String _productFamille = 'Unknown';
 String _productQuantity = 'Unknown';
+String _productLocalisation = 'Unknown';
+String _productPerimation = 'Unknown';
+String _productdateCreation = 'Unknown';
+String _productRefForn = "Unknown";
 
 bool found = false;
 
@@ -49,6 +53,10 @@ class _qrCodeState extends State<qrCode> {
       _productPriceVT = _items[temp]["PriceVT"].toString();
       _productFamille = _items[temp]["Famile"].toString();
       _productQuantity = _items[temp]["Stock"].toString();
+      _productLocalisation = _items[temp]["Localisation"].toString();
+      _productPerimation = _items[temp]["perimation"].toString();
+      _productdateCreation = _items[temp]["dateCreation"].toString();
+      _productRefForn = _items[temp]["refForn"].toString();
       ;
     });
   }
@@ -56,7 +64,7 @@ class _qrCodeState extends State<qrCode> {
   List _items = [];
 
   Future<void> readJson() async {
-    final String response = await rootBundle.loadString('assets/BDD.json');
+    final String response = await rootBundle.loadString('assets/AMIN.json');
     final data = await json.decode(response);
     setState(() {
       _items = data["products"];
@@ -240,6 +248,66 @@ show() {
               ),
             ],
           )),
+      Container(
+          height: 100,
+          color: Colors.yellow[50],
+          child: Row(
+            children: [
+              Text(
+                "Localisation :     ",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                _productLocalisation,
+                style: TextStyle(fontSize: 20, color: Colors.teal),
+              ),
+            ],
+          )),
+      Container(
+          height: 100,
+          color: Colors.yellow[50],
+          child: Row(
+            children: [
+              Text(
+                "perimation :     ",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                _productPerimation,
+                style: TextStyle(fontSize: 20, color: Colors.teal),
+              ),
+            ],
+          )),
+      Container(
+          height: 100,
+          color: Colors.yellow[50],
+          child: Row(
+            children: [
+              Text(
+                "REF forn :     ",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                _productRefForn,
+                style: TextStyle(fontSize: 20, color: Colors.teal),
+              ),
+            ],
+          )),
+      // Container(
+      //     height: 100,
+      //     color: Colors.yellow[50],
+      //     child: Row(
+      //       children: [
+      //         Text(
+      //           "creation Date :     ",
+      //           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+      //         ),
+      //         Text(
+      //           _productdateCreation,
+      //           style: TextStyle(fontSize: 20, color: Colors.teal),
+      //         ),
+      //       ],
+      //     )),
     ],
   );
 }

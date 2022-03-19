@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:viplive/core/constants.dart';
 import 'package:viplive/core/home_page/articles.dart';
 import 'package:viplive/core/home_page/home.dart';
-import 'package:viplive/core/home_page/qrCode.dart';
+import 'package:viplive/core/home_page/barCode.dart';
 import 'package:viplive/drawer.dart';
 
 class HomePage extends StatelessWidget {

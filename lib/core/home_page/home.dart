@@ -62,7 +62,7 @@ class _homeState extends State<home> {
                         SizedBox(
                           height: SizeConfig.screenHeight! * 0.01,
                         ),
-                        Image.network(_items[index]["displayUrl"]),
+                        // Image.network(_items[index]["displayUrl"]),
                         SizedBox(
                           height: SizeConfig.screenHeight! * 0.01,
                         ),

@@ -44,9 +44,11 @@ class _articlesState extends State<articles> {
   List _items = [];
   List _foundItems = [];
 
+  bool filter = false;
+
   // Fetch content from the json file
   Future<void> readJson() async {
-    final String response = await rootBundle.loadString('assets/BDD.json');
+    final String response = await rootBundle.loadString('assets/AMIN.json');
     final data = await json.decode(response);
     setState(() {
       _items = data["products"];
@@ -83,6 +85,26 @@ class _articlesState extends State<articles> {
     });
   }
 
+  void _runFilterBarCode(String enteredKeyword) {
+    List results = [];
+    if (enteredKeyword.isEmpty) {
+      // if the search field is empty or only contains white-space, we'll display all users
+      results = _items;
+    } else {
+      results = _items
+          .where((items) => items['Code']
+              .toLowerCase()
+              .contains(enteredKeyword.toLowerCase()))
+          .toList();
+      // we use the toLowerCase() method to make it case-insensitive
+    }
+
+    // Refresh the UI
+    setState(() {
+      _foundItems = results;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -97,7 +119,7 @@ class _articlesState extends State<articles> {
             children: [
               TextField(
                 onChanged: (value) {
-                  _runFilter(value);
+                  filter == true ? _runFilterBarCode(value) : _runFilter(value);
                 },
                 decoration: InputDecoration(
                   contentPadding: EdgeInsets.all(30),
@@ -113,6 +135,13 @@ class _articlesState extends State<articles> {
                   ),
                 ),
               ),
+              ElevatedButton(
+                  onPressed: () {
+                    setState(() {
+                      filter == true;
+                    });
+                  },
+                  child: Text(filter == true ? "codebar" : "name")),
               SizedBox(
                 height: 40,
               ),
@@ -229,6 +258,62 @@ class _articlesState extends State<articles> {
                                           ),
                                           Text(
                                             _foundItems[index]["Stock"]
+                                                .toString(),
+                                            style: TextStyle(fontSize: 16),
+                                          ),
+                                        ]),
+                                        Row(children: [
+                                          Text(
+                                            "Localisation : ",
+                                            style: TextStyle(
+                                                color: Colors.teal,
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                          Text(
+                                            _foundItems[index]["Localisation"]
+                                                .toString(),
+                                            style: TextStyle(fontSize: 16),
+                                          ),
+                                        ]),
+                                        Row(children: [
+                                          Text(
+                                            "perimation : ",
+                                            style: TextStyle(
+                                                color: Colors.teal,
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                          Text(
+                                            _foundItems[index]["perimation"]
+                                                .toString(),
+                                            style: TextStyle(fontSize: 16),
+                                          ),
+                                        ]),
+                                        Row(children: [
+                                          Text(
+                                            "creation Date : ",
+                                            style: TextStyle(
+                                                color: Colors.teal,
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                          Text(
+                                            _foundItems[index]["dateCreation"]
+                                                .toString(),
+                                            style: TextStyle(fontSize: 16),
+                                          ),
+                                        ]),
+                                        Row(children: [
+                                          Text(
+                                            "REF forn : ",
+                                            style: TextStyle(
+                                                color: Colors.teal,
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                          Text(
+                                            _foundItems[index]["refForn"]
                                                 .toString(),
                                             style: TextStyle(fontSize: 16),
                                           ),
