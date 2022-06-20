@@ -8,6 +8,9 @@ import 'package:flutter/services.dart';
 import 'package:viplive/core/home_page/productDataModel.dart';
 import 'package:viplive/core/utils/sizeConfig.dart';
 import 'package:viplive/drawer.dart';
+import 'package:viplive/theme_services.dart';
+
+import '../constants.dart';
 
 void main() {
   runApp(const MyApp());
@@ -108,10 +111,14 @@ class _articlesState extends State<articles> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
+
       child: Scaffold(
+        drawer: NavDrawer(),
         appBar: AppBar(
+          backgroundColor: Colors.teal,
           centerTitle: true,
-          title: Text("Les Articles"),
+          title: Text("Les Articles",style: TextStyle(                                                  fontFamily: KFont,
+          ),),
         ),
         body: Padding(
           padding: const EdgeInsets.all(25),
@@ -124,7 +131,7 @@ class _articlesState extends State<articles> {
                 decoration: InputDecoration(
                   contentPadding: EdgeInsets.all(30),
                   filled: true,
-                  fillColor: Colors.blue.shade50,
+                  fillColor: ThemeService().getThemeMode() == ThemeMode.dark ? Colors.grey.shade600 : Colors.grey.shade300,
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(30),
                       borderSide: BorderSide.none),
@@ -135,13 +142,6 @@ class _articlesState extends State<articles> {
                   ),
                 ),
               ),
-              ElevatedButton(
-                  onPressed: () {
-                    setState(() {
-                      filter == true;
-                    });
-                  },
-                  child: Text(filter == true ? "codebar" : "name")),
               SizedBox(
                 height: 40,
               ),
@@ -167,12 +167,14 @@ class _articlesState extends State<articles> {
                                               style: TextStyle(
                                                   color: Colors.green,
                                                   fontSize: 20,
+                                                  fontFamily: KFont,
                                                   fontWeight: FontWeight.bold),
                                             ),
                                             Text(
                                               _foundItems[index]["Code"],
                                               style: TextStyle(
                                                 fontSize: 16,
+                                                fontFamily: KFont,
                                               ),
                                             ),
                                           ],
@@ -184,13 +186,16 @@ class _articlesState extends State<articles> {
                                               style: TextStyle(
                                                   color: Colors.green,
                                                   fontSize: 20,
+                                                  fontFamily: KFont,
                                                   fontWeight: FontWeight.bold),
                                             ),
                                             Flexible(
                                               child: Text(
                                                 _foundItems[index]
                                                     ["Designation"],
-                                                style: TextStyle(fontSize: 16),
+                                                style: TextStyle(fontSize: 16,
+                                                  fontFamily: KFont,
+                                                ),
                                                 maxLines: 3,
                                                 softWrap: true,
                                                 overflow: TextOverflow.fade,
@@ -205,6 +210,7 @@ class _articlesState extends State<articles> {
                                               style: TextStyle(
                                                   color: Colors.green,
                                                   fontSize: 20,
+                                                  fontFamily: KFont,
                                                   fontWeight: FontWeight.bold),
                                             ),
                                             Flexible(
@@ -222,6 +228,7 @@ class _articlesState extends State<articles> {
                                           Text(
                                             "Price de HT : ",
                                             style: TextStyle(
+                                                fontFamily: KFont,
                                                 color: Colors.red,
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold),
@@ -230,7 +237,8 @@ class _articlesState extends State<articles> {
                                             _foundItems[index]["PriceHT"]
                                                     .toString() +
                                                 " دج",
-                                            style: TextStyle(fontSize: 16),
+                                            style: TextStyle(fontSize: 16,                                                  fontFamily: KFont,
+                                            ),
                                           ),
                                         ]),
                                         Row(children: [
@@ -238,6 +246,7 @@ class _articlesState extends State<articles> {
                                             "Price de VT : ",
                                             style: TextStyle(
                                                 color: Colors.teal,
+                                                fontFamily: KFont,
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold),
                                           ),
@@ -245,7 +254,8 @@ class _articlesState extends State<articles> {
                                             _foundItems[index]["PriceVT"]
                                                     .toString() +
                                                 " دج",
-                                            style: TextStyle(fontSize: 16),
+                                            style: TextStyle(fontSize: 16,                                                  fontFamily: KFont,
+                                            ),
                                           ),
                                         ]),
                                         Row(children: [
@@ -259,7 +269,9 @@ class _articlesState extends State<articles> {
                                           Text(
                                             _foundItems[index]["Stock"]
                                                 .toString(),
-                                            style: TextStyle(fontSize: 16),
+                                            style: TextStyle(fontSize: 16,
+                                              fontFamily: KFont,
+                                            ),
                                           ),
                                         ]),
                                         Row(children: [
@@ -268,6 +280,7 @@ class _articlesState extends State<articles> {
                                             style: TextStyle(
                                                 color: Colors.teal,
                                                 fontSize: 20,
+                                                fontFamily: KFont,
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           Text(
@@ -282,6 +295,7 @@ class _articlesState extends State<articles> {
                                             style: TextStyle(
                                                 color: Colors.teal,
                                                 fontSize: 20,
+                                                fontFamily: KFont,
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           Text(
@@ -295,13 +309,16 @@ class _articlesState extends State<articles> {
                                             "creation Date : ",
                                             style: TextStyle(
                                                 color: Colors.teal,
+                                                fontFamily: KFont,
                                                 fontSize: 20,
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           Text(
                                             _foundItems[index]["dateCreation"]
                                                 .toString(),
-                                            style: TextStyle(fontSize: 16),
+                                            style: TextStyle(fontSize: 16,
+                                              fontFamily: KFont,
+                                            ),
                                           ),
                                         ]),
                                         Row(children: [
@@ -310,12 +327,15 @@ class _articlesState extends State<articles> {
                                             style: TextStyle(
                                                 color: Colors.teal,
                                                 fontSize: 20,
+                                                fontFamily: KFont,
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           Text(
                                             _foundItems[index]["refForn"]
                                                 .toString(),
-                                            style: TextStyle(fontSize: 16),
+                                            style: TextStyle(fontSize: 16,
+                                              fontFamily: KFont,
+                                            ),
                                           ),
                                         ]),
                                       ],

@@ -12,7 +12,7 @@ List<Product> parseProduct(String resposeBody) {
 }
 
 Future<List<Product>> fetchProduct() async {
-  final String response = await rootBundle.loadString("assets/BDD.json");
+  final String response = await rootBundle.loadString("assets/ig.json");
   final data = await json.decode(response);
   return data;
 }

@@ -46,6 +46,7 @@ class _signUpEmailState extends State<signUpEmail> {
           (await FirebaseAuth.instance.createUserWithEmailAndPassword(
         email: _emailController.text,
         password: _passwordController.text,
+
       ))
               .user;
     } on FirebaseAuthException catch (e) {

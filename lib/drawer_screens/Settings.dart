@@ -5,7 +5,6 @@ import 'package:viplive/core/utils/sizeConfig.dart';
 import 'package:viplive/core/widgets/custom_buttons.dart';
 import 'package:viplive/main.dart';
 
-import 'settings_details/darkthemePreferences.dart';
 
 class settingsScreen extends StatefulWidget {
   const settingsScreen({Key? key}) : super(key: key);
@@ -17,7 +16,6 @@ class settingsScreen extends StatefulWidget {
 class _settingsScreenState extends State<settingsScreen> {
   @override
   Widget build(BuildContext context) {
-    final themeChange = Provider.of<DarkThemeProvider>(context);
     return Scaffold(
       appBar: AppBar(
         title: Text("Settings"),

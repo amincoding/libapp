@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
+import 'package:viplive/core/constants.dart';
 import 'package:viplive/core/utils/sizeConfig.dart';
 import 'package:viplive/drawer.dart';
 
@@ -83,13 +84,17 @@ class _qrCodeState extends State<qrCode> {
         child: Scaffold(
             drawer: NavDrawer(),
             appBar: AppBar(
-              title: const Text('Barcode scan'),
+              backgroundColor: Colors.teal,
+              title: const Text('Barcode scan',style: TextStyle(
+                fontFamily: KFont,
+              ),
+              ),
               centerTitle: true,
             ),
             body: Builder(builder: (BuildContext context) {
               return Container(
                 alignment: Alignment.center,
-                margin: const EdgeInsets.all(5),
+                margin: const EdgeInsets.all(1),
                 child: Stack(
                   children: [
                     _items.isNotEmpty
@@ -102,12 +107,13 @@ class _qrCodeState extends State<qrCode> {
                                 ),
                                 Padding(
                                   padding:
-                                      const EdgeInsets.symmetric(vertical: 50),
+                                      const EdgeInsets.symmetric(vertical: 10),
                                   child: ElevatedButton(
+                                    style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.teal)),
                                       onPressed: () {
                                         scanBarcodeNormal();
                                       },
-                                      child: Text('Start barcode scan')),
+                                      child: Text('Start barcode scan',style: TextStyle(fontFamily: KFont),)),
                                 ),
                               ]);
                             })
@@ -133,7 +139,7 @@ test(bool found) {
 notShow() {
   return Container(
     height: SizeConfig.screenHeight! * 0.7,
-    child: Center(child: Text("No item was found")),
+    child: Center(child: Text("No item was found",style: TextStyle(fontFamily: KFont),)),
   );
 }
 

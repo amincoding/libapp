@@ -39,6 +39,7 @@ class _homeState extends State<home> {
     return Scaffold(
         drawer: NavDrawer(),
         appBar: AppBar(
+          backgroundColor: Colors.teal,
           title: Text("Home"),
           centerTitle: true,
         ),
