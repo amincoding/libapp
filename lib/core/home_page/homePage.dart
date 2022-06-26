@@ -1,9 +1,12 @@
+import 'package:bottom_navy_bar/bottom_navy_bar.dart';
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:viplive/core/constants.dart';
 import 'package:viplive/core/home_page/articles.dart';
-import 'package:viplive/core/home_page/home.dart';
 import 'package:viplive/core/home_page/barCode.dart';
-import 'package:viplive/drawer.dart';
+import 'package:viplive/core/home_page/home.dart';
+import 'package:viplive/core/utils/sizeConfig.dart';
+import 'package:viplive/theme_services.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -23,20 +26,29 @@ class MyStatfullWidget extends StatefulWidget {
 
 class _MyStatfullWidgetState extends State<MyStatfullWidget> {
   int _selectedIndex = 0;
-  static const TextStyle optionStyle =
-      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
+
+  static const homee = CupertinoIcons.home;
+  static const barcode = CupertinoIcons.barcode;
+  static const listItems = CupertinoIcons.list_dash;
+  Color _getColor() {
+    if (ThemeService().getThemeMode() == ThemeMode.dark) {
+      return Colors.white;
+    } else {
+      return Colors.black;
+    }
+  }
+
+  // static const TextStyle optionStyle =
+  //     TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     Text(
       'Index 0: Home',
-      style: optionStyle,
     ),
     Text(
       'Index 1: Les articles',
-      style: optionStyle,
     ),
     Text(
       'Index 2: Qr code',
-      style: optionStyle,
     ),
   ];
 
@@ -61,32 +73,46 @@ class _MyStatfullWidgetState extends State<MyStatfullWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      drawer: NavDrawer(),
-      body: PageView(
-        controller: _pageController,
-        children: _screen,
-        onPageChanged: _onPageChanged,
-        physics: NeverScrollableScrollPhysics(),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.business),
-            label: 'Les articles',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.code),
-            label: 'Qr code',
-          ),
-        ],
-        currentIndex: _selectedIndex,
-        selectedItemColor: KColor,
-        onTap: _onItemTapped,
+    return SafeArea(
+      child: Scaffold(
+        body: PageView(
+          controller: _pageController,
+          children: _screen,
+          onPageChanged: _onPageChanged,
+          physics: NeverScrollableScrollPhysics(),
+        ),
+        bottomNavigationBar: BottomNavyBar(
+          selectedIndex: _selectedIndex,
+          showElevation: true,
+          animationDuration: Duration(milliseconds: 150),
+          items: [
+            BottomNavyBarItem(
+              icon: Icon(homee),
+              activeColor: Colors.teal,
+              inactiveColor: Colors.amber.shade800,
+              title: Text("Home"),
+            ),
+            BottomNavyBarItem(
+              icon: Icon(listItems),
+              activeColor: Colors.teal,
+              inactiveColor: Colors.amber.shade800,
+              title: Text("bar code"),
+            ),
+            BottomNavyBarItem(
+              icon: Icon(barcode),
+              activeColor: Colors.teal,
+              inactiveColor: Colors.amber.shade800,
+              title: Text("articles"),
+            ),
+          ],
+          onItemSelected: (value) {
+            setState(() {
+              _onItemTapped(value);
+              _pageController.animateToPage(value,
+                  duration: Duration(microseconds: 300), curve: Curves.ease);
+            });
+          },
+        ),
       ),
     );
   }

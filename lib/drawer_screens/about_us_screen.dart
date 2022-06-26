@@ -7,9 +7,10 @@ class aboutUsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal[50],
+      backgroundColor: Colors.teal.shade700,
       appBar: AppBar(
-        title: Text("about us"),
+        title: Text("about us",
+),
         centerTitle: true,
       ),
       body: Center(

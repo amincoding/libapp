@@ -2,8 +2,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:provider/provider.dart';
-import 'package:viplive/core/constants.dart';
 import 'package:viplive/core/home_page/home.dart';
 import 'package:viplive/core/home_page/homePage.dart';
 import 'package:viplive/drawer_screens/Settings.dart';
@@ -19,7 +17,6 @@ import 'package:viplive/screens/signin_email.dart';
 import 'package:viplive/screens/thankyou_screen.dart';
 import 'package:viplive/theme_services.dart';
 import 'features/splash/presentation/splash_view.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 bool darktheme = false;
 
@@ -38,7 +35,6 @@ class BelbaliLibrary extends StatefulWidget {
 }
 
 class _BelbaliLibraryState extends State<BelbaliLibrary> {
-
   @override
   void initState() {
     super.initState();

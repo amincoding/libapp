@@ -15,25 +15,25 @@ import 'package:viplive/screens/signin_email.dart';
 import 'package:viplive/theme_services.dart';
 
 class NavDrawer extends StatefulWidget {
-
   @override
   State<NavDrawer> createState() => _NavDrawerState();
-
 }
+
 class _NavDrawerState extends State<NavDrawer> {
   final String user = FirebaseAuth.instance.currentUser!.email!;
   static const moon = CupertinoIcons.moon_stars;
   static const sun = CupertinoIcons.sun_haze;
   static const bulb = CupertinoIcons.lightbulb;
 
-  IconData anIcon = ThemeService().getThemeMode() == ThemeMode.dark ? sun : moon;
-  Color aColor = ThemeService().getThemeMode() == ThemeMode.dark ? Colors.white : Colors.black;
+  IconData anIcon =
+      ThemeService().getThemeMode() == ThemeMode.dark ? sun : moon;
+  Color aColor = ThemeService().getThemeMode() == ThemeMode.dark
+      ? Colors.white
+      : Colors.black;
 
   bool isDark = false;
   @override
   Widget build(BuildContext context) {
-
-
     return SafeArea(
       child: Drawer(
         child: ListView(
@@ -44,67 +44,91 @@ class _NavDrawerState extends State<NavDrawer> {
               child: Column(
                 children: [
                   Container(
-                    height: SizeConfig.screenHeight! * 0.1,
-                    width: SizeConfig.screenWidth! * 0.2,
+                    height: SizeConfig.screenHeight! * 0.10,
+                    width: SizeConfig.screenWidth! * 0.3,
                     child: CircleAvatar(
                       backgroundColor: Colors.white,
                       backgroundImage: AssetImage("assets/Belbali_logo.png"),
                     ),
-
                   ),
                   SizedBox(
                     height: SizeConfig.screenHeight! * 0.01,
                   ),
                   Container(
                     child: Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-
                           Text("USERNAME : ",
                               style: TextStyle(
-                                  fontSize: 16, fontWeight: FontWeight.bold,fontFamily: KFont)),
-                          Text(user,style: TextStyle(
-                              fontSize: 16, fontWeight: FontWeight.bold,fontFamily: KFont)),
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: KFont)),
+                          Text(user,
+                              style: TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: KFont)),
                           Text("RULE : ",
                               style: TextStyle(
-                                  fontSize: 16, fontWeight: FontWeight.bold,fontFamily: KFont))
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: KFont)),
+                          Text(user,
+                              style: TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: KFont)
+                              )
+
                         ]),
                   ),
                 ],
               ),
             ),
             SizedBox(
-              height: SizeConfig.screenHeight! * 0.01,
+              height: SizeConfig.screenHeight! * 0.03,
             ),
             Container(
-              color:
-                  ThemeService().getThemeMode() == ThemeMode.dark ? Colors.teal.shade400 : Colors.deepOrangeAccent.shade200,
+              color: ThemeService().getThemeMode() == ThemeMode.dark
+                  ? Colors.teal.shade400
+                  : Colors.deepOrangeAccent.shade200,
               child: ListTile(
                 leading: Icon(Icons.verified_user),
-                title: Text('Profile',style: TextStyle(
-                    fontSize: 16, fontWeight: FontWeight.bold,fontFamily: KFont)),
-                onTap: () => {Navigator.popAndPushNamed(context, "12")
-                },
+                title: Text('Profile',
+                    style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: KFont)),
+                onTap: () => {Navigator.popAndPushNamed(context, "12")},
               ),
             ),
             SizedBox(height: SizeConfig.screenHeight! * 0.02),
             Container(
-              color: ThemeService().getThemeMode() == ThemeMode.dark ? Colors.teal.shade400 : Colors.deepOrangeAccent.shade200,
+              color: ThemeService().getThemeMode() == ThemeMode.dark
+                  ? Colors.teal.shade400
+                  : Colors.deepOrangeAccent.shade200,
               child: ListTile(
                 leading: Icon(Icons.settings),
-                title: Text('Settings',style: TextStyle(
-                    fontSize: 16, fontWeight: FontWeight.bold,fontFamily: KFont)),
+                title: Text('Settings',
+                    style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: KFont)),
                 onTap: () => {Navigator.popAndPushNamed(context, "11")},
               ),
             ),
             SizedBox(height: SizeConfig.screenHeight! * 0.02),
             Container(
-              color:
-              ThemeService().getThemeMode() == ThemeMode.dark ? Colors.teal.shade400 : Colors.deepOrangeAccent.shade200,
+              color: ThemeService().getThemeMode() == ThemeMode.dark
+                  ? Colors.teal.shade400
+                  : Colors.deepOrangeAccent.shade200,
               child: ListTile(
                 leading: Icon(Icons.border_color),
-                title: Text('Feedback',style: TextStyle(
-                    fontSize: 16, fontWeight: FontWeight.bold,fontFamily: KFont)),
+                title: Text('Feedback',
+                    style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: KFont)),
                 onTap: () => {Navigator.popAndPushNamed(context, "12")},
               ),
             ),
@@ -113,17 +137,31 @@ class _NavDrawerState extends State<NavDrawer> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ElevatedButton(
-                  style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.teal),shadowColor: MaterialStateProperty.all<Color>(Colors.teal)),
-                  child: Text("about us",style: TextStyle(
-                      fontSize: 16, fontWeight: FontWeight.bold,fontFamily: KFont)),
+                  style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(Colors.teal),
+                      shadowColor:
+                          MaterialStateProperty.all<Color>(Colors.teal)),
+                  child: Text("about us",
+                      style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          fontFamily: KFont)),
                   onPressed: () {
                     Navigator.popAndPushNamed(context, "8");
                   },
                 ),
                 ElevatedButton(
-                  style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.teal),shadowColor: MaterialStateProperty.all<Color>(Colors.teal)),
-                  child: Text("follow us",style: TextStyle(
-                      fontSize: 16, fontWeight: FontWeight.bold,fontFamily: KFont)),
+                  style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(Colors.teal),
+                      shadowColor:
+                          MaterialStateProperty.all<Color>(Colors.teal)),
+                  child: Text("follow us",
+                      style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          fontFamily: KFont)),
                   onPressed: () {
                     Navigator.popAndPushNamed(context, "7");
                   },
@@ -136,9 +174,16 @@ class _NavDrawerState extends State<NavDrawer> {
             ),
             Center(
               child: ElevatedButton.icon(
-                  style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.teal),shadowColor: MaterialStateProperty.all<Color>(Colors.teal)),
-                  label: Text("Log ouT",style: TextStyle(
-                      fontSize: 16, fontWeight: FontWeight.bold,fontFamily: KFont)),
+                  style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(Colors.teal),
+                      shadowColor:
+                          MaterialStateProperty.all<Color>(Colors.teal)),
+                  label: Text("Log ouT",
+                      style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          fontFamily: KFont)),
                   onPressed: () async {
                     await FirebaseAuth.instance.signOut();
                     Navigator.popAndPushNamed(context, "5");
@@ -152,7 +197,8 @@ class _NavDrawerState extends State<NavDrawer> {
               child: Container(
                 child: Text(
                   "all rights are reserved to Belbali company 2022 ®",
-                  style: TextStyle(color: Colors.red, fontSize: 12,fontFamily: KFont),
+                  style: TextStyle(
+                      color: Colors.red, fontSize: 12, fontFamily: KFont),
                 ),
               ),
             ),
@@ -160,23 +206,32 @@ class _NavDrawerState extends State<NavDrawer> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                ElevatedButton(style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.teal),shadowColor: MaterialStateProperty.all<Color>(Colors.teal)),onPressed: () {}, child: Icon(bulb)),
+                ElevatedButton(
+                    style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all<Color>(Colors.teal),
+                        shadowColor:
+                            MaterialStateProperty.all<Color>(Colors.teal)),
+                    onPressed: () {},
+                    child: Icon(bulb)),
                 SizedBox(
                   width: SizeConfig.screenWidth! * 0.2,
                 ),
                 ElevatedButton(
-                    style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.teal),shadowColor: MaterialStateProperty.all<Color>(Colors.teal)),
+                    style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all<Color>(Colors.teal),
+                        shadowColor:
+                            MaterialStateProperty.all<Color>(Colors.teal)),
                     child: Icon((isDark == false ? sun : moon)),
-                  onPressed: () {
-                    ThemeService().changeTheme();
-                    setState(() {
-                      isDark = !isDark;
-                    });
-                  }
-                ),
+                    onPressed: () {
+                      ThemeService().changeTheme();
+                      setState(() {
+                        isDark = !isDark;
+                      });
+                    }),
               ],
             ),
-
           ],
         ),
       ),
