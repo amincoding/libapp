@@ -46,7 +46,6 @@ class _signUpEmailState extends State<signUpEmail> {
           (await FirebaseAuth.instance.createUserWithEmailAndPassword(
         email: _emailController.text,
         password: _passwordController.text,
-
       ))
               .user;
     } on FirebaseAuthException catch (e) {
@@ -231,19 +230,6 @@ class _signUpEmailState extends State<signUpEmail> {
                     VerticalSpace(SizeConfig.screenHeight! * 0.003),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 25),
-                      child: ExpansionList<String>(
-                        onItemSelected: (item) {
-                          setState(() {
-                            _ruleController = item.toString();
-                          });
-                        },
-                        items: ['Admin', 'User'],
-                        title: "Rules",
-                      ),
-                    ),
-                    VerticalSpace(SizeConfig.screenHeight! * 0.003),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 25),
                       child: TextFormField(
                         maxLines: 5,
                         controller: _adressController,
@@ -272,13 +258,10 @@ class _signUpEmailState extends State<signUpEmail> {
             VerticalSpace(SizeConfig.screenHeight! * 0.001),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
-              child: RaisedButton(
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(8)),
+              child: ElevatedButton(
                   onPressed: () async {
                     if (_formKey.currentState!.validate()) {
-                      await _register();
-                      if (user != null) {
+                      _register().then((Value) async {
                         await FirebaseFirestore.instance
                             .collection("users")
                             .doc(user.uid)
@@ -291,10 +274,9 @@ class _signUpEmailState extends State<signUpEmail> {
                         }).then((value) {
                           Navigator.popAndPushNamed(context, "5");
                         });
-                      }
+                      });
                     }
                   },
-                  color: KTextFeildSingUpColor,
                   child: Text('Sign up',
                       textAlign: TextAlign.left,
                       style: TextStyle(

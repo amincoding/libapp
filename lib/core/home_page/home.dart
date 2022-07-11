@@ -37,61 +37,12 @@ class _homeState extends State<home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        drawer: NavDrawer(),
-        appBar: AppBar(
-          backgroundColor: Colors.teal,
-          title: Text("Home"),
-          centerTitle: true,
-        ),
-        body: ListView.builder(
-            itemCount: _items.length,
-            itemBuilder: (context, index) {
-              return Card(
-                  margin: const EdgeInsets.all(5),
-                  child: Container(
-                    // color: _items[index]["position"] % 2 == 0
-                    //     ? Colors.blueGrey[100]
-                    //     : Colors.lightGreen[100],
-                    child: Column(
-                      children: [
-                        Text("post number : " +
-                            _items[index]["position"].toString()),
-                        SizedBox(
-                          height: SizeConfig.screenHeight! * 0.01,
-                        ),
-                        Text(_items[index]["timestamp"]),
-                        SizedBox(
-                          height: SizeConfig.screenHeight! * 0.01,
-                        ),
-                        // Image.network(_items[index]["displayUrl"]),
-                        SizedBox(
-                          height: SizeConfig.screenHeight! * 0.01,
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 10),
-                          child: GestureDetector(
-                            onTap: (() async {
-                              var url = _items[index]["url"].toString();
-                              if (await canLaunch(url)) {
-                                await launch(url);
-                              } else {
-                                throw 'Could not launch $url';
-                              }
-                            }),
-                            child: Container(
-                              child: Text(
-                                _items[index]["caption"],
-                                textAlign: TextAlign.center,
-                              ),
-                            ),
-                          ),
-                        ),
-                        SizedBox(
-                          height: SizeConfig.screenHeight! * 0.02,
-                        ),
-                      ],
-                    ),
-                  ));
-            }));
+      drawer: NavDrawer(),
+      appBar: AppBar(
+        backgroundColor: Colors.teal,
+        title: Text("Home"),
+        centerTitle: true,
+      ),
+    );
   }
 }
